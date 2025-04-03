@@ -33,92 +33,146 @@ public abstract class Player {
      * @return a map with a destination BoardSpace mapped to a List of origin BoardSpaces.
      */
     public Map<BoardSpace, List<BoardSpace>> getAvailableMoves(BoardSpace[][] board) {
-        Map<BoardSpace, List<BoardSpace>> ret = new HashMap<BoardSpace, List<BoardSpace>>();
-        //iterate over whole board
+        Map<BoardSpace, List<BoardSpace>> ret = new HashMap<>();
+        //go over rows
         for (int i = 0; i < board.length; ++i) {
-            for (int j = 0; j < board[i].length; ++j) {
-                BoardSpace rc = board[i][j];
-                //if current piece is not empty, it is not a valid move
-                if (rc.getType() != BoardSpace.SpaceType.EMPTY) {
-                    continue;
-                }
-                //List of origins
-                ArrayList<BoardSpace> origins = new ArrayList<BoardSpace>();
-                //boolean for if move is valid
-                boolean flank = false;
-                //iterate down the rows(south) of current boardspace
-                for (int rci = i+1; rci < board.length; ++rci) {
-                    //check if BoardSpace is an enemy color
-                    if (board[rci][j].getType() != BoardSpace.SpaceType.EMPTY
-                            && board[rci][j].getType() != color) {
-                        //if it is an enemy color then it can potentially be the start of a flank
-                        flank = true;
-                    } else if (flank) {
-                        //it is an ally color, if the flank is started then this space completes the flank
-                        origins.add(board[rci][j]);
-                        break;
-                    } else {
-                        //space is an ally color and flank is not started. Invalid move
-                        break;
-                    }
-                }
-
-                flank = false;
-                //iterate up the rows(north) of current boardspace
-                for (int rci = i-1; rci >= 0; --rci) {
-                    //check if BoardSpace is an enemy color
-                    if (board[rci][j].getType() != BoardSpace.SpaceType.EMPTY
-                            && board[rci][j].getType() != color) {
-                        //if it is an enemy color then it can potentially be the start of a flank
-                        flank = true;
-                    } else if (flank) {
-                        //it is an ally color, if the flank is started then this space completes the flank
-                        origins.add(board[rci][j]);
-                        break;
-                    } else {
-                        //space is an ally color and flank is not started. Invalid move
-                        break;
-                    }
-                }
-                flank = false;
-                //iterate right of columns(east) of current boardspace
-                for (int rcj = j+1; rcj <board[i].length; ++rcj) {
-                    //check if BoardSpace is an enemy color
-                    if (board[i][rcj].getType() != BoardSpace.SpaceType.EMPTY
-                            && board[i][rcj].getType() != color) {
-                        //if it is an enemy color then it can potentially be the start of a flank
-                        flank = true;
-                    } else if (flank) {
-                        //it is an ally color, if the flank is started then this space completes the flank
-                        origins.add(board[i][rcj]);
-                        break;
-                    } else {
-                        //space is an ally color and flank is not started. Invalid move
-                        break;
-                    }
-                }
-                flank = false;
-                //iterate right of columns(west) of current boardspace
-                for (int rcj = j-1; rcj >= 0; --rcj) {
-                    //check if BoardSpace is an enemy color
-                    if (board[i][rcj].getType() != BoardSpace.SpaceType.EMPTY
-                            && board[i][rcj].getType() != color) {
-                        //if it is an enemy color then it can potentially be the start of a flank
-                        flank = true;
-                    } else if (flank) {
-                        //it is an ally color, if the flank is started then this space completes the flank
-                        origins.add(board[i][rcj]);
-                        break;
-                    } else {
-                        //space is an ally color and flank is not started. Invalid move
-                        break;
-                    }
-                }
-                if (origins.isEmpty()) {
-                    ret.put(board[i][j], origins);
-                }
-            }
+            //System.out.println("row: "+i);
+            Map<BoardSpace, List<BoardSpace>> rowsKV = checkValid(board[i]);
+            mergeMaps(ret, rowsKV);
         }
+        if (ret.size() == 0) {
+            return ret;
+        }
+        //go over columns
+        for (int j = 0; j < board.length; ++j) {
+            BoardSpace[] col = new BoardSpace[board.length];
+            for (int i = 0; i < board.length; ++i) {
+                col[i] = board[i][j];
+            }
+            Map<BoardSpace, List<BoardSpace>> colKV = checkValid(col);
+            mergeMaps(ret, colKV);
+        }
+        //go over top left to bottom right diagonals
+        for (int i = board.length-1; i >= 0; --i) {
+            BoardSpace[] tldiag = new BoardSpace[board.length-i];
+            for (int j = 0; j < board.length-i; ++j) {
+                tldiag[j] = board[i+j][j];
+            }
+            Map<BoardSpace, List<BoardSpace>> colKV = checkValid(tldiag);
+            mergeMaps(ret, colKV);
+        }
+        for (int j = 1; j < board.length; ++j) {
+            BoardSpace[] tldiag = new BoardSpace[board.length-j];
+            for (int i = 0; i < board.length-j; ++i) {
+                tldiag[i] = board[i][j+i];
+            }
+            Map<BoardSpace, List<BoardSpace>> colKV = checkValid(tldiag);
+            mergeMaps(ret, colKV);
+        }
+
+        //go over top right to bottom left diagonals
+        for (int j = 0; j < board.length; ++j) {
+            BoardSpace[] trdiag = new BoardSpace[j+1];
+            for (int i = 0; i < trdiag.length; ++i) {
+                trdiag[i] = board[i][j-i];
+            }
+            Map<BoardSpace, List<BoardSpace>> colKV = checkValid(trdiag);
+            mergeMaps(ret, colKV);
+        }
+        for (int i = 1; i < board.length; ++i) {
+            BoardSpace[] trdiag = new BoardSpace[board.length-i];
+            for (int j = board.length-1; j >= i; --j) {
+                trdiag[board.length-1-j] = board[i+board.length-j-1][j];
+            }
+            Map<BoardSpace, List<BoardSpace>> colKV = checkValid(trdiag);
+            mergeMaps(ret, colKV);
+        }
+
         return ret;
     }
+    private void mergeMaps(Map<BoardSpace, List<BoardSpace>> mainMap, Map<BoardSpace, List<BoardSpace>> tempMap) {
+        for (BoardSpace key: tempMap.keySet()) {
+            mainMap.putIfAbsent(key, new ArrayList<>());
+            for (BoardSpace origins: tempMap.get(key)) {
+                mainMap.get(key).add(origins);
+            }
+        }
+    }
+    /**
+     *
+     * Helper method for getAvailableMoves. Takes in an array of BoardSpace that corresponds to the current row, column
+     * or diagonal being examined. Returns a boolean array that correspond to wether that space is valid or not
+     * @param spaces the BoardSpace objects that will be evaluated in order
+     * @return a hashmap of key value pairs that correspond to destination and a list of origin
+     */
+    private Map<BoardSpace, List<BoardSpace>> checkValid(BoardSpace[] spaces) {
+        int empty = 0;
+        int black = 0;
+        int white = 0;
+        //Hashmap that stores kv pairs of destination and list of origin
+        Map<BoardSpace, List<BoardSpace>> valids = new HashMap<>();
+        //corresponds to BoardSpace that is start of enemy position
+        int enemyStart = -1;
+        for (int i = 0; i < spaces.length; ++i) {
+            //check if current board space is empty
+            if (spaces[i].getType()==BoardSpace.SpaceType.EMPTY) {
+                ++empty;
+                //current board space is empty so can be a potential move
+                //check if there is a current enemy
+                if (enemyStart != -1) {
+                    //check starting  flanks of enemy
+                    if (enemyStart - 1 < 0) {
+                        //if enemyStart is at wall, cannot flank so do nothing
+                    }
+                    else if (spaces[enemyStart-1].getType() == color) {
+                        //if beginning is an ally, current is empty so current is a valid flank
+                        //add current to valid moves map and ally to origins
+                        valids.putIfAbsent(spaces[i], new ArrayList<>());
+                        valids.get(spaces[i]).add(spaces[enemyStart-1]);
+                    }
+                    //if beginning is an empty square, current is empty so no flank is possible
+                    //reset enemy
+                    enemyStart = -1;
+                }
+                //there is no enemy so do nothing
+            }
+            //check if current board space is an enemy
+            else if(spaces[i].getType() != color) {
+                ++black;
+                //check if there is a start of enemy
+                if (enemyStart == -1) {
+                    //if there is no start, then set enemyStart
+                    enemyStart = i;
+                }
+                //if there is already an enemy do nothing
+
+            }
+            else {
+                ++white;
+                //current board space is an ally
+                //check if there is a current enemy
+                if (enemyStart != -1) {
+                    //there is an enemy
+                    //check if there is a piece before the enemy start
+                    //check if piece before the enemy start is empty
+                    if (enemyStart -1 >= 0 && spaces[enemyStart-1].getType() == BoardSpace.SpaceType.EMPTY) {
+                        //if beginning is empty, current is ally so beginning is a valid flank
+                        //add beginning to valid moves and current to origin
+                        valids.putIfAbsent(spaces[enemyStart-1], new ArrayList<>());
+                        valids.get(spaces[enemyStart-1]).add(spaces[i]);
+                    }
+                    //if beginning is an ally nothing can be added
+                    //reset enemy
+                    enemyStart = -1;
+                }
+                //there is no enemy so do nothing
+            }
+
+
+
+        }
+        //System.out.println("empty: " +empty + " black: "+ black+ " white: " +white);
+        return valids;
+    }
+
 }

@@ -51,6 +51,10 @@ public class OthelloGame {
                 board[i][j] = new BoardSpace(i, j, BoardSpace.SpaceType.EMPTY);
             }
         }
+        board[4][4].setType(BoardSpace.SpaceType.WHITE);
+        board[3][3].setType(BoardSpace.SpaceType.WHITE);
+        board[3][4].setType(BoardSpace.SpaceType.BLACK);
+        board[4][3].setType(BoardSpace.SpaceType.BLACK);
     }
 
     /**
@@ -64,7 +68,13 @@ public class OthelloGame {
      * @param x the x-coordinate of the space to claim
      * @param y the y-coordinate of the space to claim
      */
-    public void takeSpace(Player actingPlayer, Player opponent, int x, int y) {}
+    public void takeSpace(Player actingPlayer, Player opponent, int x, int y) {
+        //check if space is already owned by acting player
+        if (board[x][y].getType() == actingPlayer.getColor()) {
+            return;
+        }
+        board[x][y].setType(actingPlayer.getColor());
+    }
 
     /**
      * PART 1
@@ -76,7 +86,77 @@ public class OthelloGame {
      * @param availableMoves map of the available moves, that maps destination to list of origins
      * @param selectedDestination the specific destination that a HUMAN player selected
      */
-    public void takeSpaces(Player actingPlayer, Player opponent, Map<BoardSpace, List<BoardSpace>> availableMoves, BoardSpace selectedDestination) {}
+    public void takeSpaces(Player actingPlayer, Player opponent, Map<BoardSpace, List<BoardSpace>> availableMoves, BoardSpace selectedDestination) {
+        List<BoardSpace> origins = availableMoves.get(selectedDestination);
+        for (BoardSpace origin : origins) {
+
+            if (origin.getX() == selectedDestination.getX()) {
+                //these two are in same column;
+                int direction = origin.getY()-selectedDestination.getY();
+                if (direction > 0) {
+                    //origin must travel negative y direction
+                    for (int y = origin.getY(); y > selectedDestination.getY(); --y) {
+                        board[origin.getX()][y].setType(actingPlayer.getColor());
+                    }
+                } else {
+                    //origin must travel positive y direction
+                    for (int y = origin.getY(); y < selectedDestination.getY(); ++y) {
+                        board[origin.getX()][y].setType(actingPlayer.getColor());
+                    }
+                }
+                continue;
+            }
+
+            if (origin.getY() == selectedDestination.getY()) {
+                //these two are in same row;
+                int direction = origin.getX()-selectedDestination.getX();
+                if (direction > 0) {
+                    //origin must travel negative x direction
+                    for (int x = origin.getX(); x > selectedDestination.getX(); --x) {
+                        board[x][origin.getY()].setType(actingPlayer.getColor());
+                    }
+                } else {
+                    //origin must travel positive x direction
+                    for (int x = origin.getX(); x < selectedDestination.getX(); ++x) {
+                        board[x][origin.getY()].setType(actingPlayer.getColor());
+                    }
+                }
+                continue;
+            }
+
+            if (origin.getX() > selectedDestination.getX()) {
+                //these two are diagonally oriented from each other
+                int direction = origin.getY()-selectedDestination.getY();
+                if (direction > 0) {
+                    //origin must travel negative x and y direction
+                    for (int xy = 0; xy < direction; ++xy) {
+                        board[origin.getX()-xy][origin.getY()-xy].setType(actingPlayer.getColor());
+                    }
+                } else {
+                    //origin must travel negative x and positive y direction
+                    for (int xy = 0; xy < -direction; ++xy) {
+                        board[origin.getX()-xy][origin.getY()+xy].setType(actingPlayer.getColor());
+                    }
+                }
+                continue;
+            }
+            if (origin.getX() < selectedDestination.getX()) {
+                //these two are diagonally oriented from each other
+                int direction = origin.getY()-selectedDestination.getY();
+                if (direction > 0) {
+                    //origin must travel positive x and negative y direction
+                    for (int xy = 0; xy < direction; ++xy) {
+                        board[origin.getX()+xy][origin.getY()-xy].setType(actingPlayer.getColor());
+                    }
+                } else {
+                    //origin must travel positive x and positive y direction
+                    for (int xy = 0; xy < -direction; ++xy) {
+                        board[origin.getX()+xy][origin.getY()+xy].setType(actingPlayer.getColor());
+                    }
+                }
+            }
+        }
+    }
 
     /**
      * PART 2
