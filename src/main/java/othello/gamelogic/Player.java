@@ -37,7 +37,7 @@ public abstract class Player {
         //go over rows
         for (BoardSpace[] i:  board) {
             //System.out.println("row: "+i);
-            Map<BoardSpace, List<BoardSpace>> rowsKV = checkValid(board[i]);
+            Map<BoardSpace, List<BoardSpace>> rowsKV = checkValid(i);
             mergeMaps(ret, rowsKV);
         }
         //go over columns
