@@ -35,7 +35,7 @@ public abstract class Player {
     public Map<BoardSpace, List<BoardSpace>> getAvailableMoves(BoardSpace[][] board) {
         Map<BoardSpace, List<BoardSpace>> ret = new HashMap<>();
         //go over rows
-        for (int i = 0; i < board.length; ++i) {
+        for (BoardSpace[] i:  board) {
             //System.out.println("row: "+i);
             Map<BoardSpace, List<BoardSpace>> rowsKV = checkValid(board[i]);
             mergeMaps(ret, rowsKV);
@@ -114,10 +114,7 @@ public abstract class Player {
                 //check if there is a current enemy
                 if (enemyStart != -1) {
                     //check starting  flanks of enemy
-                    if (enemyStart - 1 < 0) {
-                        //if enemyStart is at wall, cannot flank so do nothing
-                    }
-                    else if (spaces[enemyStart-1].getType() == color) {
+                    if (spaces[enemyStart-1].getType() == color) {
                         //if beginning is an ally, current is empty so current is a valid flank
                         //add current to valid moves map and ally to origins
                         valids.putIfAbsent(spaces[i], new ArrayList<>());
@@ -131,7 +128,6 @@ public abstract class Player {
             }
             //check if current board space is an enemy
             else if(spaces[i].getType() != color) {
-                ++black;
                 //check if there is a start of enemy
                 if (enemyStart == -1) {
                     //if there is no start, then set enemyStart
@@ -141,7 +137,6 @@ public abstract class Player {
 
             }
             else {
-                ++white;
                 //current board space is an ally
                 //check if there is a current enemy
                 if (enemyStart != -1) {
