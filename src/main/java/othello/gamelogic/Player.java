@@ -40,9 +40,6 @@ public abstract class Player {
             Map<BoardSpace, List<BoardSpace>> rowsKV = checkValid(board[i]);
             mergeMaps(ret, rowsKV);
         }
-        if (ret.size() == 0) {
-            return ret;
-        }
         //go over columns
         for (int j = 0; j < board.length; ++j) {
             BoardSpace[] col = new BoardSpace[board.length];
@@ -106,9 +103,6 @@ public abstract class Player {
      * @return a hashmap of key value pairs that correspond to destination and a list of origin
      */
     private Map<BoardSpace, List<BoardSpace>> checkValid(BoardSpace[] spaces) {
-        int empty = 0;
-        int black = 0;
-        int white = 0;
         //Hashmap that stores kv pairs of destination and list of origin
         Map<BoardSpace, List<BoardSpace>> valids = new HashMap<>();
         //corresponds to BoardSpace that is start of enemy position
@@ -116,7 +110,6 @@ public abstract class Player {
         for (int i = 0; i < spaces.length; ++i) {
             //check if current board space is empty
             if (spaces[i].getType()==BoardSpace.SpaceType.EMPTY) {
-                ++empty;
                 //current board space is empty so can be a potential move
                 //check if there is a current enemy
                 if (enemyStart != -1) {
