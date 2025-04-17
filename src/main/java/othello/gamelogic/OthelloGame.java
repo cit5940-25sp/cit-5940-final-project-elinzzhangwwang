@@ -59,7 +59,7 @@ public class OthelloGame {
 
     /**
      * PART 1
-     * TODO: Implement this method
+     *
      * Claims the specified space for the acting player.
      * Should also check if the space being taken is already owned by the acting player,
      * should not claim anything if acting player already owns space at (x,y)
@@ -82,7 +82,7 @@ public class OthelloGame {
 
     /**
      * PART 1
-     * TODO: Implement this method
+     *
      * Claims spaces from all origins that lead to a specified destination.
      * This is called when a player, human or computer, selects a valid destination.
      * @param actingPlayer the player that will claim spaces
@@ -90,12 +90,14 @@ public class OthelloGame {
      * @param availableMoves map of the available moves, that maps destination to list of origins
      * @param selectedDestination the specific destination that a HUMAN player selected
      */
-    public void takeSpaces(Player actingPlayer, Player opponent, Map<BoardSpace, List<BoardSpace>> availableMoves, BoardSpace selectedDestination) {
+    public void takeSpaces(Player actingPlayer, Player opponent,
+                           Map<BoardSpace, List<BoardSpace>> availableMoves,
+                           BoardSpace selectedDestination) {
         List<BoardSpace> origins = availableMoves.get(selectedDestination);
         for (BoardSpace origin : origins) {
             if (origin.getX() == selectedDestination.getX()) {
                 //these two are in same column;
-                int direction = origin.getY()-selectedDestination.getY();
+                int direction = origin.getY() - selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel negative y direction
                     for (int y = origin.getY(); y >= selectedDestination.getY(); --y) {
@@ -112,7 +114,7 @@ public class OthelloGame {
 
             if (origin.getY() == selectedDestination.getY()) {
                 //these two are in same row;
-                int direction = origin.getX()-selectedDestination.getX();
+                int direction = origin.getX() - selectedDestination.getX();
                 if (direction > 0) {
                     //origin must travel negative x direction
                     for (int x = origin.getX(); x >= selectedDestination.getX(); --x) {
@@ -129,33 +131,33 @@ public class OthelloGame {
 
             if (origin.getX() > selectedDestination.getX()) {
                 //these two are diagonally oriented from each other
-                int direction = origin.getY()-selectedDestination.getY();
+                int direction = origin.getY() - selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel negative x and y direction
                     for (int xy = 0; xy <= direction; ++xy) {
 
-                        takeSpace(actingPlayer, opponent, origin.getX()-xy, origin.getY()-xy);
+                        takeSpace(actingPlayer, opponent, origin.getX() - xy, origin.getY() - xy);
                     }
                 } else {
                     //origin must travel negative x and positive y direction
                     for (int xy = 0; xy <= -direction; ++xy) {
-                        takeSpace(actingPlayer, opponent, origin.getX()-xy, origin.getY()+xy);
+                        takeSpace(actingPlayer, opponent, origin.getX() - xy, origin.getY() + xy);
                     }
                 }
                 continue;
             }
             if (origin.getX() < selectedDestination.getX()) {
                 //these two are diagonally oriented from each other
-                int direction = origin.getY()-selectedDestination.getY();
+                int direction = origin.getY() - selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel positive x and negative y direction
                     for (int xy = 0; xy <= direction; ++xy) {
-                        takeSpace(actingPlayer, opponent, origin.getX()+xy, origin.getY()-xy);
+                        takeSpace(actingPlayer, opponent, origin.getX() + xy, origin.getY() - xy);
                     }
                 } else {
                     //origin must travel positive x and positive y direction
                     for (int xy = 0; xy <= -direction; ++xy) {
-                        takeSpace(actingPlayer, opponent, origin.getX()+xy, origin.getY()+xy);
+                        takeSpace(actingPlayer, opponent, origin.getX() + xy, origin.getY() + xy);
                     }
                 }
             }
@@ -164,9 +166,10 @@ public class OthelloGame {
 
     /**
      * PART 2
-     * TODO: Implement this method
+     *
      * Gets the computer decision for its turn.
-     * Should call a method within the ComputerPlayer class that returns a BoardSpace using a specific strategy.
+     * Should call a method within the ComputerPlayer class that returns a BoardSpace
+     * using a specific strategy.
      * @param computer computer player that is deciding their move for their turn
      * @return the BoardSpace that was decided upon
      */

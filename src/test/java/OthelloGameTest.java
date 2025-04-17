@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class OthelloGameTest {
 
     @Test
-    public void testOGBasic(){
+    public void testOGBasic() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
@@ -37,7 +37,7 @@ public class OthelloGameTest {
     }
 
     @Test
-    public void testOGTake(){
+    public void testOGTake() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
@@ -68,7 +68,7 @@ public class OthelloGameTest {
     }
 
     @Test
-    public void testOGTakeFrontTake(){
+    public void testOGTakeFrontTake() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
@@ -101,23 +101,23 @@ public class OthelloGameTest {
         for (int x = 0; x < board.length; ++x) {
             for (int y = 0; y < board[x].length; ++y) {
 
-                if ( x == 2 && y == 3) {
+                if (x == 2 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 3 && y == 3) {
+                if (x == 3 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 4 && y == 3) {
+                if (x == 4 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 5 && y == 3) {
+                if (x == 5 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 6 && y == 3) {
+                if (x == 6 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
@@ -127,7 +127,7 @@ public class OthelloGameTest {
     }
 
     @Test
-    public void testOGTakeBackTake(){
+    public void testOGTakeBackTake() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
@@ -160,23 +160,23 @@ public class OthelloGameTest {
         for (int x = 0; x < board.length; ++x) {
             for (int y = 0; y < board[x].length; ++y) {
 
-                if ( x == 2 && y == 3) {
+                if (x == 2 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 3 && y == 3) {
+                if (x == 3 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 4 && y == 3) {
+                if (x == 4 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 5 && y == 3) {
+                if (x == 5 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 6 && y == 3) {
+                if (x == 6 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
@@ -186,7 +186,7 @@ public class OthelloGameTest {
     }
 
     @Test
-    public void testOGTakeSplit(){
+    public void testOGTakeSplit() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
@@ -219,23 +219,23 @@ public class OthelloGameTest {
         for (int x = 0; x < board.length; ++x) {
             for (int y = 0; y < board[x].length; ++y) {
 
-                if ( x == 2 && y == 3) {
+                if (x == 2 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 3 && y == 3) {
+                if (x == 3 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 4 && y == 3) {
+                if (x == 4 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 5 && y == 3) {
+                if (x == 5 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
-                if ( x == 6 && y == 3) {
+                if (x == 6 && y == 3) {
                     assertSame(BoardSpace.SpaceType.BLACK, board[x][y].getType());
                     continue;
                 }
@@ -244,7 +244,7 @@ public class OthelloGameTest {
         }
     }
     @Test
-    public void testOGPlayerOwnedSpaces(){
+    public void testOGPlayerOwnedSpaces() {
         Player p1 = new HumanPlayer();
         Player p2 = new HumanPlayer();
         p1.setColor(BoardSpace.SpaceType.BLACK);
