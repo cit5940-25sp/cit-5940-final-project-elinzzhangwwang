@@ -51,10 +51,10 @@ public class OthelloGame {
                 board[i][j] = new BoardSpace(i, j, BoardSpace.SpaceType.EMPTY);
             }
         }
-        board[4][4].setType(BoardSpace.SpaceType.WHITE);
-        board[3][3].setType(BoardSpace.SpaceType.WHITE);
-        board[3][4].setType(BoardSpace.SpaceType.BLACK);
-        board[4][3].setType(BoardSpace.SpaceType.BLACK);
+        takeSpace(playerTwo, playerOne, 4, 4);
+        takeSpace(playerTwo, playerOne, 3, 3);
+        takeSpace(playerOne, playerTwo, 3, 4);
+        takeSpace(playerOne, playerTwo, 4, 3);
     }
 
     /**
@@ -70,10 +70,14 @@ public class OthelloGame {
      */
     public void takeSpace(Player actingPlayer, Player opponent, int x, int y) {
         //check if space is already owned by acting player
-        if (board[x][y].getType() == actingPlayer.getColor()) {
-            return;
+        BoardSpace curBoardSpace = board[x][y];
+        if (curBoardSpace.getType() == opponent.getColor()) {
+            opponent.getPlayerOwnedSpacesSpaces().remove(curBoardSpace);
         }
-        board[x][y].setType(actingPlayer.getColor());
+        curBoardSpace.setType(actingPlayer.getColor());
+        if (!actingPlayer.getPlayerOwnedSpacesSpaces().contains(curBoardSpace)) {
+            actingPlayer.getPlayerOwnedSpacesSpaces().add(curBoardSpace);
+        }
     }
 
     /**
@@ -89,19 +93,18 @@ public class OthelloGame {
     public void takeSpaces(Player actingPlayer, Player opponent, Map<BoardSpace, List<BoardSpace>> availableMoves, BoardSpace selectedDestination) {
         List<BoardSpace> origins = availableMoves.get(selectedDestination);
         for (BoardSpace origin : origins) {
-
             if (origin.getX() == selectedDestination.getX()) {
                 //these two are in same column;
                 int direction = origin.getY()-selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel negative y direction
-                    for (int y = origin.getY(); y > selectedDestination.getY(); --y) {
-                        board[origin.getX()][y].setType(actingPlayer.getColor());
+                    for (int y = origin.getY(); y >= selectedDestination.getY(); --y) {
+                        takeSpace(actingPlayer, opponent, origin.getX(), y);
                     }
                 } else {
                     //origin must travel positive y direction
-                    for (int y = origin.getY(); y < selectedDestination.getY(); ++y) {
-                        board[origin.getX()][y].setType(actingPlayer.getColor());
+                    for (int y = origin.getY(); y <= selectedDestination.getY(); ++y) {
+                        takeSpace(actingPlayer, opponent, origin.getX(), y);
                     }
                 }
                 continue;
@@ -112,13 +115,13 @@ public class OthelloGame {
                 int direction = origin.getX()-selectedDestination.getX();
                 if (direction > 0) {
                     //origin must travel negative x direction
-                    for (int x = origin.getX(); x > selectedDestination.getX(); --x) {
-                        board[x][origin.getY()].setType(actingPlayer.getColor());
+                    for (int x = origin.getX(); x >= selectedDestination.getX(); --x) {
+                        takeSpace(actingPlayer, opponent, x, origin.getY());
                     }
                 } else {
                     //origin must travel positive x direction
-                    for (int x = origin.getX(); x < selectedDestination.getX(); ++x) {
-                        board[x][origin.getY()].setType(actingPlayer.getColor());
+                    for (int x = origin.getX(); x <= selectedDestination.getX(); ++x) {
+                        takeSpace(actingPlayer, opponent, x, origin.getY());
                     }
                 }
                 continue;
@@ -129,13 +132,14 @@ public class OthelloGame {
                 int direction = origin.getY()-selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel negative x and y direction
-                    for (int xy = 0; xy < direction; ++xy) {
-                        board[origin.getX()-xy][origin.getY()-xy].setType(actingPlayer.getColor());
+                    for (int xy = 0; xy <= direction; ++xy) {
+
+                        takeSpace(actingPlayer, opponent, origin.getX()-xy, origin.getY()-xy);
                     }
                 } else {
                     //origin must travel negative x and positive y direction
-                    for (int xy = 0; xy < -direction; ++xy) {
-                        board[origin.getX()-xy][origin.getY()+xy].setType(actingPlayer.getColor());
+                    for (int xy = 0; xy <= -direction; ++xy) {
+                        takeSpace(actingPlayer, opponent, origin.getX()-xy, origin.getY()+xy);
                     }
                 }
                 continue;
@@ -145,13 +149,13 @@ public class OthelloGame {
                 int direction = origin.getY()-selectedDestination.getY();
                 if (direction > 0) {
                     //origin must travel positive x and negative y direction
-                    for (int xy = 0; xy < direction; ++xy) {
-                        board[origin.getX()+xy][origin.getY()-xy].setType(actingPlayer.getColor());
+                    for (int xy = 0; xy <= direction; ++xy) {
+                        takeSpace(actingPlayer, opponent, origin.getX()+xy, origin.getY()-xy);
                     }
                 } else {
                     //origin must travel positive x and positive y direction
-                    for (int xy = 0; xy < -direction; ++xy) {
-                        board[origin.getX()+xy][origin.getY()+xy].setType(actingPlayer.getColor());
+                    for (int xy = 0; xy <= -direction; ++xy) {
+                        takeSpace(actingPlayer, opponent, origin.getX()+xy, origin.getY()+xy);
                     }
                 }
             }

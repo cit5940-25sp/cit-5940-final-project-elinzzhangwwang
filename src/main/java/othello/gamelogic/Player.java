@@ -114,7 +114,8 @@ public abstract class Player {
                 //check if there is a current enemy
                 if (enemyStart != -1) {
                     //check starting  flanks of enemy
-                    if (spaces[enemyStart-1].getType() == color) {
+
+                    if (enemyStart != 0 && spaces[enemyStart-1].getType() == color) {
                         //if beginning is an ally, current is empty so current is a valid flank
                         //add current to valid moves map and ally to origins
                         valids.putIfAbsent(spaces[i], new ArrayList<>());
