@@ -13,6 +13,7 @@ import othello.gamelogic.*;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 /**
  * Manages the interaction between model and view of the game.
@@ -32,10 +33,18 @@ public class GameController  {
     @FXML
     private Button computerTurnBtn;
 
+    @FXML
+    private Button saveBtn;
+
+    @FXML
+    private Button loadBtn;
+
     // Private variables
     private OthelloGame og;
     private int skippedTurns;
     private GUISpace[][] guiBoard;
+    private BoardTransformer boardTransformer;
+    private boolean currentPlayerOne;
 
     /**
      * Starts the game, called after controller initialization  in start method of App.
@@ -71,6 +80,18 @@ public class GameController  {
         displayBoard();
         initSpaces();
 
+        saveBtn.setVisible(true);
+        loadBtn.setVisible(true);
+        saveBtn.setOnAction(actionEvent -> {
+            saveGame();
+            //clearBoard();
+            //reinitBoard();
+            //displayBoard();
+        });
+        loadBtn.setOnAction(actionEvent -> {
+            loadGame();
+        });
+        boardTransformer = new BoardTransformer();
         // Player 1 starts the game
         turnText(playerOne);
         takeTurn(playerOne);
@@ -150,6 +171,11 @@ public class GameController  {
      */
     @FXML
     protected void takeTurn(Player player) {
+        if (player == og.getPlayerOne()) {
+            currentPlayerOne = true;
+        } else {
+            currentPlayerOne = false;
+        }
         if (player instanceof HumanPlayer human) {
             computerTurnBtn.setVisible(false);
             showMoves(human);
@@ -258,7 +284,7 @@ public class GameController  {
                 GUISpace newGuiSpace = new GUISpace(destination.getX(), destination.getY(), BoardSpace.SpaceType.EMPTY);
                 Pane newSquare = newGuiSpace.getSquare();
                 gameBoard.getChildren().add(newSquare);
-                guiBoard[destination.getX()][destination.getY()] = guiSpace;
+                guiBoard[destination.getX()][destination.getY()] = newGuiSpace;
             } else {
                 og.getBoard()[destination.getX()][destination.getY()] =
                         new BoardSpace(destination.getX(), destination.getY(), player.getColor());
@@ -266,7 +292,7 @@ public class GameController  {
                 GUISpace newGuiSpace = new GUISpace(destination.getX(), destination.getY(), player.getColor());
                 Pane newSquare = newGuiSpace.getSquare();
                 gameBoard.getChildren().add(newSquare);
-                guiBoard[destination.getX()][destination.getY()] = guiSpace;
+                guiBoard[destination.getX()][destination.getY()] = newGuiSpace;
             }
         }
 
@@ -357,4 +383,52 @@ public class GameController  {
                     og.getPlayerTwo().getColor() + ": " + og.getPlayerTwo().getPlayerOwnedSpacesSpaces().size());
         }
     }
+
+    protected void saveGame() {
+        System.out.println("Saving Game");
+        String saveFile =
+        boardTransformer.encode(
+                og.getBoard(),
+                "target/saves",
+                currentPlayerOne
+        );
+        if (saveFile != null) {
+            System.out.println("Game saved to file: " + saveFile);
+        }
+    }
+
+    protected void loadGame() {
+        System.out.println("Loading Game");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the path of the save file: ");
+        String saveFile = sc.nextLine();
+
+        int savePlayer = boardTransformer.decode(og, saveFile);
+        if (savePlayer == -1) {
+            return;
+        }
+        //removes all references to previous guiSpaces and creates new guiSpaces with updated board
+        reinitBoard();
+
+        Player player = (savePlayer == 1)?og.getPlayerOne():og.getPlayerTwo();
+
+        turnText(player);
+        takeTurn(player);
+    }
+
+    protected void reinitBoard() {
+        //reinit all guispaces to remove listeners
+        for (int x = 0; x < guiBoard.length; ++x) {
+            for (int y = 0; y < guiBoard[x].length; ++y) {
+                GUISpace guiSpace = guiBoard[x][y];
+                //delete previous guiSpace pane
+                gameBoard.getChildren().remove(guiSpace.getSquare());
+                GUISpace newGuiSpace = new GUISpace(x, y, og.getBoard()[x][y].getType());
+                Pane newSquare = newGuiSpace.getSquare();
+                gameBoard.getChildren().add(newSquare);
+                guiBoard[x][y] = newGuiSpace;
+            }
+        }
+    }
+
 }

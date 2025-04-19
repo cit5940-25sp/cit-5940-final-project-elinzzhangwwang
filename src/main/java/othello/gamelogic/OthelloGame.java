@@ -55,6 +55,7 @@ public class OthelloGame {
         takeSpace(playerTwo, playerOne, 3, 3);
         takeSpace(playerOne, playerTwo, 3, 4);
         takeSpace(playerOne, playerTwo, 4, 3);
+
     }
 
     /**
@@ -174,7 +175,7 @@ public class OthelloGame {
      * @return the BoardSpace that was decided upon
      */
     public BoardSpace computerDecision(ComputerPlayer computer) {
-        return null;
+        return computer.makeMove(board);
     }
 
 }
