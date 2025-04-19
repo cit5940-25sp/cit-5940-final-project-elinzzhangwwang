@@ -60,7 +60,6 @@ public class OthelloGame {
 
     /**
      * PART 1
-     *
      * Claims the specified space for the acting player.
      * Should also check if the space being taken is already owned by the acting player,
      * should not claim anything if acting player already owns space at (x,y)
@@ -83,7 +82,6 @@ public class OthelloGame {
 
     /**
      * PART 1
-     *
      * Claims spaces from all origins that lead to a specified destination.
      * This is called when a player, human or computer, selects a valid destination.
      * @param actingPlayer the player that will claim spaces

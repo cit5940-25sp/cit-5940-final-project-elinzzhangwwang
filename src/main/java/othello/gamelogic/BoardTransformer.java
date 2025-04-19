@@ -59,7 +59,7 @@ public class BoardTransformer {
             File saveFile = new File(saveFilePath);
             try (FileReader fr = new FileReader(saveFile)) {
                 int nextChar;
-                for (int i = 0; i < 8; i = ++i) {
+                for (int i = 0; i < 8; ++i) {
                     if ((nextChar = fr.read()) == -1) {
                         System.err.println("Invalid File");
                         return -1;
@@ -116,7 +116,7 @@ public class BoardTransformer {
                 index = index + 2;
             }
         }
-        return (int) (player - '0');
+        return player - '0';
 
     }
     /**
@@ -133,7 +133,6 @@ public class BoardTransformer {
         }
 
         for (File f: Objects.requireNonNull(outDir.listFiles())) {
-            char[] fileChars = f.getName().toCharArray();
             if (f.getName().length() == 10 && f.getName().startsWith("save")) {
                 String saveNum = f.getName().substring(4, 6);
                 if (stringIsInt(saveNum)) {
