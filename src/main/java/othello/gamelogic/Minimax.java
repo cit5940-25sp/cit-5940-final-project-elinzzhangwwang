@@ -5,7 +5,7 @@ import othello.Constants;
 import java.util.*;
 
 public class Minimax implements Strategy {
-    private static final int MAX_DEPTH = 2; // Depth of minimax search
+    private static final int MAX_DEPTH = 5; // Depth of minimax search
     private Player maximizingPlayer; // The computer player
     private Player minimizingPlayer; // The opponent player
 
@@ -44,16 +44,22 @@ public class Minimax implements Strategy {
             root.addNode(childNode);
         }
 
-        // Now evaluate each child of the root using minimax
+        // Now evaluate each child of the root using minimax with alpha-beta pruning
+        int alpha = Integer.MIN_VALUE;
+        int beta = Integer.MAX_VALUE;
+
         for (int i = 0; i < root.getChildCount(); i++) {
             MiniNode child = root.children.get(i);
-            int score = minimax(child, MAX_DEPTH - 1, false);
+            int score = minimaxAlphaBeta(child, MAX_DEPTH - 1, alpha, beta, false);
 
             // Update best move if this score is better
             if (score > bestScore) {
                 bestScore = score;
                 bestMove = getDestinationFromChildren(availableMoves, i);
             }
+
+            // Update alpha (best already explored option for maximizer)
+            alpha = Math.max(alpha, bestScore);
         }
 
         return bestMove;
@@ -75,10 +81,91 @@ public class Minimax implements Strategy {
     }
 
     /**
-     * The minimax algorithm implementation, following the pseudocode structure:
-     * If depth is 0 or game is over, return static evaluation
-     * If maximizingPlayer, return max of children
-     * Else return min of children
+     * The minimax algorithm implementation with alpha-beta pruning.
+     * Alpha is the best value that the maximizer currently can guarantee.
+     * Beta is the best value that the minimizer currently can guarantee.
+     * If alpha >= beta, we can prune the branch (stop exploring it).
+     */
+    private int minimaxAlphaBeta(MiniNode position, int depth, int alpha, int beta, boolean isMaximizingPlayer) {
+        // Base case: leaf node or maximum depth reached
+        if (depth == 0 || isGameOver(position.boardValue)) {
+            return evaluateBoard(position.boardValue);
+        }
+
+        // Get the current player based on whether we're maximizing or minimizing
+        Player currentPlayer = isMaximizingPlayer ? maximizingPlayer : minimizingPlayer;
+
+        // Get available moves for current player
+        Map<BoardSpace, List<BoardSpace>> availableMoves = currentPlayer.getAvailableMoves(position.boardValue);
+
+        // If no moves available, skip turn by switching player
+        if (availableMoves.isEmpty()) {
+            return minimaxAlphaBeta(position, depth - 1, alpha, beta, !isMaximizingPlayer);
+        }
+
+        if (isMaximizingPlayer) {
+            int maxEval = Integer.MIN_VALUE;
+
+            // For each possible move, create a child node
+            for (BoardSpace destination : availableMoves.keySet()) {
+                // Create a simulated board
+                BoardSpace[][] simulatedBoard = deepCopyBoard(position.boardValue);
+
+                // Apply the move on the simulated board
+                simulateTakeSpaces(simulatedBoard, availableMoves, destination, currentPlayer.getColor());
+
+                // Create a child node for this move
+                MiniNode childNode = new MiniNode(simulatedBoard);
+                position.addNode(childNode);
+
+                // Recursively evaluate this child
+                int eval = minimaxAlphaBeta(childNode, depth - 1, alpha, beta, false);
+                maxEval = Math.max(maxEval, eval);
+
+                // Update alpha
+                alpha = Math.max(alpha, eval);
+
+                // Alpha-beta pruning
+                if (beta <= alpha) {
+                    break; // Beta cutoff
+                }
+            }
+
+            return maxEval;
+        } else {
+            int minEval = Integer.MAX_VALUE;
+
+            // For each possible move, create a child node
+            for (BoardSpace destination : availableMoves.keySet()) {
+                // Create a simulated board
+                BoardSpace[][] simulatedBoard = deepCopyBoard(position.boardValue);
+
+                // Apply the move on the simulated board
+                simulateTakeSpaces(simulatedBoard, availableMoves, destination, currentPlayer.getColor());
+
+                // Create a child node for this move
+                MiniNode childNode = new MiniNode(simulatedBoard);
+                position.addNode(childNode);
+
+                // Recursively evaluate this child
+                int eval = minimaxAlphaBeta(childNode, depth - 1, alpha, beta, true);
+                minEval = Math.min(minEval, eval);
+
+                // Update beta
+                beta = Math.min(beta, eval);
+
+                // Alpha-beta pruning
+                if (beta <= alpha) {
+                    break; // Alpha cutoff
+                }
+            }
+
+            return minEval;
+        }
+    }
+
+    /**
+     * Original minimax method without alpha-beta pruning (kept for reference or testing)
      */
     private int minimax(MiniNode position, int depth, boolean isMaximizingPlayer) {
         // Base case: leaf node or maximum depth reached

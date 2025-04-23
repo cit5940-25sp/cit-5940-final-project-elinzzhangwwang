@@ -1,5 +1,8 @@
+package test;
+
 import org.junit.Test;
 import org.junit.Assert;
+import othello.Constants;
 import othello.gamelogic.BoardSpace;
 import othello.gamelogic.HumanPlayer;
 import othello.gamelogic.Player;
