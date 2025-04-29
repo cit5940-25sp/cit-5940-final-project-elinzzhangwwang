@@ -13,6 +13,8 @@ public class ComputerPlayer extends Player{
         // This input should match the ones specified in App.java!
         if (strategyName.equalsIgnoreCase("minimax")) {
             this.strategy = new Minimax();
+        } else if (strategyName.equalsIgnoreCase("mcts")) {
+            this.strategy = new MCTS();
         }
     }
 
