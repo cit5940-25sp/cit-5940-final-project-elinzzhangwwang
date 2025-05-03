@@ -1,17 +1,74 @@
 package MLRegression;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
 import java.util.Arrays;
 
 public class WTHORReader {
     public static void main(String[] args) {
-        File directory = new File("WTH_2001-2015");
-        String out = "WTHORConverted";
-        if (directory.exists() && directory.isDirectory()) {
-            File[] files = directory.listFiles();
+        File in = new File("WTH_2001-2015");
+        File readableOut = new File("WTHORConverted");
+        readableOut.mkdir();
+        convertReadable(in, readableOut);
+        File rawOut = new File("WTHORGameBin");
+        rawOut.mkdir();
+        convertRawGamesFile(in, rawOut);
+        File combined = new File("WHTHORCombined");
+        combineRawGameFiles(rawOut, combined);
+    }
+    private static void combineRawGameFiles(File in, File out)  {
+
+
+        if (in == null || !in.exists() || !in.isDirectory()) {
+            System.err.println("Invalid input directory: " + in);
+            return;
+        }
+
+        if (out == null) {
+            System.err.println("Output directory is null.");
+            return;
+        }
+
+        if (!out.exists()) {
+            if (!out.mkdirs()) {
+                System.err.println("Failed to create output directory: " + out);
+                return;
+            }
+        }
+
+        File[] inputFiles = in.listFiles((dir, name) -> name.toLowerCase().endsWith(".bin"));
+        if (inputFiles == null || inputFiles.length == 0) {
+            System.out.println("No .bin files found in directory: " + in);
+            return;
+        }
+
+        Arrays.sort(inputFiles); // Optional: sort alphabetically
+
+        File outputFile = new File(out, "combined_output.bin");
+
+        try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+            for (File file : inputFiles) {
+                try (BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream(file))) {
+                    byte[] buffer = new byte[4096];
+                    int bytesRead;
+                    while ((bytesRead = inputStream.read(buffer)) != -1) {
+                        outputStream.write(buffer, 0, bytesRead);
+                    }
+                } catch (IOException e) {
+                    System.err.println("Failed to read file: " + file.getName() + " (" + e.getMessage() + ")");
+                }
+            }
+            System.out.println("Successfully wrote to: " + outputFile.getAbsolutePath());
+        } catch (IOException e) {
+            System.err.println("Failed to write output file: " + e.getMessage());
+        }
+
+    }
+
+
+    private static void convertRawGamesFile(File in, File out) {
+        if (in.exists() && in.isDirectory()) {
+            File[] files = in.listFiles();
 
             if (files != null) {
                 for (File file : files) {
@@ -20,9 +77,38 @@ public class WTHORReader {
                         int dotIndex = fileName.lastIndexOf('.');
                         String nameWithoutExtension;
                         if (dotIndex != -1) {
-                            nameWithoutExtension = fileName.substring(0, dotIndex) + ".txt";
+                            nameWithoutExtension = fileName.substring(0, dotIndex) + "_Raw.bin";
                         } else {
-                            nameWithoutExtension = fileName + ".txt";
+                            nameWithoutExtension = fileName + "_Raw.bin";
+                        }
+                        File newFile = new File(out, nameWithoutExtension);
+                        //clears new bin file if it already exists
+                        try (FileWriter fw = new FileWriter(newFile, false)) {
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        convertFileRaw(file, newFile);
+                    }
+                }
+            }
+        } else {
+            System.out.println("Directory does not exist or is not a directory.");
+        }
+    }
+    private static void convertReadable(File in, File out) {
+        if (in.exists() && in.isDirectory()) {
+            File[] files = in.listFiles();
+
+            if (files != null) {
+                for (File file : files) {
+                    if (file.isFile() && file.getName().toLowerCase().endsWith(".wtb")) {
+                        String fileName = file.getName();
+                        int dotIndex = fileName.lastIndexOf('.');
+                        String nameWithoutExtension;
+                        if (dotIndex != -1) {
+                            nameWithoutExtension = fileName.substring(0, dotIndex) + "_Readable.txt";
+                        } else {
+                            nameWithoutExtension = fileName + "_Readable.txt";
                         }
                         File newFile = new File(out, nameWithoutExtension);
                         convertFile(file, newFile);
@@ -32,7 +118,6 @@ public class WTHORReader {
         } else {
             System.out.println("Directory does not exist or is not a directory.");
         }
-
     }
 
     private static void convertFile(File file, File out) {
@@ -52,6 +137,29 @@ public class WTHORReader {
                     System.err.println("Error unexpected end of file");
                 }
                 procGame(gameBuffer,out);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void convertFileRaw(File file, File out) {
+        byte[] headerBuffer = new byte[16];
+        byte[] gameBuffer = new byte[68];
+
+        try (FileInputStream input = new FileInputStream(file)) {
+            int bytesRead = input.read(headerBuffer);
+
+            if (bytesRead != 16) {
+                System.out.println("File is empty or couldn't read any bytes.");
+            }
+
+            while ((bytesRead = input.read(gameBuffer)) != -1) {
+                if (bytesRead != 68) {
+                    System.err.println("Error unexpected end of file");
+                }
+                procGameRaw(gameBuffer,out);
             }
 
         } catch (IOException e) {
@@ -92,6 +200,19 @@ public class WTHORReader {
             writer.write("Theoretical Score: " + byteToInt(buf[7])+ "\n");
             byte[] moves = Arrays.copyOfRange(buf, 8, 67);
             writer.write("Moves: " + moves+ "\n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void procGameRaw(byte[] buf, File out) {
+        if (buf.length != 68) {
+            System.err.println("Game must be 68 bytes");
+            return;
+        }
+        try (FileOutputStream os = new FileOutputStream(out, true)) {
+            byte[] moves = Arrays.copyOfRange(buf, 8, 68);
+            os.write(moves);
         } catch (IOException e) {
             e.printStackTrace();
         }
