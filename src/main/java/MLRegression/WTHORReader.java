@@ -6,16 +6,72 @@ import java.util.Arrays;
 
 public class WTHORReader {
     public static void main(String[] args) {
+        //Converts files in directory in to readable form in directory WTHORConverted
         File in = new File("WTH_2001-2015");
         File readableOut = new File("WTHORConverted");
         readableOut.mkdir();
         convertReadable(in, readableOut);
+
+        //convert files in directory to binary files with only the moves as 60 byte arrays
         File rawOut = new File("WTHORGameBin");
         rawOut.mkdir();
         convertRawGamesFile(in, rawOut);
+
+        //combines the binary files into one large binary file with all game moves. Will be divisible by 60 bytes
         File combined = new File("WHTHORCombined");
         combineRawGameFiles(rawOut, combined);
+
+        //get the scores for each file and writes them to one big file. each score is 1 btye that represents the number
+        //of black pawns
+        File scores = new File("WHTHORScore");
+        scores.mkdir();
+        scoreGameFiles(in, scores);
+
     }
+    private static void scoreGameFiles(File in, File out) {
+        if (in.exists() && in.isDirectory()) {
+            File[] files = in.listFiles();
+            File newFile = new File(out, "allScores.bin");
+
+            if (files != null) {
+                try (FileOutputStream output = new FileOutputStream(newFile)) {
+                    for (File file : files) {
+                        if (file.isFile() && file.getName().toLowerCase().endsWith(".wtb")) {
+                            byte[] headerBuffer = new byte[16];
+                            byte[] gameBuffer = new byte[68];
+
+                            try (FileInputStream input = new FileInputStream(file)) {
+                                // skip the 16-byte header
+                                int headerRead = input.read(headerBuffer);
+                                if (headerRead < 16) {
+                                    System.err.println("Header too short in file: " + file.getName());
+                                    continue;
+                                }
+
+                                int bytesRead;
+                                while ((bytesRead = input.read(gameBuffer)) != -1) {
+                                    if (bytesRead != 68) {
+                                        System.err.println("Error: Unexpected end of file in " + file.getName());
+                                        break;
+                                    }
+                                    output.write(gameBuffer[6]); // write just the score byte
+                                }
+                            } catch (IOException e) {
+                                System.err.println("Failed to read file: " + file.getName());
+                                e.printStackTrace();
+                            }
+                        }
+                    }
+                } catch (IOException e) {
+                    System.err.println("Failed to open output file: " + newFile.getAbsolutePath());
+                    e.printStackTrace();
+                }
+            }
+        } else {
+            System.out.println("Directory does not exist or is not a directory.");
+        }
+    }
+
     private static void combineRawGameFiles(File in, File out)  {
 
 

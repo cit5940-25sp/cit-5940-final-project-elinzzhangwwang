@@ -33,16 +33,21 @@ public class OthelloGameInterperter {
         boardStates = new byte[60][8][8];
         //boolean array of what player is choosing the move
         players = new boolean[60];
-        //signifies what 0 indexed turn a player forfeited. -1 when game completed
+        //signifies what 0 indexed turn a player forfeited.
         forfeit = -1;
 
         //players for the game
         player1 = new HumanPlayer();
         player2 = new HumanPlayer();
 
+        player1.setColor(BoardSpace.SpaceType.BLACK);
+        player2.setColor(BoardSpace.SpaceType.WHITE);
+
         //the othello game
         og = new OthelloGame(player1, player2);
         og.initBoard();
+        //og.getBoard()[0][0] = new BoardSpace(0,0,BoardSpace.SpaceType.EMPTY);
+        //System.out.println("current board:" + og.getBoard()[3][2].getType());
 
         //process all moves
         readMoves();
@@ -69,6 +74,7 @@ public class OthelloGameInterperter {
             int convertedMove = byteToInt(curMove);
             //if current move is 0, game was forfeited
             if (convertedMove == 0) {
+                //game ended by forfeit at current move
                 forfeit = curBoardStateNum;
                 break;
             }
@@ -118,6 +124,11 @@ public class OthelloGameInterperter {
             //do not change player
             ++curBoardStateNum;
         }
+
+        if (forfeit == -1) {
+            forfeit = curBoardStateNum;  // Game ended naturally at this move count
+        }
+
     }
 
 
@@ -146,5 +157,18 @@ public class OthelloGameInterperter {
         }
         return ret;
     }
+
+    public byte[][][] getBoardStates() {
+        return boardStates;
+    }
+
+    public int getForfeit() {
+        return forfeit;
+    }
+
+    public boolean[] getPlayers() {
+        return players;
+    }
+
 
 }
