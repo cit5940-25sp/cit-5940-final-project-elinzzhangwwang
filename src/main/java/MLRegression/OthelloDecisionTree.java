@@ -2,17 +2,15 @@ package MLRegression;
 
 
 import java.io.*;
-import java.nio.file.Files;
-import java.util.Arrays;
+import java.util.*;
 
 import othello.gamelogic.BoardSpace;
 import smile.regression.RegressionTree;
 
-import static java.nio.file.Files.write;
 
 public class OthelloDecisionTree {
     RegressionTree tree;
-    public OthelloDecisionTree() {
+    public static void main(String args[]) {
         //file for combined binary of game moves
         File movesFile = new File("WHTHORCombined/combined_output.bin");
         //file for combined binary of game scores
@@ -40,10 +38,15 @@ public class OthelloDecisionTree {
 
             while ((scoreRead = scoreFileReadr.read(curScore)) != -1 &&
                     (movesRead = movesFileReader.read(curMoves)) != -1) {
+                if (scoreRead != 1 || movesRead != 60) {
+                    System.err.println("Failed to read");
+                    return;
+                }
                 //current game
                 System.out.println("Processing Game : " + count);
                 ++count;
-                double[][] curFeatureVectors = vectorGameBoard(curMoves);
+                //System.out.println("F5: " + curMoves[0]);
+                double[][] curFeatureVectors = vectorMoves(curMoves);
                 double score = (double) curScore[0];
                 for (double[] curVector: curFeatureVectors) {
                     X[curIndex] = curVector;
@@ -59,9 +62,11 @@ public class OthelloDecisionTree {
         double[][] trimmedFeatures = Arrays.copyOf(X, curIndex);
         double[] trimmedTarget = Arrays.copyOf(Y, curIndex);
         System.out.println("Building tree");
-        this.tree = new RegressionTree(trimmedFeatures, trimmedTarget, 10);
+        RegressionTree tree = new RegressionTree(trimmedFeatures, trimmedTarget, 10);
         System.out.println("Saving Tree");
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("tree.model"))) {
+
+
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("RegressionTreeModel/tree.model"))) {
             out.writeObject(tree);
         } catch (IOException e) {
             e.printStackTrace();
@@ -69,37 +74,57 @@ public class OthelloDecisionTree {
 
     }
 
+    public OthelloDecisionTree (int variant) {
+        try (FileInputStream fileIn = new FileInputStream("RegressionTreeModel/tree.model");
+             ObjectInputStream objectIn = new ObjectInputStream(fileIn)) {
+            this.tree = (RegressionTree) objectIn.readObject();
 
-    private RegressionTree getPrediction(BoardSpace[][] board, int player, int xMove, int yMove) {
-        double[] feature = new double[66];
-        for (int x = 0; x < board.length; ++x) {
-            for (int y = 0; y < board.length; ++y) {
-                double boardType = 0.0;
-
-                BoardSpace.SpaceType curType = board[x][y].getType();
-                if (curType.equals(BoardSpace.SpaceType.BLACK)) {
-                    boardType = 1.0;
-                } else if (curType.equals(BoardSpace.SpaceType.WHITE)) {
-                    boardType = -1.0;
-                } else {
-                    boardType = 0.0;
-                }
-
-                feature[vectorIndices[x][y]] = boardType;
-            }
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
         }
-        return null;
+
     }
 
-    private static double[][] vectorGameBoard(byte[] moves) {
+    public Map<BoardSpace, Double> getPredictions (BoardSpace[][] board, Set<BoardSpace> moves, boolean isPlayerOne) {
+        Map<BoardSpace, Double> predictions = new HashMap<>();
+        //converts a 2-d array of boardspaces to a byte array
+        byte[][] boardState = OthelloGameInterperter.boardStateConverter(board);
+
+        //iterate over every move
+        for (BoardSpace move : moves) {
+            double[] featureVector = new double[66];
+            for (int x = 0; x < 8; ++x) {
+                for (int y = 0; y < 8; ++y) {
+                    featureVector[vectorIndices[x][y]] = boardState[x][y];
+                }
+            }
+            featureVector[64] = isPlayerOne?1.0:0.0;
+
+            int moveX = move.getX();
+            int moveY = move.getY();
+
+            int moveYX = vectorIndices[moveY][moveX];
+            //System.out.println(moveYX);
+            featureVector[65] = moveYX/64.0;
+
+            predictions.put(move, tree.predict(featureVector));
+        }
+        return predictions;
+    }
+
+
+    private static double[][] vectorMoves(byte[] moves) {
         double[][] ret;
         OthelloGameInterperter ogi = new OthelloGameInterperter(moves);
 
         int forfeitTurn = ogi.getForfeit();
+        //gets an array of 2-D arrays of the board state of the game.
         byte[][][] boardStates = ogi.getBoardStates();
+        //array of which player made each move
         boolean[] player = ogi.getPlayers();
 
         ret = new double[forfeitTurn][66];
+        //iterate over all 60 turns of the game
         for (int turn = 0; turn < forfeitTurn; ++turn) {
             //this is an individual turn in the game
             double[] curFeature = ret[turn];
@@ -117,13 +142,20 @@ public class OthelloDecisionTree {
                 curFeature[64] = 0.0;
             }
             //puts current move in array
-            curFeature[65] = (double)(moves[turn] & 0xFF) / 64.0;
+
+            int curX = (int)moves[turn] % 10 -1;
+            int curY = (int)moves[turn] / 10 -1;
+            if (turn == 0) {
+                //System.out.println((double) moves[turn]);
+                //System.out.println(vectorIndices[curX][curY]);
+            }
+            curFeature[65] = (double)(vectorIndices[curX][curY]) / 64.0;
 
         }
         return ret;
     }
 
-    // convert bytes to hex string
+    // convert bytes to hex string swapped to xy format instead of yx
     private static String bytesToInt(byte[] bytes) {
         StringBuilder sb = new StringBuilder();
         for (byte b : bytes) {
@@ -136,9 +168,6 @@ public class OthelloDecisionTree {
         return sb.toString();
     }
 
-    private static void copyArray(double[][] source, double[][] destination, int destinationStart) {
-
-    }
 
     public static final int[][] vectorIndices = {
             {0, 1, 2, 3, 4, 5, 6, 7},

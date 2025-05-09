@@ -72,6 +72,8 @@ public class OthelloGameInterperter {
 
             //int representing current move
             int convertedMove = byteToInt(curMove);
+            //convertedMove is in xy format
+            //System.out.println(convertedMove);
             //if current move is 0, game was forfeited
             if (convertedMove == 0) {
                 //game ended by forfeit at current move
@@ -80,7 +82,7 @@ public class OthelloGameInterperter {
             }
 
             //convert 2 digit number to coordinates, subtract 1 since coordinates for othellogame are 0-indexed while
-            // bytes[] is 1 -indexed
+            // bytes[] uses 1 -indexed moves
             int x = convertedMove / 10 - 1;
             int y = convertedMove % 10 - 1;
 
@@ -141,7 +143,7 @@ public class OthelloGameInterperter {
         return swappedMove;
     }
 
-    private byte[][] boardStateConverter(BoardSpace[][] curBoard) {
+    public static byte[][] boardStateConverter(BoardSpace[][] curBoard) {
         byte[][] ret = new byte[8][8];
         for (int x = 0; x < 8; ++x) {
             for (int y = 0; y < 8; ++y) {

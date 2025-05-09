@@ -98,8 +98,6 @@ public class WTHORReader {
             return;
         }
 
-        Arrays.sort(inputFiles); // Optional: sort alphabetically
-
         File outputFile = new File(out, "combined_output.bin");
 
         try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(outputFile))) {
