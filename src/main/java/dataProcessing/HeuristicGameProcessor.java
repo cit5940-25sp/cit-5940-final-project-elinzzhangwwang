@@ -3,7 +3,7 @@ package dataProcessing;
 import java.io.*;
 
 public class HeuristicGameProcessor {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //file for combined binary of games
         File gamesFile = new File("WHTHORCombined/combined_output.bin");
         long numGames = gamesFile.length();
@@ -12,16 +12,17 @@ public class HeuristicGameProcessor {
             return;
         }
 
-        //main 2-D array that represents "heat" of each space. "Heat" is the sum of each game's final score multiplied
-        // by negative 1 if player 2 played it. 2-D array is in form Array[Column][Row]
+        //main 2-D array that represents "heat" of each space. "Heat" is the sum of each game's
+        // final score multiplied by negative 1 if player 2 played it. 2-D array is in form
+        // Array[Column][Row]
 
         int[][] moveHeatMap = new int[8][8];
 
         int count = 0;
         try (
-                FileInputStream gameFileReader = new FileInputStream(gamesFile);
-        ){
-            byte curScore = 0;
+                FileInputStream gameFileReader = new FileInputStream(gamesFile)
+        ) {
+            byte curScore;
             byte[] curMoves = new byte[60];
             byte[] gameBuffer = new byte[61];
             int gameRead;
@@ -34,25 +35,17 @@ public class HeuristicGameProcessor {
                 curScore = gameBuffer[0];
                 System.arraycopy(gameBuffer, 1, curMoves, 0, 60);
                 //current game
-                System.out.println("Processing Game : " + count);
                 ++count;
-                //System.out.println("F5: " + curMoves[0]);
 
-                OthelloGameInterperter OGI = new OthelloGameInterperter(curMoves, curScore);
-                int[][] curHeat = OGI.getHeatmap();
+                OthelloGameInterperter ogi = new OthelloGameInterperter(curMoves, curScore);
+                int[][] curHeat = ogi.getHeatmap();
                 addMatricesInPlace(moveHeatMap, curHeat);
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Error could not open file");
         }
         moveHeatMap = normalizeHeatMap(moveHeatMap);
-        for (int y = 0; y < 8; y++) {
-            for (int x = 0; x < 8; x++) {
-                System.out.print(moveHeatMap[x][y] + "\t");
-            }
-            System.out.println();
-        }
 
         File out = new File("HeatMapOut/heatmap.bin");
         encodeHeatMap(moveHeatMap, out);
@@ -86,8 +79,12 @@ public class HeuristicGameProcessor {
                     continue;
                 }
                 int val = array[i][j];
-                if (val < min) min = val;
-                if (val > max) max = val;
+                if (val < min) {
+                    min = val;
+                }
+                if (val > max) {
+                    max = val;
+                }
             }
         }
 
@@ -134,7 +131,7 @@ public class HeuristicGameProcessor {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Error could not open file");
         }
     }
 
@@ -162,7 +159,7 @@ public class HeuristicGameProcessor {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Error could not open file");
         }
 
         return array;
