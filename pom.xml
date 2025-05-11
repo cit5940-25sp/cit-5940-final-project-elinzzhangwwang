@@ -62,12 +62,6 @@
             <version>7.11.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.github.haifengl</groupId>
-            <artifactId>smile-core</artifactId>
-            <version>1.5.3</version>
-        </dependency>
-
     </dependencies>
 
     <build>
