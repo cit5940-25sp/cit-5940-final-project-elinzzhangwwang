@@ -1,7 +1,6 @@
-package MLRegression;
+package dataProcessing;
 
 import java.io.*;
-import java.nio.file.Files;
 import java.util.Arrays;
 
 public class WTHORReader {
@@ -12,66 +11,24 @@ public class WTHORReader {
         readableOut.mkdir();
         convertReadable(in, readableOut);
 
-        //convert files in directory to binary files with only the moves as 60 byte arrays
+        //convert files in directory to binary files with the score as 1 byte and moves as 60 bytes
         File rawOut = new File("WTHORGameBin");
         rawOut.mkdir();
         convertRawGamesFile(in, rawOut);
 
-        //combines the binary files into one large binary file with all game moves. Will be divisible by 60 bytes
+        //combines the binary files into one large binary file with all games in score(1) then moves(60) format. Will
+        // be divisible by 60 bytes
         File combined = new File("WHTHORCombined");
         combineRawGameFiles(rawOut, combined);
 
-        //get the scores for each file and writes them to one big file. each score is 1 btye that represents the number
-        //of black pawns
-        File scores = new File("WHTHORScore");
-        scores.mkdir();
-        scoreGameFiles(in, scores);
 
     }
-    private static void scoreGameFiles(File in, File out) {
-        if (in.exists() && in.isDirectory()) {
-            File[] files = in.listFiles();
-            File newFile = new File(out, "allScores.bin");
 
-            if (files != null) {
-                try (FileOutputStream output = new FileOutputStream(newFile)) {
-                    for (File file : files) {
-                        if (file.isFile() && file.getName().toLowerCase().endsWith(".wtb")) {
-                            byte[] headerBuffer = new byte[16];
-                            byte[] gameBuffer = new byte[68];
-
-                            try (FileInputStream input = new FileInputStream(file)) {
-                                // skip the 16-byte header
-                                int headerRead = input.read(headerBuffer);
-                                if (headerRead < 16) {
-                                    System.err.println("Header too short in file: " + file.getName());
-                                    continue;
-                                }
-
-                                int bytesRead;
-                                while ((bytesRead = input.read(gameBuffer)) != -1) {
-                                    if (bytesRead != 68) {
-                                        System.err.println("Error: Unexpected end of file in " + file.getName());
-                                        break;
-                                    }
-                                    output.write(gameBuffer[6]); // write just the score byte
-                                }
-                            } catch (IOException e) {
-                                System.err.println("Failed to read file: " + file.getName());
-                                e.printStackTrace();
-                            }
-                        }
-                    }
-                } catch (IOException e) {
-                    System.err.println("Failed to open output file: " + newFile.getAbsolutePath());
-                    e.printStackTrace();
-                }
-            }
-        } else {
-            System.out.println("Directory does not exist or is not a directory.");
-        }
-    }
-
+    /**
+     * Combines the raw game Files into one large file
+     * @param in File directory where all files are stored
+     * @param out Output directory where large file will be stored
+     */
     private static void combineRawGameFiles(File in, File out)  {
 
 
@@ -92,24 +49,41 @@ public class WTHORReader {
             }
         }
 
+        //gets input files as list of Files
         File[] inputFiles = in.listFiles((dir, name) -> name.toLowerCase().endsWith(".bin"));
+
+        //makes sure that the input files has files
         if (inputFiles == null || inputFiles.length == 0) {
             System.out.println("No .bin files found in directory: " + in);
             return;
         }
 
+        //new file that will be output
         File outputFile = new File(out, "combined_output.bin");
 
+
+        //create output stream to write to output file
         try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(outputFile))) {
+            //iterate over input files
             for (File file : inputFiles) {
+                //long to check that files were read correctly
+                long errCheck = 0;
+
                 try (BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream(file))) {
                     byte[] buffer = new byte[4096];
+                    //stores actual number of bytes read
                     int bytesRead;
+                    //outputs bytes read to outputStream
                     while ((bytesRead = inputStream.read(buffer)) != -1) {
+                        errCheck += bytesRead;
                         outputStream.write(buffer, 0, bytesRead);
                     }
                 } catch (IOException e) {
                     System.err.println("Failed to read file: " + file.getName() + " (" + e.getMessage() + ")");
+                }
+                //makes sure that files have games which are divisible by 61
+                if (errCheck % 61 != 0) {
+                    System.out.println("Error, file has unexpected number of bytes: " + file.getName());
                 }
             }
             System.out.println("Successfully wrote to: " + outputFile.getAbsolutePath());
@@ -119,8 +93,14 @@ public class WTHORReader {
 
     }
 
-
+    /**
+     * Converts files to raw bytes in the form of score (1 byte) plus game (60 bytes)
+     *
+     * @param in File object that is directory of files to be processed
+     * @param out File object that is directory targeted as output
+     */
     private static void convertRawGamesFile(File in, File out) {
+        //check that file exists
         if (in.exists() && in.isDirectory()) {
             File[] files = in.listFiles();
 
@@ -141,6 +121,8 @@ public class WTHORReader {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
+
+                        //converts file to raw
                         convertFileRaw(file, newFile);
                     }
                 }
@@ -198,21 +180,29 @@ public class WTHORReader {
         }
     }
 
-    private static void convertFileRaw(File file, File out) {
+    /**
+     * Converts each game in file to raw bytes.
+     * @param in file to be read
+     * @param out file to be written to
+     */
+    private static void convertFileRaw(File in, File out) {
         byte[] headerBuffer = new byte[16];
         byte[] gameBuffer = new byte[68];
 
-        try (FileInputStream input = new FileInputStream(file)) {
+        try (FileInputStream input = new FileInputStream(in)) {
+            //reads header to skip it
             int bytesRead = input.read(headerBuffer);
 
             if (bytesRead != 16) {
                 System.out.println("File is empty or couldn't read any bytes.");
             }
 
+            //checks
             while ((bytesRead = input.read(gameBuffer)) != -1) {
                 if (bytesRead != 68) {
                     System.err.println("Error unexpected end of file");
                 }
+                //processes the game to out
                 procGameRaw(gameBuffer,out);
             }
 
@@ -220,6 +210,30 @@ public class WTHORReader {
             e.printStackTrace();
         }
     }
+
+    /**
+     * converts game given by 68 length byte array to raw bytes to be written to file. Format score (1) moves (60)
+     *
+     * @param buf buffer input that represents a game
+     * @param out file to be written to
+     */
+    private static void procGameRaw(byte[] buf, File out) {
+        if (buf.length != 68) {
+            System.err.println("Game must be 68 bytes");
+            return;
+        }
+        try (FileOutputStream os = new FileOutputStream(out, true)) {
+            byte[] moves = Arrays.copyOfRange(buf, 8, 68);
+            byte[] score = Arrays.copyOfRange(buf, 6, 7);
+            os.write(score);
+            os.write(moves);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
 
     private static void procHeader(byte[] buf, File out) {
         if (buf.length != 16) {
@@ -259,18 +273,6 @@ public class WTHORReader {
         }
     }
 
-    private static void procGameRaw(byte[] buf, File out) {
-        if (buf.length != 68) {
-            System.err.println("Game must be 68 bytes");
-            return;
-        }
-        try (FileOutputStream os = new FileOutputStream(out, true)) {
-            byte[] moves = Arrays.copyOfRange(buf, 8, 68);
-            os.write(moves);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
 
     private static int byteToInt(byte curByte) {

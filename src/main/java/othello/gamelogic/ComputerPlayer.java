@@ -16,7 +16,11 @@ public class ComputerPlayer extends Player{
         } else if (strategyName.equalsIgnoreCase("mcts")) {
             this.strategy = new MCTS();
         } else if (strategyName.equalsIgnoreCase("custom")) {
-            this.strategy = new Regression();
+            this.strategy = new Heuristics();
+        } else if (strategyName.equalsIgnoreCase("random")) {
+            this.strategy = new RandomStrat();
+        } else {
+            System.err.println("Invalid strategy input");
         }
     }
 
