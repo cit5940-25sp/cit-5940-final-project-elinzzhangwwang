@@ -1,0 +1,7278 @@
+Year: 2015
+Month: 9
+Day: 30
+Number of N1 records: 1817
+Number of N2 records: 0
+Year of games: 2014
+Game Board Size: 8
+Type of Games: 0
+Depth: 24
+Reserve: 0
+Game ID: 8465480024286
+Actual Score: 24
+Theoretical Score: 26
+Moves: [B@6fd2acf5
+Game ID: 9169884348638
+Actual Score: 34
+Theoretical Score: 29
+Moves: [B@45a9cf78
+Game ID: 8272236183774
+Actual Score: 37
+Theoretical Score: 39
+Moves: [B@368ff8be
+Game ID: 8813402063070
+Actual Score: 38
+Theoretical Score: 33
+Moves: [B@41bbdd8a
+Game ID: 8465474650334
+Actual Score: 23
+Theoretical Score: 27
+Moves: [B@3bf4644c
+Game ID: 10376770158814
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@30adae45
+Game ID: 8465511874782
+Actual Score: 26
+Theoretical Score: 22
+Moves: [B@792eeae6
+Game ID: 10329509593204
+Actual Score: 17
+Theoretical Score: 20
+Moves: [B@66e62fc4
+Game ID: 10127723594011
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@7e28f150
+Game ID: 13314601648429
+Actual Score: 17
+Theoretical Score: 34
+Moves: [B@23aaa756
+Game ID: 352281165846
+Actual Score: 19
+Theoretical Score: 17
+Moves: [B@2d5d001f
+Game ID: 8443907538967
+Actual Score: 35
+Theoretical Score: 30
+Moves: [B@7a92827f
+Game ID: 120387928087
+Actual Score: 34
+Theoretical Score: 28
+Moves: [B@43094e0c
+Game ID: 8443907538967
+Actual Score: 18
+Theoretical Score: 27
+Moves: [B@35efd12c
+Game ID: 167639187479
+Actual Score: 37
+Theoretical Score: 40
+Moves: [B@70f76276
+Game ID: 8877826244631
+Actual Score: 34
+Theoretical Score: 25
+Moves: [B@1e18876d
+Game ID: 8444041166871
+Actual Score: 30
+Theoretical Score: 32
+Moves: [B@17e8c38c
+Game ID: 8877699956759
+Actual Score: 20
+Theoretical Score: 29
+Moves: [B@5c4516ec
+Game ID: 167632568343
+Actual Score: 32
+Theoretical Score: 31
+Moves: [B@17ea3bc0
+Game ID: 8444041166871
+Actual Score: 44
+Theoretical Score: 32
+Moves: [B@4d93e5bf
+Game ID: 8877699235863
+Actual Score: 40
+Theoretical Score: 40
+Moves: [B@1c36ab22
+Game ID: 8877707231255
+Actual Score: 17
+Theoretical Score: 24
+Moves: [B@68303c3e
+Game ID: 837654085655
+Actual Score: 29
+Theoretical Score: 39
+Moves: [B@2ec23ec3
+Game ID: 13477742837783
+Actual Score: 47
+Theoretical Score: 48
+Moves: [B@7c2e88b9
+Game ID: 8443907538967
+Actual Score: 18
+Theoretical Score: 27
+Moves: [B@556843a5
+Game ID: 837647466519
+Actual Score: 38
+Theoretical Score: 39
+Moves: [B@3c5044fa
+Game ID: 11639490215959
+Actual Score: 57
+Theoretical Score: 46
+Moves: [B@3db5195
+Game ID: 13477736218647
+Actual Score: 57
+Theoretical Score: 45
+Moves: [B@b386a17
+Game ID: 8443944042519
+Actual Score: 17
+Theoretical Score: 20
+Moves: [B@1cda75be
+Game ID: 120268914711
+Actual Score: 50
+Theoretical Score: 33
+Moves: [B@2213854b
+Game ID: 837520457751
+Actual Score: 41
+Theoretical Score: 38
+Moves: [B@7b1d2f65
+Game ID: 120273109015
+Actual Score: 20
+Theoretical Score: 25
+Moves: [B@33bd9ac3
+Game ID: 8525511917591
+Actual Score: 42
+Theoretical Score: 40
+Moves: [B@7c857e8f
+Game ID: 120436686871
+Actual Score: 19
+Theoretical Score: 30
+Moves: [B@42028589
+Game ID: 11639375396887
+Actual Score: 46
+Theoretical Score: 33
+Moves: [B@50f6ecab
+Game ID: 10604377014295
+Actual Score: 39
+Theoretical Score: 37
+Moves: [B@fc21ff4
+Game ID: 6734670528535
+Actual Score: 35
+Theoretical Score: 39
+Moves: [B@58647985
+Game ID: 5081049071639
+Actual Score: 48
+Theoretical Score: 53
+Moves: [B@e1c91cd
+Game ID: 6734586249239
+Actual Score: 26
+Theoretical Score: 34
+Moves: [B@69e8b711
+Game ID: 13426170527767
+Actual Score: 59
+Theoretical Score: 53
+Moves: [B@764a3867
+Game ID: 6734713651223
+Actual Score: 15
+Theoretical Score: 17
+Moves: [B@d99df7a
+Game ID: 13722607288527
+Actual Score: 28
+Theoretical Score: 36
+Moves: [B@67e1a5fd
+Game ID: 1898400055503
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@4b9dc62f
+Game ID: 13722449477839
+Actual Score: 42
+Theoretical Score: 26
+Moves: [B@6cb3463b
+Game ID: 1606504546511
+Actual Score: 30
+Theoretical Score: 24
+Moves: [B@2f9236d8
+Game ID: 1503425331407
+Actual Score: 43
+Theoretical Score: 36
+Moves: [B@4536a09a
+Game ID: 13722445021391
+Actual Score: 18
+Theoretical Score: 25
+Moves: [B@603faaad
+Game ID: 1606340706511
+Actual Score: 24
+Theoretical Score: 39
+Moves: [B@16cbba0f
+Game ID: 8860691857575
+Actual Score: 51
+Theoretical Score: 43
+Moves: [B@28d16af8
+Game ID: 11424748208295
+Actual Score: 13
+Theoretical Score: 20
+Moves: [B@58932d08
+Game ID: 11162794328231
+Actual Score: 54
+Theoretical Score: 59
+Moves: [B@45648e75
+Game ID: 11424783335591
+Actual Score: 20
+Theoretical Score: 19
+Moves: [B@e344f14
+Game ID: 11162755203239
+Actual Score: 43
+Theoretical Score: 38
+Moves: [B@2d117280
+Game ID: 8860687859879
+Actual Score: 9
+Theoretical Score: 21
+Moves: [B@6c2be147
+Game ID: 6167715446950
+Actual Score: 26
+Theoretical Score: 28
+Moves: [B@dddcd91
+Game ID: 6167702208678
+Actual Score: 44
+Theoretical Score: 39
+Moves: [B@21bd6fd1
+Game ID: 10376770158758
+Actual Score: 31
+Theoretical Score: 19
+Moves: [B@79e9c14
+Game ID: 8826292863273
+Actual Score: 28
+Theoretical Score: 29
+Moves: [B@340c7479
+Game ID: 7765441773751
+Actual Score: 40
+Theoretical Score: 38
+Moves: [B@575e862c
+Game ID: 11785469296642
+Actual Score: 21
+Theoretical Score: 36
+Moves: [B@1d57b8f1
+Game ID: 5179910389762
+Actual Score: 17
+Theoretical Score: 36
+Moves: [B@6e5af973
+Game ID: 11785469296642
+Actual Score: 16
+Theoretical Score: 32
+Moves: [B@39a2e77d
+Game ID: 11785469296642
+Actual Score: 32
+Theoretical Score: 34
+Moves: [B@1aee6983
+Game ID: 5179842691074
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@3adeca1f
+Game ID: 7915703762946
+Actual Score: 40
+Theoretical Score: 36
+Moves: [B@3f62d56
+Game ID: 5179730821122
+Actual Score: 19
+Theoretical Score: 24
+Moves: [B@2d41bb5a
+Game ID: 378036158466
+Actual Score: 41
+Theoretical Score: 31
+Moves: [B@448a6d00
+Game ID: 5179731476482
+Actual Score: 26
+Theoretical Score: 28
+Moves: [B@848d9bc
+Game ID: 13366017261570
+Actual Score: 37
+Theoretical Score: 40
+Moves: [B@3a66d97e
+Game ID: 5179851669506
+Actual Score: 5
+Theoretical Score: 5
+Moves: [B@1add3e03
+Game ID: 5179883061250
+Actual Score: 19
+Theoretical Score: 23
+Moves: [B@d28a235
+Game ID: 5179910520834
+Actual Score: 1
+Theoretical Score: 4
+Moves: [B@43e30f15
+Game ID: 5179883520002
+Actual Score: 25
+Theoretical Score: 21
+Moves: [B@4fc2933e
+Game ID: 7348868874242
+Actual Score: 21
+Theoretical Score: 32
+Moves: [B@3c9c91e3
+Game ID: 11785511043074
+Actual Score: 12
+Theoretical Score: 25
+Moves: [B@746da54f
+Game ID: 17359699970
+Actual Score: 49
+Theoretical Score: 42
+Moves: [B@2f2d8770
+Game ID: 11785396027394
+Actual Score: 26
+Theoretical Score: 27
+Moves: [B@742dbac8
+Game ID: 11785391177730
+Actual Score: 21
+Theoretical Score: 35
+Moves: [B@2ce62e27
+Game ID: 11785594208258
+Actual Score: 20
+Theoretical Score: 28
+Moves: [B@3538a129
+Game ID: 7937279393794
+Actual Score: 41
+Theoretical Score: 47
+Moves: [B@766db6f9
+Game ID: 9994568728578
+Actual Score: 59
+Theoretical Score: 51
+Moves: [B@6f8fb906
+Game ID: 11794160025602
+Actual Score: 51
+Theoretical Score: 54
+Moves: [B@728535c6
+Game ID: 10011748597762
+Actual Score: 61
+Theoretical Score: 63
+Moves: [B@244f356
+Game ID: 7348809826306
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@19855799
+Game ID: 17292001282
+Actual Score: 35
+Theoretical Score: 39
+Moves: [B@bd09a26
+Game ID: 378069254146
+Actual Score: 28
+Theoretical Score: 34
+Moves: [B@5020b59f
+Game ID: 60241674242
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@75db328e
+Game ID: 7348810153986
+Actual Score: 13
+Theoretical Score: 15
+Moves: [B@46d18a33
+Game ID: 11794092326914
+Actual Score: 59
+Theoretical Score: 58
+Moves: [B@495f3965
+Game ID: 7348842004482
+Actual Score: 4
+Theoretical Score: 11
+Moves: [B@1c06f19c
+Game ID: 7348841676802
+Actual Score: 11
+Theoretical Score: 7
+Moves: [B@3065efd0
+Game ID: 10015975866370
+Actual Score: 57
+Theoretical Score: 57
+Moves: [B@7aaf6bfd
+Game ID: 7915624988674
+Actual Score: 22
+Theoretical Score: 27
+Moves: [B@4a8bf1dc
+Game ID: 7915630493698
+Actual Score: 30
+Theoretical Score: 27
+Moves: [B@61aa6300
+Game ID: 7915625644034
+Actual Score: 18
+Theoretical Score: 26
+Moves: [B@7e2e0b8a
+Game ID: 7915828674562
+Actual Score: 20
+Theoretical Score: 14
+Moves: [B@7f5f7731
+Game ID: 7937220345858
+Actual Score: 60
+Theoretical Score: 64
+Moves: [B@6a4f7c17
+Game ID: 10024574451714
+Actual Score: 33
+Theoretical Score: 39
+Moves: [B@584fb03d
+Game ID: 17185636354
+Actual Score: 28
+Theoretical Score: 25
+Moves: [B@563392e5
+Game ID: 17180786690
+Actual Score: 20
+Theoretical Score: 19
+Moves: [B@52d181ed
+Game ID: 13365938487298
+Actual Score: 50
+Theoretical Score: 51
+Moves: [B@43efe064
+Game ID: 9994389159938
+Actual Score: 51
+Theoretical Score: 55
+Moves: [B@66046e7c
+Game ID: 17359831042
+Actual Score: 11
+Theoretical Score: 4
+Moves: [B@2c6a6ce3
+Game ID: 17332699138
+Actual Score: 17
+Theoretical Score: 7
+Moves: [B@726a5e6a
+Game ID: 13688061034498
+Actual Score: 55
+Theoretical Score: 45
+Moves: [B@4e3a6c83
+Game ID: 7937105330178
+Actual Score: 26
+Theoretical Score: 26
+Moves: [B@b889cb6
+Game ID: 378109624322
+Actual Score: 9
+Theoretical Score: 17
+Moves: [B@74faf450
+Game ID: 378137083906
+Actual Score: 9
+Theoretical Score: 11
+Moves: [B@54c37dab
+Game ID: 10002984599554
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@49005dc4
+Game ID: 378109886466
+Actual Score: 3
+Theoretical Score: 1
+Moves: [B@6a2057e
+Game ID: 13688066539522
+Actual Score: 61
+Theoretical Score: 62
+Moves: [B@25d9298e
+Game ID: 13365939142658
+Actual Score: 39
+Theoretical Score: 27
+Moves: [B@6ab826bb
+Game ID: 60282044418
+Actual Score: 8
+Theoretical Score: 24
+Moves: [B@219db855
+Game ID: 60282175490
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@3702d0ed
+Game ID: 60282306562
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@5b7b0ada
+Game ID: 60282372098
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@705d72f0
+Game ID: 60338405378
+Actual Score: 12
+Theoretical Score: 8
+Moves: [B@3c4e23be
+Game ID: 7937303511042
+Actual Score: 47
+Theoretical Score: 28
+Moves: [B@1d6a0962
+Game ID: 9994592845826
+Actual Score: 51
+Theoretical Score: 30
+Moves: [B@1ec4fdcf
+Game ID: 10024657616898
+Actual Score: 49
+Theoretical Score: 42
+Moves: [B@515d615
+Game ID: 10003182780418
+Actual Score: 51
+Theoretical Score: 49
+Moves: [B@488b46da
+Game ID: 13366091055106
+Actual Score: 17
+Theoretical Score: 4
+Moves: [B@5e777b0
+Game ID: 13366147088386
+Actual Score: 13
+Theoretical Score: 15
+Moves: [B@3c74d846
+Game ID: 7937252524034
+Actual Score: 35
+Theoretical Score: 31
+Moves: [B@17fa14a3
+Game ID: 10011689877506
+Actual Score: 50
+Theoretical Score: 62
+Moves: [B@5552d10
+Game ID: 10015984844802
+Actual Score: 57
+Theoretical Score: 62
+Moves: [B@3b3190fd
+Game ID: 13688181882882
+Actual Score: 53
+Theoretical Score: 62
+Moves: [B@219dd935
+Game ID: 10024606171138
+Actual Score: 42
+Theoretical Score: 44
+Moves: [B@66859ea9
+Game ID: 9994541662210
+Actual Score: 14
+Theoretical Score: 12
+Moves: [B@4a9412c4
+Game ID: 11794133155842
+Actual Score: 30
+Theoretical Score: 37
+Moves: [B@7d15c513
+Game ID: 10011748728834
+Actual Score: 36
+Theoretical Score: 35
+Moves: [B@320efff5
+Game ID: 10003131793410
+Actual Score: 34
+Theoretical Score: 54
+Moves: [B@78b44fcb
+Game ID: 10011721728002
+Actual Score: 28
+Theoretical Score: 35
+Moves: [B@12dc702b
+Game ID: 10024606498818
+Actual Score: 12
+Theoretical Score: 8
+Moves: [B@41b2123e
+Game ID: 10024662532098
+Actual Score: 9
+Theoretical Score: 12
+Moves: [B@486bcaa
+Game ID: 13688213536770
+Actual Score: 47
+Theoretical Score: 47
+Moves: [B@5e9671e6
+Game ID: 10540042551343
+Actual Score: 45
+Theoretical Score: 41
+Moves: [B@2f3a0f37
+Game ID: 12635954610223
+Actual Score: 30
+Theoretical Score: 34
+Moves: [B@7ec8db0c
+Game ID: 11811328688175
+Actual Score: 40
+Theoretical Score: 40
+Moves: [B@4f1a5b93
+Game ID: 11811320889391
+Actual Score: 19
+Theoretical Score: 32
+Moves: [B@22ee1ad7
+Game ID: 11051143659567
+Actual Score: 39
+Theoretical Score: 31
+Moves: [B@5dd2ea0a
+Game ID: 10540029968431
+Actual Score: 31
+Theoretical Score: 40
+Moves: [B@65fa4a07
+Game ID: 12635962409007
+Actual Score: 17
+Theoretical Score: 33
+Moves: [B@782143e8
+Game ID: 11811320889391
+Actual Score: 36
+Theoretical Score: 28
+Moves: [B@2a4bd699
+Game ID: 10999613489355
+Actual Score: 19
+Theoretical Score: 25
+Moves: [B@6003eb60
+Game ID: 13254436913355
+Actual Score: 35
+Theoretical Score: 37
+Moves: [B@571e2f15
+Game ID: 7877081956498
+Actual Score: 30
+Theoretical Score: 25
+Moves: [B@2552181d
+Game ID: 8607234654354
+Actual Score: 49
+Theoretical Score: 45
+Moves: [B@51d9fd30
+Game ID: 6167693230226
+Actual Score: 33
+Theoretical Score: 37
+Moves: [B@2e7e4480
+Game ID: 8465500733586
+Actual Score: 32
+Theoretical Score: 30
+Moves: [B@8beb0dd
+Game ID: 7335934754962
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@3d99d327
+Game ID: 8585751560338
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@233789d9
+Game ID: 7335935475858
+Actual Score: 21
+Theoretical Score: 26
+Moves: [B@7f31937b
+Game ID: 7335946551442
+Actual Score: 20
+Theoretical Score: 27
+Moves: [B@2f4fc18
+Game ID: 8813384827026
+Actual Score: 35
+Theoretical Score: 40
+Moves: [B@7187078a
+Game ID: 6833404903570
+Actual Score: 56
+Theoretical Score: 46
+Moves: [B@6e612122
+Game ID: 8607245074578
+Actual Score: 35
+Theoretical Score: 34
+Moves: [B@1d38cdde
+Game ID: 6833423581330
+Actual Score: 50
+Theoretical Score: 52
+Moves: [B@3809f65d
+Game ID: 8560064790674
+Actual Score: 1
+Theoretical Score: 0
+Moves: [B@717b0d81
+Game ID: 8585774104722
+Actual Score: 37
+Theoretical Score: 39
+Moves: [B@16745abd
+Game ID: 8585768796306
+Actual Score: 21
+Theoretical Score: 27
+Moves: [B@4d793390
+Game ID: 8585743892626
+Actual Score: 28
+Theoretical Score: 29
+Moves: [B@3a359f7c
+Game ID: 6167704371346
+Actual Score: 42
+Theoretical Score: 32
+Moves: [B@138b9abe
+Game ID: 8607256871058
+Actual Score: 8
+Theoretical Score: 20
+Moves: [B@279e8bc0
+Game ID: 8465511874706
+Actual Score: 48
+Theoretical Score: 36
+Moves: [B@23ffc910
+Game ID: 12777659039890
+Actual Score: 43
+Theoretical Score: 42
+Moves: [B@35277c6c
+Game ID: 9333058044050
+Actual Score: 20
+Theoretical Score: 26
+Moves: [B@7a364e1c
+Game ID: 8813367001234
+Actual Score: 53
+Theoretical Score: 57
+Moves: [B@29a50a11
+Game ID: 12777621815442
+Actual Score: 56
+Theoretical Score: 58
+Moves: [B@74cff17c
+Game ID: 9333093105810
+Actual Score: 28
+Theoretical Score: 31
+Moves: [B@7a053795
+Game ID: 6833427447954
+Actual Score: 18
+Theoretical Score: 37
+Moves: [B@328bc067
+Game ID: 8813412745362
+Actual Score: 24
+Theoretical Score: 20
+Moves: [B@337fb1a5
+Game ID: 13731144925330
+Actual Score: 41
+Theoretical Score: 42
+Moves: [B@38b0e2a7
+Game ID: 8465575510162
+Actual Score: 8
+Theoretical Score: 9
+Moves: [B@6bdad3bb
+Game ID: 8465590059154
+Actual Score: 10
+Theoretical Score: 2
+Moves: [B@73eae5f
+Game ID: 9165564477586
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@4902c584
+Game ID: 5841244586122
+Actual Score: 33
+Theoretical Score: 25
+Moves: [B@7698a3d9
+Game ID: 5836949684362
+Actual Score: 33
+Theoretical Score: 34
+Moves: [B@4b62f1ba
+Game ID: 51539804175
+Actual Score: 19
+Theoretical Score: 16
+Moves: [B@39dce2df
+Game ID: 12232067645455
+Actual Score: 46
+Theoretical Score: 29
+Moves: [B@662d3e85
+Game ID: 51540197391
+Actual Score: 12
+Theoretical Score: 16
+Moves: [B@5598dff2
+Game ID: 38747504655
+Actual Score: 7
+Theoretical Score: 10
+Moves: [B@92b1bda
+Game ID: 1864016396303
+Actual Score: 45
+Theoretical Score: 41
+Moves: [B@57bfca3a
+Game ID: 38654902287
+Actual Score: 58
+Theoretical Score: 53
+Moves: [B@58690f5e
+Game ID: 13275744501775
+Actual Score: 43
+Theoretical Score: 43
+Moves: [B@4b9d2cee
+Game ID: 6657202913281
+Actual Score: 28
+Theoretical Score: 33
+Moves: [B@1a390b8c
+Game ID: 236324782081
+Actual Score: 28
+Theoretical Score: 33
+Moves: [B@337eeceb
+Game ID: 6657202913281
+Actual Score: 41
+Theoretical Score: 34
+Moves: [B@237d0625
+Game ID: 10127679684609
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@1a5a4f8
+Game ID: 6657353842689
+Actual Score: 18
+Theoretical Score: 27
+Moves: [B@5392aa2b
+Game ID: 10127634464769
+Actual Score: 36
+Theoretical Score: 29
+Moves: [B@174f0d06
+Game ID: 9620730347521
+Actual Score: 35
+Theoretical Score: 35
+Moves: [B@5cc87de4
+Game ID: 236370001921
+Actual Score: 36
+Theoretical Score: 37
+Moves: [B@706690e1
+Game ID: 236370001921
+Actual Score: 28
+Theoretical Score: 25
+Moves: [B@3663af34
+Game ID: 12399752839169
+Actual Score: 26
+Theoretical Score: 22
+Moves: [B@59aba3c3
+Game ID: 10127700721665
+Actual Score: 28
+Theoretical Score: 30
+Moves: [B@4693d24f
+Game ID: 236324782081
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@236a3e4
+Game ID: 9620828323841
+Actual Score: 40
+Theoretical Score: 34
+Moves: [B@2987b699
+Game ID: 6657353842689
+Actual Score: 39
+Theoretical Score: 37
+Moves: [B@2d36add1
+Game ID: 6657408499713
+Actual Score: 15
+Theoretical Score: 25
+Moves: [B@75ef1392
+Game ID: 120360665089
+Actual Score: 41
+Theoretical Score: 39
+Moves: [B@4271b748
+Game ID: 6657387331585
+Actual Score: 23
+Theoretical Score: 31
+Moves: [B@56d6e2e1
+Game ID: 13378924707841
+Actual Score: 40
+Theoretical Score: 32
+Moves: [B@4e9695cf
+Game ID: 10149109301249
+Actual Score: 44
+Theoretical Score: 42
+Moves: [B@43e86c0c
+Game ID: 6657356726273
+Actual Score: 20
+Theoretical Score: 33
+Moves: [B@c6c58ce
+Game ID: 6657311244289
+Actual Score: 20
+Theoretical Score: 21
+Moves: [B@6d4c7248
+Game ID: 6657401487361
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@178ebac3
+Game ID: 6657228275713
+Actual Score: 18
+Theoretical Score: 30
+Moves: [B@17063c32
+Game ID: 12657370202113
+Actual Score: 50
+Theoretical Score: 49
+Moves: [B@79c2bc34
+Game ID: 9620730347521
+Actual Score: 32
+Theoretical Score: 31
+Moves: [B@77925f76
+Game ID: 10127536488449
+Actual Score: 35
+Theoretical Score: 30
+Moves: [B@15a8bbe5
+Game ID: 236391038977
+Actual Score: 10
+Theoretical Score: 24
+Moves: [B@3369e2ce
+Game ID: 13709539213313
+Actual Score: 52
+Theoretical Score: 41
+Moves: [B@5f26cb8b
+Game ID: 120262688769
+Actual Score: 25
+Theoretical Score: 29
+Moves: [B@3a2a56f6
+Game ID: 12322264776705
+Actual Score: 37
+Theoretical Score: 37
+Moves: [B@6a8da5c5
+Game ID: 236316983297
+Actual Score: 15
+Theoretical Score: 18
+Moves: [B@160e45c8
+Game ID: 236317310977
+Actual Score: 34
+Theoretical Score: 37
+Moves: [B@7f9dbe11
+Game ID: 236378062849
+Actual Score: 11
+Theoretical Score: 31
+Moves: [B@17e8caf2
+Game ID: 7335807746049
+Actual Score: 49
+Theoretical Score: 47
+Moves: [B@104cf647
+Game ID: 236383502337
+Actual Score: 20
+Theoretical Score: 24
+Moves: [B@7488c183
+Game ID: 236433047553
+Actual Score: 4
+Theoretical Score: 12
+Moves: [B@66779435
+Game ID: 9620881276929
+Actual Score: 29
+Theoretical Score: 38
+Moves: [B@37196d53
+Game ID: 9620805779457
+Actual Score: 27
+Theoretical Score: 31
+Moves: [B@40105b39
+Game ID: 120405884929
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@72a61e61
+Game ID: 9620846936065
+Actual Score: 26
+Theoretical Score: 29
+Moves: [B@282aea3c
+Game ID: 12322407972865
+Actual Score: 47
+Theoretical Score: 42
+Moves: [B@54a5799f
+Game ID: 6146245001217
+Actual Score: 46
+Theoretical Score: 31
+Moves: [B@162e29a1
+Game ID: 6167719837697
+Actual Score: 41
+Theoretical Score: 34
+Moves: [B@54b96813
+Game ID: 13378969927681
+Actual Score: 34
+Theoretical Score: 35
+Moves: [B@2b3d03b2
+Game ID: 7348835844097
+Actual Score: 38
+Theoretical Score: 31
+Moves: [B@542beecb
+Game ID: 9620881604609
+Actual Score: 37
+Theoretical Score: 34
+Moves: [B@332fa6ce
+Game ID: 9620915486721
+Actual Score: 13
+Theoretical Score: 18
+Moves: [B@2cc9a948
+Game ID: 10127700721665
+Actual Score: 36
+Theoretical Score: 40
+Moves: [B@6f2a1ff0
+Game ID: 5179885092865
+Actual Score: 32
+Theoretical Score: 33
+Moves: [B@647ce968
+Game ID: 6146252734465
+Actual Score: 34
+Theoretical Score: 35
+Moves: [B@2a2b3aff
+Game ID: 10127687745537
+Actual Score: 25
+Theoretical Score: 27
+Moves: [B@4bc9451b
+Game ID: 10127706947585
+Actual Score: 10
+Theoretical Score: 15
+Moves: [B@74a3160d
+Game ID: 5841310056449
+Actual Score: 42
+Theoretical Score: 37
+Moves: [B@77978658
+Game ID: 10127646130177
+Actual Score: 25
+Theoretical Score: 22
+Moves: [B@498b697
+Game ID: 10127735062529
+Actual Score: 32
+Theoretical Score: 33
+Moves: [B@5f8da82
+Game ID: 10127706816513
+Actual Score: 16
+Theoretical Score: 20
+Moves: [B@6987b74e
+Game ID: 8242196774913
+Actual Score: 57
+Theoretical Score: 46
+Moves: [B@22e95960
+Game ID: 10999620435969
+Actual Score: 34
+Theoretical Score: 28
+Moves: [B@63846fa4
+Game ID: 10999510663169
+Actual Score: 14
+Theoretical Score: 20
+Moves: [B@206b959c
+Game ID: 10999593500673
+Actual Score: 26
+Theoretical Score: 29
+Moves: [B@74026b18
+Game ID: 10999566565377
+Actual Score: 8
+Theoretical Score: 22
+Moves: [B@1cc81ea1
+Game ID: 7335971979265
+Actual Score: 41
+Theoretical Score: 32
+Moves: [B@5cf1bbd3
+Game ID: 5978762313729
+Actual Score: 26
+Theoretical Score: 30
+Moves: [B@204a02a4
+Game ID: 12369673650177
+Actual Score: 45
+Theoretical Score: 54
+Moves: [B@4777f71e
+Game ID: 10505657843713
+Actual Score: 40
+Theoretical Score: 35
+Moves: [B@1b96d447
+Game ID: 8083296288769
+Actual Score: 29
+Theoretical Score: 29
+Moves: [B@4a68cbc5
+Game ID: 10999620042753
+Actual Score: 18
+Theoretical Score: 20
+Moves: [B@3a47bf0e
+Game ID: 10999610998785
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@4270705f
+Game ID: 120468275201
+Actual Score: 35
+Theoretical Score: 28
+Moves: [B@6f69b0ba
+Game ID: 13709629390849
+Actual Score: 35
+Theoretical Score: 35
+Moves: [B@63537871
+Game ID: 6167782227969
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@64eb14da
+Game ID: 13709690929153
+Actual Score: 18
+Theoretical Score: 30
+Moves: [B@25587290
+Game ID: 13709690470401
+Actual Score: 24
+Theoretical Score: 25
+Moves: [B@716eae1
+Game ID: 10316720635905
+Actual Score: 23
+Theoretical Score: 31
+Moves: [B@7ffe8a82
+Game ID: 13709624737793
+Actual Score: 24
+Theoretical Score: 31
+Moves: [B@430f0c63
+Game ID: 13709621133313
+Actual Score: 28
+Theoretical Score: 25
+Moves: [B@25a52a60
+Game ID: 6670293401601
+Actual Score: 52
+Theoretical Score: 43
+Moves: [B@15549dd7
+Game ID: 13091269509121
+Actual Score: 39
+Theoretical Score: 34
+Moves: [B@1e75af65
+Game ID: 5179919761409
+Actual Score: 24
+Theoretical Score: 21
+Moves: [B@25a2c4dc
+Game ID: 5179732393985
+Actual Score: 30
+Theoretical Score: 36
+Moves: [B@29d81c22
+Game ID: 5179918581761
+Actual Score: 36
+Theoretical Score: 31
+Moves: [B@18d396eb
+Game ID: 6167652073473
+Actual Score: 34
+Theoretical Score: 33
+Moves: [B@2bee1c13
+Game ID: 5179887976449
+Actual Score: 24
+Theoretical Score: 31
+Moves: [B@1859b996
+Game ID: 5841234558977
+Actual Score: 24
+Theoretical Score: 28
+Moves: [B@71098fb3
+Game ID: 10505569042433
+Actual Score: 29
+Theoretical Score: 28
+Moves: [B@75e92bb7
+Game ID: 5179870085121
+Actual Score: 23
+Theoretical Score: 23
+Moves: [B@2ebcbf9d
+Game ID: 5179731148801
+Actual Score: 15
+Theoretical Score: 13
+Moves: [B@7bfc36d5
+Game ID: 9221373820929
+Actual Score: 49
+Theoretical Score: 41
+Moves: [B@46b55a0e
+Game ID: 13469096476673
+Actual Score: 45
+Theoretical Score: 41
+Moves: [B@7abd75fc
+Game ID: 12399690776577
+Actual Score: 36
+Theoretical Score: 38
+Moves: [B@31b67d61
+Game ID: 12399725445121
+Actual Score: 2
+Theoretical Score: 23
+Moves: [B@2b66bf1c
+Game ID: 12399728001025
+Actual Score: 47
+Theoretical Score: 44
+Moves: [B@47eff554
+Game ID: 12399744647169
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@56ec6ac0
+Game ID: 5841344724993
+Actual Score: 36
+Theoretical Score: 31
+Moves: [B@54b35809
+Game ID: 8478454644737
+Actual Score: 41
+Theoretical Score: 39
+Moves: [B@4a3383dc
+Game ID: 13250163310593
+Actual Score: 35
+Theoretical Score: 23
+Moves: [B@72ce8a9b
+Game ID: 12399688941569
+Actual Score: 51
+Theoretical Score: 47
+Moves: [B@47c15468
+Game ID: 12399693922305
+Actual Score: 21
+Theoretical Score: 29
+Moves: [B@9fc2f89
+Game ID: 1898564747265
+Actual Score: 59
+Theoretical Score: 36
+Moves: [B@5f877009
+Game ID: 12399581593601
+Actual Score: 13
+Theoretical Score: 23
+Moves: [B@591ba330
+Game ID: 13692544942081
+Actual Score: 51
+Theoretical Score: 50
+Moves: [B@14b4ce6f
+Game ID: 6515467223041
+Actual Score: 41
+Theoretical Score: 39
+Moves: [B@7c5c2b17
+Game ID: 10149009555457
+Actual Score: 27
+Theoretical Score: 34
+Moves: [B@18bf1bad
+Game ID: 120416501761
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@1cb929a9
+Game ID: 11407434973185
+Actual Score: 44
+Theoretical Score: 39
+Moves: [B@2ecc4be7
+Game ID: 120372330497
+Actual Score: 12
+Theoretical Score: 35
+Moves: [B@3355d9ba
+Game ID: 120377442305
+Actual Score: 5
+Theoretical Score: 22
+Moves: [B@5357de0e
+Game ID: 13254270910465
+Actual Score: 33
+Theoretical Score: 37
+Moves: [B@6f651ac
+Game ID: 11012297981953
+Actual Score: 40
+Theoretical Score: 44
+Moves: [B@4a29a1e6
+Game ID: 7877158043649
+Actual Score: 28
+Theoretical Score: 32
+Moves: [B@57ac2910
+Game ID: 6515585581057
+Actual Score: 31
+Theoretical Score: 34
+Moves: [B@3a663a45
+Game ID: 13378943320065
+Actual Score: 51
+Theoretical Score: 34
+Moves: [B@e296794
+Game ID: 7877082152961
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@988c126
+Game ID: 11944424243201
+Actual Score: 29
+Theoretical Score: 43
+Moves: [B@3fda8dae
+Game ID: 5841275715585
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@34e53c02
+Game ID: 10505610199041
+Actual Score: 46
+Theoretical Score: 44
+Moves: [B@7135e8cd
+Game ID: 7877099388929
+Actual Score: 30
+Theoretical Score: 26
+Moves: [B@3efb863c
+Game ID: 7877061509121
+Actual Score: 11
+Theoretical Score: 22
+Moves: [B@5527dbb0
+Game ID: 7877095784449
+Actual Score: 15
+Theoretical Score: 22
+Moves: [B@483fe83a
+Game ID: 7877143691265
+Actual Score: 2
+Theoretical Score: 5
+Moves: [B@16120270
+Game ID: 13379011149825
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@74babce8
+Game ID: 12322373304321
+Actual Score: 29
+Theoretical Score: 26
+Moves: [B@1fab0394
+Game ID: 12322350301185
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@28e24663
+Game ID: 12322425864193
+Actual Score: 23
+Theoretical Score: 21
+Moves: [B@2ee5c08d
+Game ID: 12322418786305
+Actual Score: 29
+Theoretical Score: 39
+Moves: [B@f996445
+Game ID: 13250162130945
+Actual Score: 22
+Theoretical Score: 22
+Moves: [B@48697181
+Game ID: 38842728449
+Actual Score: 49
+Theoretical Score: 43
+Moves: [B@7282f7b1
+Game ID: 12322463940609
+Actual Score: 6
+Theoretical Score: 16
+Moves: [B@7263b0c4
+Game ID: 6146197618689
+Actual Score: 28
+Theoretical Score: 31
+Moves: [B@361c4981
+Game ID: 6146192310273
+Actual Score: 15
+Theoretical Score: 21
+Moves: [B@35fac3ba
+Game ID: 7348782825473
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@50a095cb
+Game ID: 11944397832193
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@3f2afa8b
+Game ID: 10179166273537
+Actual Score: 34
+Theoretical Score: 30
+Moves: [B@6b2efcae
+Game ID: 7335897923585
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@8aa1562
+Game ID: 6146300379137
+Actual Score: 20
+Theoretical Score: 22
+Moves: [B@5c70c771
+Game ID: 7756804718593
+Actual Score: 44
+Theoretical Score: 41
+Moves: [B@346690d6
+Game ID: 6146297954305
+Actual Score: 39
+Theoretical Score: 39
+Moves: [B@2831c178
+Game ID: 6515577520129
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@70e8c019
+Game ID: 11407532556289
+Actual Score: 50
+Theoretical Score: 31
+Moves: [B@2a79da3a
+Game ID: 6515556614145
+Actual Score: 30
+Theoretical Score: 39
+Moves: [B@2a191f83
+Game ID: 12369605230593
+Actual Score: 48
+Theoretical Score: 38
+Moves: [B@c8531b9
+Game ID: 10329495764993
+Actual Score: 24
+Theoretical Score: 28
+Moves: [B@3adbd038
+Game ID: 6515471220737
+Actual Score: 4
+Theoretical Score: 20
+Moves: [B@5e976553
+Game ID: 13735404830721
+Actual Score: 59
+Theoretical Score: 45
+Moves: [B@3c108c05
+Game ID: 6515675103233
+Actual Score: 4
+Theoretical Score: 24
+Moves: [B@193d7ac7
+Game ID: 6167727898625
+Actual Score: 41
+Theoretical Score: 31
+Moves: [B@7d0333c8
+Game ID: 6167761780737
+Actual Score: 29
+Theoretical Score: 34
+Moves: [B@185b7cc6
+Game ID: 7421797597185
+Actual Score: 41
+Theoretical Score: 42
+Moves: [B@2093bb6c
+Game ID: 10329490456577
+Actual Score: 50
+Theoretical Score: 50
+Moves: [B@528a16fb
+Game ID: 10539943854081
+Actual Score: 38
+Theoretical Score: 28
+Moves: [B@3673e211
+Game ID: 6167772790785
+Actual Score: 22
+Theoretical Score: 23
+Moves: [B@758d0555
+Game ID: 10857771433985
+Actual Score: 45
+Theoretical Score: 37
+Moves: [B@48788853
+Game ID: 7348893188097
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@4ac77269
+Game ID: 10316715589633
+Actual Score: 39
+Theoretical Score: 34
+Moves: [B@638d624a
+Game ID: 10793456959489
+Actual Score: 40
+Theoretical Score: 37
+Moves: [B@7eb774c3
+Game ID: 7421907632129
+Actual Score: 52
+Theoretical Score: 43
+Moves: [B@72015156
+Game ID: 13378983428097
+Actual Score: 23
+Theoretical Score: 30
+Moves: [B@3a42145
+Game ID: 13378980741121
+Actual Score: 17
+Theoretical Score: 21
+Moves: [B@bb38c49
+Game ID: 13378962653185
+Actual Score: 27
+Theoretical Score: 30
+Moves: [B@4e67e090
+Game ID: 13254473220097
+Actual Score: 33
+Theoretical Score: 31
+Moves: [B@361483eb
+Game ID: 13752689426433
+Actual Score: 54
+Theoretical Score: 54
+Moves: [B@14983265
+Game ID: 11944416182273
+Actual Score: 44
+Theoretical Score: 40
+Moves: [B@35e357b
+Game ID: 10149119852545
+Actual Score: 27
+Theoretical Score: 25
+Moves: [B@724c26e0
+Game ID: 7348778172417
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@6055e899
+Game ID: 7348780269569
+Actual Score: 31
+Theoretical Score: 32
+Moves: [B@350be5ec
+Game ID: 13254381207553
+Actual Score: 43
+Theoretical Score: 37
+Moves: [B@478cebdb
+Game ID: 7348689633281
+Actual Score: 19
+Theoretical Score: 23
+Moves: [B@5464aeec
+Game ID: 7348894105601
+Actual Score: 12
+Theoretical Score: 5
+Moves: [B@1b3a95d9
+Game ID: 10149189976065
+Actual Score: 22
+Theoretical Score: 25
+Moves: [B@71f437d7
+Game ID: 11407615393793
+Actual Score: 20
+Theoretical Score: 27
+Moves: [B@5186c801
+Game ID: 11944393179137
+Actual Score: 15
+Theoretical Score: 24
+Moves: [B@20e41f13
+Game ID: 5978776731649
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@6fbfd28b
+Game ID: 10793435070465
+Actual Score: 40
+Theoretical Score: 33
+Moves: [B@3fa50a24
+Game ID: 7421885743105
+Actual Score: 40
+Theoretical Score: 30
+Moves: [B@58041b11
+Game ID: 10329578602497
+Actual Score: 39
+Theoretical Score: 47
+Moves: [B@58189b85
+Game ID: 11944506294273
+Actual Score: 11
+Theoretical Score: 20
+Moves: [B@49222187
+Game ID: 11944315060225
+Actual Score: 15
+Theoretical Score: 22
+Moves: [B@5e41e6ad
+Game ID: 10179227353089
+Actual Score: 41
+Theoretical Score: 37
+Moves: [B@2665a2e7
+Game ID: 10179246555137
+Actual Score: 33
+Theoretical Score: 26
+Moves: [B@3abdc11d
+Game ID: 10179163717633
+Actual Score: 29
+Theoretical Score: 28
+Moves: [B@624be1d4
+Game ID: 10179274670081
+Actual Score: 27
+Theoretical Score: 33
+Moves: [B@336e17be
+Game ID: 10179212017665
+Actual Score: 30
+Theoretical Score: 27
+Moves: [B@3897f9ae
+Game ID: 10179274735617
+Actual Score: 26
+Theoretical Score: 21
+Moves: [B@6c767288
+Game ID: 38810025985
+Actual Score: 48
+Theoretical Score: 44
+Moves: [B@510e6b93
+Game ID: 382407409665
+Actual Score: 40
+Theoretical Score: 45
+Moves: [B@129e45eb
+Game ID: 13288784134145
+Actual Score: 41
+Theoretical Score: 35
+Moves: [B@15c3849f
+Game ID: 1640832827393
+Actual Score: 46
+Theoretical Score: 43
+Moves: [B@4a7e469d
+Game ID: 10149181784065
+Actual Score: 32
+Theoretical Score: 33
+Moves: [B@688efeb2
+Game ID: 10149131059201
+Actual Score: 18
+Theoretical Score: 28
+Moves: [B@85f5f55
+Game ID: 11407590555649
+Actual Score: 32
+Theoretical Score: 35
+Moves: [B@131c5bd
+Game ID: 10316623380481
+Actual Score: 23
+Theoretical Score: 24
+Moves: [B@394331a8
+Game ID: 10316602671105
+Actual Score: 24
+Theoretical Score: 29
+Moves: [B@2627335c
+Game ID: 1898532962305
+Actual Score: 51
+Theoretical Score: 50
+Moves: [B@5470753a
+Game ID: 6670241628161
+Actual Score: 34
+Theoretical Score: 34
+Moves: [B@5b634e24
+Game ID: 10316711198721
+Actual Score: 39
+Theoretical Score: 32
+Moves: [B@7b0dfa91
+Game ID: 10316679479297
+Actual Score: 31
+Theoretical Score: 30
+Moves: [B@642f8b7f
+Game ID: 7335978205185
+Actual Score: 21
+Theoretical Score: 32
+Moves: [B@3321fb65
+Game ID: 11407546384385
+Actual Score: 20
+Theoretical Score: 32
+Moves: [B@7272914b
+Game ID: 8259396173825
+Actual Score: 38
+Theoretical Score: 40
+Moves: [B@663f24e6
+Game ID: 11407534915585
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@7e532f2d
+Game ID: 11407573843969
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@42150951
+Game ID: 7335895367681
+Actual Score: 31
+Theoretical Score: 44
+Moves: [B@248b2091
+Game ID: 7421815422977
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@3b0c38f2
+Game ID: 10539961679873
+Actual Score: 47
+Theoretical Score: 22
+Moves: [B@5cc152f9
+Game ID: 7335943667713
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@36f497b1
+Game ID: 7335809974273
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@4b86a656
+Game ID: 13091172253697
+Actual Score: 37
+Theoretical Score: 33
+Moves: [B@1117cc7c
+Game ID: 721666441217
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@4797023d
+Game ID: 10329485475841
+Actual Score: 52
+Theoretical Score: 49
+Moves: [B@55cc4c61
+Game ID: 5841357701121
+Actual Score: 26
+Theoretical Score: 31
+Moves: [B@2b06f498
+Game ID: 5841281286145
+Actual Score: 15
+Theoretical Score: 23
+Moves: [B@4ddb9a8
+Game ID: 9221383913473
+Actual Score: 39
+Theoretical Score: 48
+Moves: [B@7b24d5e4
+Game ID: 13288717942785
+Actual Score: 43
+Theoretical Score: 45
+Moves: [B@4c3c31a5
+Game ID: 5978734002177
+Actual Score: 21
+Theoretical Score: 25
+Moves: [B@5002be8e
+Game ID: 5978680000513
+Actual Score: 13
+Theoretical Score: 31
+Moves: [B@39fb5ddf
+Game ID: 5978720501761
+Actual Score: 24
+Theoretical Score: 23
+Moves: [B@642d34f1
+Game ID: 11398934429697
+Actual Score: 35
+Theoretical Score: 36
+Moves: [B@49b180c8
+Game ID: 5978685964289
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@c02a1be
+Game ID: 11381754560513
+Actual Score: 57
+Theoretical Score: 52
+Moves: [B@6f740044
+Game ID: 12369670504449
+Actual Score: 31
+Theoretical Score: 27
+Moves: [B@62732be7
+Game ID: 7421892231169
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@278150a1
+Game ID: 12369666637825
+Actual Score: 7
+Theoretical Score: 18
+Moves: [B@3e170abe
+Game ID: 13254457819137
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@712e4b18
+Game ID: 8083317194753
+Actual Score: 42
+Theoretical Score: 37
+Moves: [B@af96ac9
+Game ID: 11399031947265
+Actual Score: 37
+Theoretical Score: 30
+Moves: [B@27d0376f
+Game ID: 382440833025
+Actual Score: 53
+Theoretical Score: 39
+Moves: [B@21948bd1
+Game ID: 12369673846785
+Actual Score: 21
+Theoretical Score: 37
+Moves: [B@22617270
+Game ID: 12369714741249
+Actual Score: 19
+Theoretical Score: 13
+Moves: [B@630febd7
+Game ID: 10793366061057
+Actual Score: 46
+Theoretical Score: 48
+Moves: [B@45c2c396
+Game ID: 10793410428929
+Actual Score: 28
+Theoretical Score: 29
+Moves: [B@408d12fc
+Game ID: 7756875628545
+Actual Score: 57
+Theoretical Score: 49
+Moves: [B@69d61a6f
+Game ID: 8259386802177
+Actual Score: 34
+Theoretical Score: 36
+Moves: [B@759b05d1
+Game ID: 38819397633
+Actual Score: 36
+Theoretical Score: 31
+Moves: [B@2696b687
+Game ID: 10793344303105
+Actual Score: 5
+Theoretical Score: 21
+Moves: [B@ea45a5b
+Game ID: 13683930497025
+Actual Score: 45
+Theoretical Score: 33
+Moves: [B@57f83c82
+Game ID: 13091225010177
+Actual Score: 19
+Theoretical Score: 22
+Moves: [B@7a600e21
+Game ID: 10793418489857
+Actual Score: 4
+Theoretical Score: 15
+Moves: [B@69d1ad64
+Game ID: 10505603252225
+Actual Score: 41
+Theoretical Score: 33
+Moves: [B@458b4487
+Game ID: 13683879051265
+Actual Score: 56
+Theoretical Score: 43
+Moves: [B@53016c98
+Game ID: 13091173564417
+Actual Score: 41
+Theoretical Score: 43
+Moves: [B@296a71df
+Game ID: 7421913202689
+Actual Score: 20
+Theoretical Score: 19
+Moves: [B@4db4431b
+Game ID: 10540010045441
+Actual Score: 23
+Theoretical Score: 30
+Moves: [B@52849956
+Game ID: 10505608364033
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@ab94a32
+Game ID: 10505692250113
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@70273633
+Game ID: 12657428922369
+Actual Score: 42
+Theoretical Score: 32
+Moves: [B@1f641fb7
+Game ID: 10505689759745
+Actual Score: 23
+Theoretical Score: 24
+Moves: [B@69dc7b24
+Game ID: 11012456448001
+Actual Score: 33
+Theoretical Score: 37
+Moves: [B@297454f7
+Game ID: 10608729522177
+Actual Score: 56
+Theoretical Score: 53
+Moves: [B@602b7944
+Game ID: 13250131722241
+Actual Score: 34
+Theoretical Score: 33
+Moves: [B@5f8d4b51
+Game ID: 1898533158913
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@55821edf
+Game ID: 10329570279425
+Actual Score: 28
+Theoretical Score: 36
+Moves: [B@5e5a2b74
+Game ID: 5995931959297
+Actual Score: 38
+Theoretical Score: 38
+Moves: [B@658098a2
+Game ID: 10329402179585
+Actual Score: 13
+Theoretical Score: 25
+Moves: [B@50628080
+Game ID: 5081103925249
+Actual Score: 49
+Theoretical Score: 53
+Moves: [B@155318b5
+Game ID: 8478426267649
+Actual Score: 45
+Theoretical Score: 30
+Moves: [B@1add90e0
+Game ID: 7756840304641
+Actual Score: 24
+Theoretical Score: 24
+Moves: [B@7bf94e91
+Game ID: 9144114741249
+Actual Score: 33
+Theoretical Score: 38
+Moves: [B@3fdbb7ee
+Game ID: 12657397989377
+Actual Score: 46
+Theoretical Score: 32
+Moves: [B@32c08610
+Game ID: 8242171609089
+Actual Score: 40
+Theoretical Score: 40
+Moves: [B@44ec4a38
+Game ID: 13683895173121
+Actual Score: 50
+Theoretical Score: 48
+Moves: [B@755009f2
+Game ID: 8478468210689
+Actual Score: 34
+Theoretical Score: 28
+Moves: [B@1756a471
+Game ID: 721683873793
+Actual Score: 28
+Theoretical Score: 49
+Moves: [B@2190508d
+Game ID: 8478290477057
+Actual Score: 15
+Theoretical Score: 16
+Moves: [B@70b630d
+Game ID: 8478475026433
+Actual Score: 24
+Theoretical Score: 13
+Moves: [B@72e1e587
+Game ID: 8478427316225
+Actual Score: 7
+Theoretical Score: 34
+Moves: [B@5036a286
+Game ID: 13250134933505
+Actual Score: 30
+Theoretical Score: 36
+Moves: [B@73818435
+Game ID: 9144146198529
+Actual Score: 17
+Theoretical Score: 16
+Moves: [B@2fce8243
+Game ID: 8083289276417
+Actual Score: 40
+Theoretical Score: 34
+Moves: [B@52fe87e0
+Game ID: 10539935268865
+Actual Score: 17
+Theoretical Score: 32
+Moves: [B@37393dab
+Game ID: 10539850334209
+Actual Score: 38
+Theoretical Score: 28
+Moves: [B@4866a755
+Game ID: 10540042878977
+Actual Score: 17
+Theoretical Score: 35
+Moves: [B@1361e880
+Game ID: 13469178265601
+Actual Score: 43
+Theoretical Score: 32
+Moves: [B@3506bc8b
+Game ID: 13748351139841
+Actual Score: 39
+Theoretical Score: 39
+Moves: [B@4bac0be5
+Game ID: 13250059632641
+Actual Score: 30
+Theoretical Score: 29
+Moves: [B@368d51ca
+Game ID: 5995976523777
+Actual Score: 42
+Theoretical Score: 43
+Moves: [B@2a349a73
+Game ID: 721756684289
+Actual Score: 56
+Theoretical Score: 54
+Moves: [B@2ad6895a
+Game ID: 13250179629057
+Actual Score: 21
+Theoretical Score: 32
+Moves: [B@10e4cc6
+Game ID: 1898493902849
+Actual Score: 33
+Theoretical Score: 27
+Moves: [B@5d515e2c
+Game ID: 5605050679297
+Actual Score: 38
+Theoretical Score: 30
+Moves: [B@53b8a0f7
+Game ID: 7756802424833
+Actual Score: 44
+Theoretical Score: 40
+Moves: [B@4d3a7f83
+Game ID: 6670202568705
+Actual Score: 42
+Theoretical Score: 39
+Moves: [B@3ea1729e
+Game ID: 8242160599041
+Actual Score: 31
+Theoretical Score: 27
+Moves: [B@6956eb58
+Game ID: 7756851642369
+Actual Score: 16
+Theoretical Score: 16
+Moves: [B@7fff419d
+Game ID: 7756788465665
+Actual Score: 32
+Theoretical Score: 24
+Moves: [B@6127ef86
+Game ID: 9144111398913
+Actual Score: 28
+Theoretical Score: 26
+Moves: [B@542754be
+Game ID: 9143985963009
+Actual Score: 4
+Theoretical Score: 0
+Moves: [B@af57949
+Game ID: 9143991205889
+Actual Score: 19
+Theoretical Score: 22
+Moves: [B@f833223
+Game ID: 13091199844353
+Actual Score: 55
+Theoretical Score: 35
+Moves: [B@5186b78a
+Game ID: 9144151048193
+Actual Score: 24
+Theoretical Score: 36
+Moves: [B@3f6a9ba0
+Game ID: 13692495265793
+Actual Score: 52
+Theoretical Score: 48
+Moves: [B@1e749235
+Game ID: 5605134565377
+Actual Score: 18
+Theoretical Score: 18
+Moves: [B@870a9f2
+Game ID: 38856949761
+Actual Score: 36
+Theoretical Score: 36
+Moves: [B@6c2e7591
+Game ID: 13254443008001
+Actual Score: 15
+Theoretical Score: 21
+Moves: [B@7f2542f
+Game ID: 382454333441
+Actual Score: 35
+Theoretical Score: 36
+Moves: [B@3dad8bde
+Game ID: 11012498391041
+Actual Score: 41
+Theoretical Score: 48
+Moves: [B@301f9aa0
+Game ID: 13254478004225
+Actual Score: 17
+Theoretical Score: 26
+Moves: [B@2f82e3cf
+Game ID: 382375428097
+Actual Score: 30
+Theoretical Score: 30
+Moves: [B@3a44993c
+Game ID: 8083230228481
+Actual Score: 32
+Theoretical Score: 24
+Moves: [B@6b6606d1
+Game ID: 8242165579777
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@27605b87
+Game ID: 8083269156865
+Actual Score: 32
+Theoretical Score: 26
+Moves: [B@1fc4483f
+Game ID: 11012419485697
+Actual Score: 48
+Theoretical Score: 42
+Moves: [B@1d7af82
+Game ID: 8083338035201
+Actual Score: 7
+Theoretical Score: 13
+Moves: [B@5adc71e7
+Game ID: 13748313653249
+Actual Score: 47
+Theoretical Score: 33
+Moves: [B@7fc5a558
+Game ID: 8083205980161
+Actual Score: 14
+Theoretical Score: 31
+Moves: [B@42fd8f2f
+Game ID: 11398872170497
+Actual Score: 57
+Theoretical Score: 38
+Moves: [B@7eea934d
+Game ID: 6670113177601
+Actual Score: 23
+Theoretical Score: 33
+Moves: [B@4700963e
+Game ID: 1898501308417
+Actual Score: 25
+Theoretical Score: 27
+Moves: [B@153d14e3
+Game ID: 1898584342529
+Actual Score: 45
+Theoretical Score: 46
+Moves: [B@3b17759c
+Game ID: 10857706291201
+Actual Score: 51
+Theoretical Score: 32
+Moves: [B@11cdf948
+Game ID: 13748219281409
+Actual Score: 57
+Theoretical Score: 51
+Moves: [B@523f3c29
+Game ID: 13692384706561
+Actual Score: 47
+Theoretical Score: 54
+Moves: [B@2fd8b081
+Game ID: 5605141118977
+Actual Score: 6
+Theoretical Score: 22
+Moves: [B@2fe38b73
+Game ID: 5605100355585
+Actual Score: 40
+Theoretical Score: 35
+Moves: [B@511a307e
+Game ID: 5605135089665
+Actual Score: 27
+Theoretical Score: 22
+Moves: [B@7aef8000
+Game ID: 721640030209
+Actual Score: 27
+Theoretical Score: 33
+Moves: [B@10d97b64
+Game ID: 5605094195201
+Actual Score: 8
+Theoretical Score: 8
+Moves: [B@2352c21f
+Game ID: 5605009850369
+Actual Score: 0
+Theoretical Score: 16
+Moves: [B@23cb8fcb
+Game ID: 13439038193665
+Actual Score: 57
+Theoretical Score: 59
+Moves: [B@25a2f432
+Game ID: 8259222700033
+Actual Score: 47
+Theoretical Score: 27
+Moves: [B@7efba9b9
+Game ID: 12657394647041
+Actual Score: 57
+Theoretical Score: 47
+Moves: [B@4b8cde43
+Game ID: 11398969229313
+Actual Score: 17
+Theoretical Score: 23
+Moves: [B@34c6b52e
+Game ID: 13683891830785
+Actual Score: 49
+Theoretical Score: 34
+Moves: [B@6f7c4e0
+Game ID: 8259421863937
+Actual Score: 31
+Theoretical Score: 39
+Moves: [B@25e203e6
+Game ID: 8259424878593
+Actual Score: 11
+Theoretical Score: 16
+Moves: [B@8b1bfdf
+Game ID: 8259233120257
+Actual Score: 39
+Theoretical Score: 21
+Moves: [B@95f1422
+Game ID: 1640803532801
+Actual Score: 45
+Theoretical Score: 40
+Moves: [B@31b7112d
+Game ID: 8259387785217
+Actual Score: 14
+Theoretical Score: 33
+Moves: [B@47fc9ce
+Game ID: 38847840257
+Actual Score: 25
+Theoretical Score: 28
+Moves: [B@1b5d1d9
+Game ID: 38828638209
+Actual Score: 30
+Theoretical Score: 36
+Moves: [B@703a2bc9
+Game ID: 8242042830849
+Actual Score: 46
+Theoretical Score: 35
+Moves: [B@790d629a
+Game ID: 38665715713
+Actual Score: 13
+Theoretical Score: 29
+Moves: [B@346e5cc
+Game ID: 5995967479809
+Actual Score: 24
+Theoretical Score: 23
+Moves: [B@2cd2c764
+Game ID: 382445223937
+Actual Score: 42
+Theoretical Score: 37
+Moves: [B@d17d554
+Game ID: 6670277345281
+Actual Score: 46
+Theoretical Score: 49
+Moves: [B@1f1c7fde
+Game ID: 12657477419009
+Actual Score: 18
+Theoretical Score: 18
+Moves: [B@2b409174
+Game ID: 12657474142209
+Actual Score: 13
+Theoretical Score: 25
+Moves: [B@11939a9f
+Game ID: 13735498547201
+Actual Score: 50
+Theoretical Score: 39
+Moves: [B@229d508c
+Game ID: 13748383449089
+Actual Score: 48
+Theoretical Score: 35
+Moves: [B@5e83298e
+Game ID: 6670258143233
+Actual Score: 37
+Theoretical Score: 31
+Moves: [B@7167d81b
+Game ID: 11399042957313
+Actual Score: 31
+Theoretical Score: 25
+Moves: [B@7cadf3ca
+Game ID: 11398854213633
+Actual Score: 4
+Theoretical Score: 3
+Moves: [B@34fcc5e3
+Game ID: 11399048724481
+Actual Score: 27
+Theoretical Score: 32
+Moves: [B@737445ab
+Game ID: 1640851439617
+Actual Score: 39
+Theoretical Score: 38
+Moves: [B@3c9cfcde
+Game ID: 5995876122625
+Actual Score: 42
+Theoretical Score: 18
+Moves: [B@2f3c7b24
+Game ID: 11012387635201
+Actual Score: 51
+Theoretical Score: 54
+Moves: [B@7dbd70fd
+Game ID: 5995977113601
+Actual Score: 8
+Theoretical Score: 15
+Moves: [B@2cb53bfc
+Game ID: 5995785355265
+Actual Score: 40
+Theoretical Score: 29
+Moves: [B@779448b8
+Game ID: 5995799379969
+Actual Score: 23
+Theoretical Score: 25
+Moves: [B@3bbdf835
+Game ID: 13439044157441
+Actual Score: 42
+Theoretical Score: 42
+Moves: [B@2d114d27
+Game ID: 13748196147201
+Actual Score: 47
+Theoretical Score: 43
+Moves: [B@28fef9a2
+Game ID: 13692361572353
+Actual Score: 33
+Theoretical Score: 36
+Moves: [B@7dfab58d
+Game ID: 382413963265
+Actual Score: 40
+Theoretical Score: 33
+Moves: [B@29d29657
+Game ID: 13752491114497
+Actual Score: 47
+Theoretical Score: 46
+Moves: [B@e0d9e3f
+Game ID: 13288730591233
+Actual Score: 46
+Theoretical Score: 63
+Moves: [B@516155b5
+Game ID: 13469119217665
+Actual Score: 37
+Theoretical Score: 38
+Moves: [B@799fc4c9
+Game ID: 1640779284481
+Actual Score: 17
+Theoretical Score: 21
+Moves: [B@44428583
+Game ID: 6670294056961
+Actual Score: 15
+Theoretical Score: 19
+Moves: [B@265c0752
+Game ID: 8242251038721
+Actual Score: 32
+Theoretical Score: 22
+Moves: [B@7d4b32d1
+Game ID: 8242053251073
+Actual Score: 27
+Theoretical Score: 25
+Moves: [B@7a75183d
+Game ID: 1640803270657
+Actual Score: 51
+Theoretical Score: 43
+Moves: [B@2acbe46d
+Game ID: 13735431176193
+Actual Score: 39
+Theoretical Score: 50
+Moves: [B@6c6b00f1
+Game ID: 10608694984705
+Actual Score: 60
+Theoretical Score: 64
+Moves: [B@48126a17
+Game ID: 9221503582209
+Actual Score: 37
+Theoretical Score: 47
+Moves: [B@1a7437d8
+Game ID: 9221497552897
+Actual Score: 37
+Theoretical Score: 25
+Moves: [B@6f695077
+Game ID: 721695211521
+Actual Score: 35
+Theoretical Score: 43
+Moves: [B@5b31a9e3
+Game ID: 9221504368641
+Actual Score: 53
+Theoretical Score: 48
+Moves: [B@282240
+Game ID: 10857818030081
+Actual Score: 43
+Theoretical Score: 44
+Moves: [B@3b590f6a
+Game ID: 9221456658433
+Actual Score: 26
+Theoretical Score: 26
+Moves: [B@1e160a9e
+Game ID: 9221372313601
+Actual Score: 14
+Theoretical Score: 29
+Moves: [B@483ed60e
+Game ID: 13439093374977
+Actual Score: 48
+Theoretical Score: 55
+Moves: [B@9c5d76b
+Game ID: 13469226237953
+Actual Score: 47
+Theoretical Score: 50
+Moves: [B@7a14ab66
+Game ID: 13683975389185
+Actual Score: 26
+Theoretical Score: 23
+Moves: [B@54780c40
+Game ID: 13683939475457
+Actual Score: 11
+Theoretical Score: 2
+Moves: [B@6ac83e67
+Game ID: 13091269902337
+Actual Score: 8
+Theoretical Score: 19
+Moves: [B@4d91d2da
+Game ID: 11012321181697
+Actual Score: 17
+Theoretical Score: 32
+Moves: [B@12811f95
+Game ID: 10857845358593
+Actual Score: 25
+Theoretical Score: 20
+Moves: [B@68f1b89
+Game ID: 10608737255425
+Actual Score: 41
+Theoretical Score: 32
+Moves: [B@2d1f3639
+Game ID: 13744063381505
+Actual Score: 46
+Theoretical Score: 41
+Moves: [B@6e5b3642
+Game ID: 11381831368705
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@74bcf1ab
+Game ID: 13288838594561
+Actual Score: 20
+Theoretical Score: 44
+Moves: [B@a11efe6
+Game ID: 10608771989505
+Actual Score: 22
+Theoretical Score: 14
+Moves: [B@5e6bbe63
+Game ID: 13288838529025
+Actual Score: 24
+Theoretical Score: 43
+Moves: [B@69356aca
+Game ID: 13288833875969
+Actual Score: 9
+Theoretical Score: 4
+Moves: [B@7a17ffee
+Game ID: 721764286465
+Actual Score: 23
+Theoretical Score: 34
+Moves: [B@7ffc4195
+Game ID: 13469042475009
+Actual Score: 26
+Theoretical Score: 20
+Moves: [B@7ce760af
+Game ID: 13735510933505
+Actual Score: 34
+Theoretical Score: 40
+Moves: [B@3e4636c3
+Game ID: 13469227286529
+Actual Score: 15
+Theoretical Score: 20
+Moves: [B@7b6b466a
+Game ID: 13439158190081
+Actual Score: 55
+Theoretical Score: 47
+Moves: [B@6686507b
+Game ID: 13469191110657
+Actual Score: 8
+Theoretical Score: 16
+Moves: [B@2123a61c
+Game ID: 1640887287809
+Actual Score: 25
+Theoretical Score: 40
+Moves: [B@2e5c7cd5
+Game ID: 13743920381953
+Actual Score: 50
+Theoretical Score: 51
+Moves: [B@f252762
+Game ID: 1640882569217
+Actual Score: 19
+Theoretical Score: 23
+Moves: [B@5b74bb75
+Game ID: 11381688369153
+Actual Score: 60
+Theoretical Score: 61
+Moves: [B@675bf541
+Game ID: 13735471087617
+Actual Score: 17
+Theoretical Score: 27
+Moves: [B@2aac87ab
+Game ID: 13735514341377
+Actual Score: 19
+Theoretical Score: 15
+Moves: [B@c14bbab
+Game ID: 5081155895297
+Actual Score: 39
+Theoretical Score: 42
+Moves: [B@72c5064f
+Game ID: 13744104931329
+Actual Score: 42
+Theoretical Score: 29
+Moves: [B@4a0c04ab
+Game ID: 10857887105025
+Actual Score: 36
+Theoretical Score: 49
+Moves: [B@453439e
+Game ID: 10857754853377
+Actual Score: 11
+Theoretical Score: 18
+Moves: [B@2d33795c
+Game ID: 13752650956801
+Actual Score: 46
+Theoretical Score: 45
+Moves: [B@779ef5cb
+Game ID: 13744061022209
+Actual Score: 38
+Theoretical Score: 49
+Moves: [B@5d9d8ecf
+Game ID: 10857850994689
+Actual Score: 16
+Theoretical Score: 9
+Moves: [B@43cc7951
+Game ID: 10608779001857
+Actual Score: 40
+Theoretical Score: 31
+Moves: [B@758311ed
+Game ID: 13752695062529
+Actual Score: 48
+Theoretical Score: 57
+Moves: [B@7533923b
+Game ID: 13748395376641
+Actual Score: 19
+Theoretical Score: 21
+Moves: [B@446981a4
+Game ID: 13748363984897
+Actual Score: 4
+Theoretical Score: 0
+Moves: [B@644f6e89
+Game ID: 13692517613569
+Actual Score: 30
+Theoretical Score: 20
+Moves: [B@9ae0794
+Game ID: 5081155239937
+Actual Score: 32
+Theoretical Score: 26
+Moves: [B@60e5eed0
+Game ID: 13692565585921
+Actual Score: 18
+Theoretical Score: 14
+Moves: [B@680937c9
+Game ID: 13744104275969
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@77ad2767
+Game ID: 13439161597953
+Actual Score: 30
+Theoretical Score: 26
+Moves: [B@e460ca1
+Game ID: 11381872263169
+Actual Score: 59
+Theoretical Score: 52
+Moves: [B@411ae0d7
+Game ID: 5081108185089
+Actual Score: 51
+Theoretical Score: 50
+Moves: [B@608c2042
+Game ID: 13752647155713
+Actual Score: 42
+Theoretical Score: 43
+Moves: [B@7e84a52b
+Game ID: 10608778936321
+Actual Score: 35
+Theoretical Score: 21
+Moves: [B@40199d5e
+Game ID: 5081156157441
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@5693d1d2
+Game ID: 5081156026369
+Actual Score: 39
+Theoretical Score: 33
+Moves: [B@571c7572
+Game ID: 5081151373313
+Actual Score: 23
+Theoretical Score: 31
+Moves: [B@c6a3f47
+Game ID: 11381740863489
+Actual Score: 44
+Theoretical Score: 49
+Moves: [B@15a0f9
+Game ID: 13744105193473
+Actual Score: 44
+Theoretical Score: 34
+Moves: [B@4840ec68
+Game ID: 13752690343937
+Actual Score: 16
+Theoretical Score: 29
+Moves: [B@7cc3a7f7
+Game ID: 11381873180673
+Actual Score: 48
+Theoretical Score: 36
+Moves: [B@210e2f2f
+Game ID: 13744100409345
+Actual Score: 17
+Theoretical Score: 16
+Moves: [B@c31419f
+Game ID: 11381873049601
+Actual Score: 28
+Theoretical Score: 25
+Moves: [B@43dddfdd
+Game ID: 13439126339585
+Actual Score: 16
+Theoretical Score: 21
+Moves: [B@22c0344e
+Game ID: 10539990646795
+Actual Score: 54
+Theoretical Score: 35
+Moves: [B@7267006e
+Game ID: 10540010045451
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@745c8a04
+Game ID: 38815531019
+Actual Score: 49
+Theoretical Score: 55
+Moves: [B@59d29065
+Game ID: 10505630908427
+Actual Score: 39
+Theoretical Score: 25
+Moves: [B@7a13ad55
+Game ID: 9234180276235
+Actual Score: 36
+Theoretical Score: 30
+Moves: [B@303db609
+Game ID: 38815006731
+Actual Score: 54
+Theoretical Score: 48
+Moves: [B@20a116a0
+Game ID: 489786572811
+Actual Score: 34
+Theoretical Score: 28
+Moves: [B@6dbdeb69
+Game ID: 10505564848139
+Actual Score: 23
+Theoretical Score: 18
+Moves: [B@a238a8e
+Game ID: 38823329803
+Actual Score: 26
+Theoretical Score: 35
+Moves: [B@5773f83d
+Game ID: 38747504651
+Actual Score: 27
+Theoretical Score: 28
+Moves: [B@7fcfe065
+Game ID: 5995774935051
+Actual Score: 42
+Theoretical Score: 44
+Moves: [B@7d2baa56
+Game ID: 489626861579
+Actual Score: 44
+Theoretical Score: 37
+Moves: [B@6b4a2887
+Game ID: 11935722897477
+Actual Score: 27
+Theoretical Score: 27
+Moves: [B@23b087c3
+Game ID: 1640837808197
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@237c8718
+Game ID: 10505498787909
+Actual Score: 36
+Theoretical Score: 33
+Moves: [B@325e03b
+Game ID: 10509945274437
+Actual Score: 42
+Theoretical Score: 40
+Moves: [B@3911fec8
+Game ID: 10505654698053
+Actual Score: 25
+Theoretical Score: 22
+Moves: [B@1e38e8b6
+Game ID: 11935874416709
+Actual Score: 14
+Theoretical Score: 33
+Moves: [B@59bbf82e
+Game ID: 236370001929
+Actual Score: 37
+Theoretical Score: 34
+Moves: [B@75b3ef1a
+Game ID: 7219979550729
+Actual Score: 32
+Theoretical Score: 28
+Moves: [B@43e2b8da
+Game ID: 11141313855497
+Actual Score: 25
+Theoretical Score: 32
+Moves: [B@1ac68548
+Game ID: 13387612619054
+Actual Score: 33
+Theoretical Score: 26
+Moves: [B@1c3a64b6
+Game ID: 13078379823406
+Actual Score: 9
+Theoretical Score: 21
+Moves: [B@761b9314
+Game ID: 13078379692334
+Actual Score: 41
+Theoretical Score: 34
+Moves: [B@20e9c165
+Game ID: 13456336814382
+Actual Score: 19
+Theoretical Score: 13
+Moves: [B@eabecf5
+Game ID: 13078379823406
+Actual Score: 21
+Theoretical Score: 54
+Moves: [B@417b3642
+Game ID: 13460627063086
+Actual Score: 48
+Theoretical Score: 58
+Moves: [B@6bd28e4a
+Game ID: 8877710180708
+Actual Score: 13
+Theoretical Score: 23
+Moves: [B@55e88bc
+Game ID: 8877722632548
+Actual Score: 25
+Theoretical Score: 25
+Moves: [B@544300a6
+Game ID: 1185546436964
+Actual Score: 39
+Theoretical Score: 52
+Moves: [B@4c12f54a
+Game ID: 11197115203940
+Actual Score: 30
+Theoretical Score: 32
+Moves: [B@334d825c
+Game ID: 10604409717092
+Actual Score: 48
+Theoretical Score: 45
+Moves: [B@42a7e7e1
+Game ID: 8525522862436
+Actual Score: 43
+Theoretical Score: 37
+Moves: [B@e2d9923
+Game ID: 837689475428
+Actual Score: 23
+Theoretical Score: 21
+Moves: [B@554e9509
+Game ID: 837528453476
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@acea29e
+Game ID: 837723357540
+Actual Score: 11
+Theoretical Score: 23
+Moves: [B@772bc4c9
+Game ID: 1653692498276
+Actual Score: 33
+Theoretical Score: 36
+Moves: [B@152dbf8e
+Game ID: 1653572239716
+Actual Score: 19
+Theoretical Score: 30
+Moves: [B@34ea86ff
+Game ID: 13370258424164
+Actual Score: 52
+Theoretical Score: 38
+Moves: [B@4bcf08ae
+Game ID: 1653767209316
+Actual Score: 5
+Theoretical Score: 32
+Moves: [B@626b9092
+Game ID: 644263182692
+Actual Score: 24
+Theoretical Score: 27
+Moves: [B@1ac2829e
+Game ID: 644250927460
+Actual Score: 18
+Theoretical Score: 18
+Moves: [B@7a7f2247
+Game ID: 1653697872230
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@4946dfde
+Game ID: 8877827490150
+Actual Score: 21
+Theoretical Score: 22
+Moves: [B@77972964
+Game ID: 644380557670
+Actual Score: 57
+Theoretical Score: 45
+Moves: [B@794f937a
+Game ID: 5081081774438
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@7aa1fb0e
+Game ID: 8877903053158
+Actual Score: 14
+Theoretical Score: 18
+Moves: [B@5e663ab
+Game ID: 8877859209574
+Actual Score: 7
+Theoretical Score: 7
+Moves: [B@4b74a67a
+Game ID: 644270326118
+Actual Score: 37
+Theoretical Score: 43
+Moves: [B@4e25282d
+Game ID: 13477632606566
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@3b29d36c
+Game ID: 914853265766
+Actual Score: 43
+Theoretical Score: 40
+Moves: [B@d641499
+Game ID: 1653768126822
+Actual Score: 13
+Theoretical Score: 12
+Moves: [B@634d3439
+Game ID: 1653767471462
+Actual Score: 16
+Theoretical Score: 0
+Moves: [B@44e0c3d
+Game ID: 1185541063014
+Actual Score: 38
+Theoretical Score: 32
+Moves: [B@71891d6b
+Game ID: 644450746726
+Actual Score: 20
+Theoretical Score: 25
+Moves: [B@5ce41f1f
+Game ID: 914837864806
+Actual Score: 49
+Theoretical Score: 46
+Moves: [B@56820446
+Game ID: 10604284084582
+Actual Score: 43
+Theoretical Score: 40
+Moves: [B@2259d54f
+Game ID: 644450156902
+Actual Score: 20
+Theoretical Score: 18
+Moves: [B@1b82f62a
+Game ID: 13477625463142
+Actual Score: 20
+Theoretical Score: 35
+Moves: [B@67e21ea2
+Game ID: 1185572782438
+Actual Score: 17
+Theoretical Score: 22
+Moves: [B@2184962c
+Game ID: 1185616036198
+Actual Score: 24
+Theoretical Score: 20
+Moves: [B@4d9bccfe
+Game ID: 13426085855590
+Actual Score: 53
+Theoretical Score: 50
+Moves: [B@412440c1
+Game ID: 120394547560
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@36c45149
+Game ID: 120429937000
+Actual Score: 12
+Theoretical Score: 26
+Moves: [B@33f4844b
+Game ID: 10604276089192
+Actual Score: 52
+Theoretical Score: 38
+Moves: [B@201b52f7
+Game ID: 120464671080
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@435a2c7d
+Game ID: 5080948146536
+Actual Score: 54
+Theoretical Score: 54
+Moves: [B@57806346
+Game ID: 11639496835291
+Actual Score: 40
+Theoretical Score: 33
+Moves: [B@40416321
+Game ID: 8877699236059
+Actual Score: 29
+Theoretical Score: 38
+Moves: [B@3ab70d34
+Game ID: 11639363207387
+Actual Score: 29
+Theoretical Score: 34
+Moves: [B@289cf7db
+Game ID: 13417479667931
+Actual Score: 46
+Theoretical Score: 51
+Moves: [B@7c523bdd
+Game ID: 120333730011
+Actual Score: 17
+Theoretical Score: 12
+Moves: [B@3741071d
+Game ID: 120459886811
+Actual Score: 24
+Theoretical Score: 9
+Moves: [B@351d726c
+Game ID: 120438718683
+Actual Score: 24
+Theoretical Score: 7
+Moves: [B@7af0693b
+Game ID: 120469455067
+Actual Score: 23
+Theoretical Score: 15
+Moves: [B@1791396b
+Game ID: 12657368039635
+Actual Score: 48
+Theoretical Score: 28
+Moves: [B@28d7bd6b
+Game ID: 6515658522835
+Actual Score: 7
+Theoretical Score: 27
+Moves: [B@7607340f
+Game ID: 11261503668435
+Actual Score: 17
+Theoretical Score: 21
+Moves: [B@f472245
+Game ID: 6515637223635
+Actual Score: 27
+Theoretical Score: 33
+Moves: [B@110318a7
+Game ID: 10857776742611
+Actual Score: 50
+Theoretical Score: 38
+Moves: [B@42ac309
+Game ID: 6515631063251
+Actual Score: 10
+Theoretical Score: 27
+Moves: [B@4b4228cf
+Game ID: 9453322436819
+Actual Score: 53
+Theoretical Score: 44
+Moves: [B@7d216ee8
+Game ID: 6515609632979
+Actual Score: 12
+Theoretical Score: 1
+Moves: [B@74ee97cb
+Game ID: 6515632308435
+Actual Score: 7
+Theoretical Score: 20
+Moves: [B@268e30d4
+Game ID: 12657440456915
+Actual Score: 27
+Theoretical Score: 29
+Moves: [B@7c50709a
+Game ID: 12657434296531
+Actual Score: 14
+Theoretical Score: 10
+Moves: [B@af007d6
+Game ID: 12657412866259
+Actual Score: 18
+Theoretical Score: 22
+Moves: [B@a20898c
+Game ID: 10939474837715
+Actual Score: 54
+Theoretical Score: 56
+Moves: [B@5dff108c
+Game ID: 7877064130825
+Actual Score: 30
+Theoretical Score: 25
+Moves: [B@22d47f09
+Game ID: 7335924334857
+Actual Score: 35
+Theoretical Score: 30
+Moves: [B@28100232
+Game ID: 7877101355273
+Actual Score: 15
+Theoretical Score: 21
+Moves: [B@26728255
+Game ID: 8813393084681
+Actual Score: 57
+Theoretical Score: 47
+Moves: [B@32c8d67
+Game ID: 8585733734665
+Actual Score: 24
+Theoretical Score: 30
+Moves: [B@281963c
+Game ID: 7335935148297
+Actual Score: 39
+Theoretical Score: 38
+Moves: [B@2a2815cc
+Game ID: 8607245467913
+Actual Score: 32
+Theoretical Score: 28
+Moves: [B@18fa5af6
+Game ID: 8585774104841
+Actual Score: 26
+Theoretical Score: 22
+Moves: [B@7fdabb3b
+Game ID: 6167684972809
+Actual Score: 23
+Theoretical Score: 26
+Moves: [B@7164e28a
+Game ID: 8559963930889
+Actual Score: 41
+Theoretical Score: 45
+Moves: [B@1b881f1f
+Game ID: 6167704371465
+Actual Score: 28
+Theoretical Score: 37
+Moves: [B@51efdb72
+Game ID: 6167707517193
+Actual Score: 7
+Theoretical Score: 23
+Moves: [B@7bc6b117
+Game ID: 7335934755081
+Actual Score: 18
+Theoretical Score: 19
+Moves: [B@2de07c57
+Game ID: 7335935475977
+Actual Score: 24
+Theoretical Score: 21
+Moves: [B@76cbee13
+Game ID: 8813384827145
+Actual Score: 46
+Theoretical Score: 42
+Moves: [B@59d09ff3
+Game ID: 8607245074697
+Actual Score: 33
+Theoretical Score: 35
+Moves: [B@17d0d3d7
+Game ID: 8560004301065
+Actual Score: 21
+Theoretical Score: 26
+Moves: [B@39fc17be
+Game ID: 8607248941321
+Actual Score: 9
+Theoretical Score: 8
+Moves: [B@106edde4
+Game ID: 7877081956618
+Actual Score: 23
+Theoretical Score: 26
+Moves: [B@4d9cf71d
+Game ID: 6167693230346
+Actual Score: 48
+Theoretical Score: 34
+Moves: [B@5c43cb12
+Game ID: 8272227205386
+Actual Score: 43
+Theoretical Score: 37
+Moves: [B@5db66c3
+Game ID: 7877086216458
+Actual Score: 4
+Theoretical Score: 16
+Moves: [B@633c0a61
+Game ID: 6167684972810
+Actual Score: 39
+Theoretical Score: 29
+Moves: [B@49322d04
+Game ID: 7335935148298
+Actual Score: 27
+Theoretical Score: 32
+Moves: [B@b6b746b
+Game ID: 7335935475978
+Actual Score: 20
+Theoretical Score: 25
+Moves: [B@55d8f6bb
+Game ID: 7335903625482
+Actual Score: 11
+Theoretical Score: 23
+Moves: [B@56b48163
+Game ID: 7335930364170
+Actual Score: 16
+Theoretical Score: 26
+Moves: [B@eb6ccbc
+Game ID: 6833404903690
+Actual Score: 43
+Theoretical Score: 48
+Moves: [B@5eae392d
+Game ID: 8559963930890
+Actual Score: 39
+Theoretical Score: 37
+Moves: [B@4cd1716d
+Game ID: 6167704043786
+Actual Score: 17
+Theoretical Score: 28
+Moves: [B@3e1c5e0d
+Game ID: 8607208571146
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@6f7a65e
+Game ID: 6519854465290
+Actual Score: 46
+Theoretical Score: 37
+Moves: [B@29bf90fc
+Game ID: 8813367001354
+Actual Score: 39
+Theoretical Score: 35
+Moves: [B@6e22d6bf
+Game ID: 8559996043530
+Actual Score: 23
+Theoretical Score: 30
+Moves: [B@32121140
+Game ID: 8813403504906
+Actual Score: 44
+Theoretical Score: 50
+Moves: [B@96c840a
+Game ID: 6833423581450
+Actual Score: 50
+Theoretical Score: 47
+Moves: [B@5c81ddab
+Game ID: 8585774104842
+Actual Score: 6
+Theoretical Score: 20
+Moves: [B@24ee6faa
+Game ID: 8585743892746
+Actual Score: 29
+Theoretical Score: 30
+Moves: [B@6d4f266
+Game ID: 6519891689738
+Actual Score: 33
+Theoretical Score: 38
+Moves: [B@6b756a62
+Game ID: 8607230656778
+Actual Score: 24
+Theoretical Score: 29
+Moves: [B@394b9e22
+Game ID: 8272206496010
+Actual Score: 52
+Theoretical Score: 39
+Moves: [B@6e0f259e
+Game ID: 6519894835466
+Actual Score: 22
+Theoretical Score: 28
+Moves: [B@4fe9adfb
+Game ID: 7615076499722
+Actual Score: 42
+Theoretical Score: 41
+Moves: [B@f8fe81e
+Game ID: 8272223207690
+Actual Score: 27
+Theoretical Score: 41
+Moves: [B@6ad0cd43
+Game ID: 6833419190538
+Actual Score: 36
+Theoretical Score: 26
+Moves: [B@7de43652
+Game ID: 7615111495946
+Actual Score: 37
+Theoretical Score: 46
+Moves: [B@7fe0ca60
+Game ID: 8813377159434
+Actual Score: 29
+Theoretical Score: 30
+Moves: [B@fdf029a
+Game ID: 7615081283850
+Actual Score: 21
+Theoretical Score: 18
+Moves: [B@63896cf7
+Game ID: 7877101027595
+Actual Score: 27
+Theoretical Score: 20
+Moves: [B@3f838072
+Game ID: 7335924334859
+Actual Score: 28
+Theoretical Score: 28
+Moves: [B@46c9ee28
+Game ID: 7877100634379
+Actual Score: 25
+Theoretical Score: 29
+Moves: [B@31f5ffb9
+Game ID: 7877064130827
+Actual Score: 32
+Theoretical Score: 38
+Moves: [B@19b3d3a4
+Game ID: 7877104501003
+Actual Score: 26
+Theoretical Score: 21
+Moves: [B@3a9040f0
+Game ID: 8585751560459
+Actual Score: 28
+Theoretical Score: 38
+Moves: [B@33214124
+Game ID: 8560000827659
+Actual Score: 30
+Theoretical Score: 39
+Moves: [B@2d3768ce
+Game ID: 6167704043787
+Actual Score: 41
+Theoretical Score: 41
+Moves: [B@2a9ea03f
+Game ID: 8559981756683
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@1231f25c
+Game ID: 7335898251531
+Actual Score: 26
+Theoretical Score: 29
+Moves: [B@2ba0b95f
+Game ID: 7335935475979
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@3dc7c5fd
+Game ID: 8813384827147
+Actual Score: 54
+Theoretical Score: 48
+Moves: [B@62871522
+Game ID: 6167703650571
+Actual Score: 44
+Theoretical Score: 31
+Moves: [B@7fb9a83c
+Game ID: 6167704371467
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@517d9cd5
+Game ID: 8813367001355
+Actual Score: 44
+Theoretical Score: 36
+Moves: [B@5216532a
+Game ID: 8607248941323
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@862624f
+Game ID: 7335898251532
+Actual Score: 32
+Theoretical Score: 17
+Moves: [B@3aa8c337
+Game ID: 6167684972812
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@78e7b83
+Game ID: 6167704371468
+Actual Score: 28
+Theoretical Score: 31
+Moves: [B@6761f75b
+Game ID: 9165554319628
+Actual Score: 42
+Theoretical Score: 42
+Moves: [B@7c8a91e2
+Game ID: 8607226396940
+Actual Score: 47
+Theoretical Score: 46
+Moves: [B@c7443f
+Game ID: 8813384827148
+Actual Score: 46
+Theoretical Score: 47
+Moves: [B@74e175c7
+Game ID: 7335943995660
+Actual Score: 8
+Theoretical Score: 10
+Moves: [B@1c528f2f
+Game ID: 8607248941324
+Actual Score: 28
+Theoretical Score: 36
+Moves: [B@34ff08c6
+Game ID: 8813404225804
+Actual Score: 54
+Theoretical Score: 28
+Moves: [B@e2344da
+Game ID: 8813412745484
+Actual Score: 29
+Theoretical Score: 23
+Moves: [B@71135794
+Game ID: 7876971462662
+Actual Score: 25
+Theoretical Score: 29
+Moves: [B@79b0956e
+Game ID: 94609473542
+Actual Score: 18
+Theoretical Score: 32
+Moves: [B@35451ba6
+Game ID: 94609473542
+Actual Score: 33
+Theoretical Score: 33
+Moves: [B@21d48c40
+Game ID: 55994875910
+Actual Score: 39
+Theoretical Score: 35
+Moves: [B@4a10c019
+Game ID: 94609473542
+Actual Score: 40
+Theoretical Score: 32
+Moves: [B@37f627d0
+Game ID: 7876970872838
+Actual Score: 26
+Theoretical Score: 30
+Moves: [B@2a7392a3
+Game ID: 7877130321926
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@2fc0ad21
+Game ID: 10342401441798
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@639cb0c8
+Game ID: 7877081956358
+Actual Score: 27
+Theoretical Score: 30
+Moves: [B@65d2d3cc
+Game ID: 7877082152966
+Actual Score: 11
+Theoretical Score: 32
+Moves: [B@5382a35f
+Game ID: 7877069438982
+Actual Score: 28
+Theoretical Score: 34
+Moves: [B@7901a5ab
+Game ID: 10376761180166
+Actual Score: 60
+Theoretical Score: 62
+Moves: [B@7f9d40b3
+Game ID: 94490132486
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@ca2a03f
+Game ID: 94649581574
+Actual Score: 28
+Theoretical Score: 37
+Moves: [B@4a7c72af
+Game ID: 5179732000774
+Actual Score: 38
+Theoretical Score: 33
+Moves: [B@3e24bab6
+Game ID: 10342282690566
+Actual Score: 34
+Theoretical Score: 35
+Moves: [B@2ba9ed19
+Game ID: 7335805583366
+Actual Score: 42
+Theoretical Score: 40
+Moves: [B@3293030b
+Game ID: 60130983942
+Actual Score: 46
+Theoretical Score: 33
+Moves: [B@1b53e6fc
+Game ID: 94619893766
+Actual Score: 25
+Theoretical Score: 31
+Moves: [B@391e2a
+Game ID: 6515466829830
+Actual Score: 46
+Theoretical Score: 33
+Moves: [B@641cea11
+Game ID: 94583390214
+Actual Score: 24
+Theoretical Score: 32
+Moves: [B@4e3d36c2
+Game ID: 10376642428934
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@4add4dff
+Game ID: 10505490857990
+Actual Score: 19
+Theoretical Score: 29
+Moves: [B@25dc2c0
+Game ID: 55913611270
+Actual Score: 28
+Theoretical Score: 32
+Moves: [B@192ecf8
+Game ID: 55992385542
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@263e512e
+Game ID: 55946706950
+Actual Score: 20
+Theoretical Score: 24
+Moves: [B@62c42a3
+Game ID: 55839948806
+Actual Score: 43
+Theoretical Score: 33
+Moves: [B@6a8bcb64
+Game ID: 5995775197190
+Actual Score: 42
+Theoretical Score: 41
+Moves: [B@7c680fe1
+Game ID: 55969054726
+Actual Score: 16
+Theoretical Score: 30
+Moves: [B@288b8663
+Game ID: 55861772294
+Actual Score: 15
+Theoretical Score: 8
+Moves: [B@4cd6f08b
+Game ID: 5179890860038
+Actual Score: 52
+Theoretical Score: 51
+Moves: [B@78b2d29e
+Game ID: 10505647816710
+Actual Score: 21
+Theoretical Score: 23
+Moves: [B@4419cd6e
+Game ID: 10505619177478
+Actual Score: 26
+Theoretical Score: 27
+Moves: [B@3055f310
+Game ID: 7335964442630
+Actual Score: 31
+Theoretical Score: 38
+Moves: [B@4b7c0f39
+Game ID: 10505490923526
+Actual Score: 32
+Theoretical Score: 28
+Moves: [B@25b402ea
+Game ID: 13469177741318
+Actual Score: 53
+Theoretical Score: 49
+Moves: [B@2fccd98f
+Game ID: 10505581494278
+Actual Score: 13
+Theoretical Score: 27
+Moves: [B@309e7215
+Game ID: 640110428166
+Actual Score: 53
+Theoretical Score: 45
+Moves: [B@1b30b6f8
+Game ID: 5179888369670
+Actual Score: 33
+Theoretical Score: 30
+Moves: [B@1e965426
+Game ID: 5179842494470
+Actual Score: 19
+Theoretical Score: 20
+Moves: [B@575fe6da
+Game ID: 7877049057286
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@149238fe
+Game ID: 7348768079878
+Actual Score: 38
+Theoretical Score: 33
+Moves: [B@a0bdbe2
+Game ID: 352266354694
+Actual Score: 56
+Theoretical Score: 44
+Moves: [B@261099e1
+Game ID: 6167652073478
+Actual Score: 33
+Theoretical Score: 36
+Moves: [B@ed1d2cf
+Game ID: 8813351927814
+Actual Score: 47
+Theoretical Score: 38
+Moves: [B@b814e23
+Game ID: 5179895775238
+Actual Score: 26
+Theoretical Score: 20
+Moves: [B@5f81507a
+Game ID: 8465538351110
+Actual Score: 45
+Theoretical Score: 42
+Moves: [B@7d7c05fa
+Game ID: 10342393184262
+Actual Score: 48
+Theoretical Score: 48
+Moves: [B@7dbbf730
+Game ID: 10342282166278
+Actual Score: 30
+Theoretical Score: 38
+Moves: [B@7c4a5ef2
+Game ID: 10376798797830
+Actual Score: 57
+Theoretical Score: 50
+Moves: [B@299dd381
+Game ID: 10342415728646
+Actual Score: 23
+Theoretical Score: 18
+Moves: [B@34d3409d
+Game ID: 8465492475910
+Actual Score: 32
+Theoretical Score: 31
+Moves: [B@16732340
+Game ID: 60258713606
+Actual Score: 38
+Theoretical Score: 42
+Moves: [B@38e052b2
+Game ID: 352316489734
+Actual Score: 26
+Theoretical Score: 21
+Moves: [B@7fa68ff4
+Game ID: 8465392861190
+Actual Score: 10
+Theoretical Score: 24
+Moves: [B@515fff35
+Game ID: 6515594559494
+Actual Score: 35
+Theoretical Score: 34
+Moves: [B@5eb9bf7d
+Game ID: 10376770158598
+Actual Score: 44
+Theoretical Score: 44
+Moves: [B@64f613da
+Game ID: 8465472028678
+Actual Score: 42
+Theoretical Score: 39
+Moves: [B@2f64f99f
+Game ID: 8465474387974
+Actual Score: 25
+Theoretical Score: 25
+Moves: [B@16c1d11
+Game ID: 640079298566
+Actual Score: 53
+Theoretical Score: 39
+Moves: [B@123d0816
+Game ID: 60241477638
+Actual Score: 12
+Theoretical Score: 23
+Moves: [B@4601a148
+Game ID: 7335934754822
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@4e210016
+Game ID: 7335916273670
+Actual Score: 32
+Theoretical Score: 31
+Moves: [B@2fc40856
+Game ID: 5995886280710
+Actual Score: 36
+Theoretical Score: 31
+Moves: [B@5543d800
+Game ID: 7336009596934
+Actual Score: 3
+Theoretical Score: 5
+Moves: [B@1e033801
+Game ID: 60228960262
+Actual Score: 40
+Theoretical Score: 38
+Moves: [B@58e4aa67
+Game ID: 60223651846
+Actual Score: 16
+Theoretical Score: 34
+Moves: [B@57ed8f95
+Game ID: 8813273808902
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@1c25deb0
+Game ID: 639951044614
+Actual Score: 37
+Theoretical Score: 37
+Moves: [B@1be12e05
+Game ID: 13232795156486
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@66ab088c
+Game ID: 60306554886
+Actual Score: 21
+Theoretical Score: 11
+Moves: [B@5d01a2eb
+Game ID: 7348819656710
+Actual Score: 38
+Theoretical Score: 29
+Moves: [B@6fe337a5
+Game ID: 8559882141702
+Actual Score: 38
+Theoretical Score: 43
+Moves: [B@7d60bd5a
+Game ID: 8559969239046
+Actual Score: 35
+Theoretical Score: 35
+Moves: [B@43312512
+Game ID: 5995904958470
+Actual Score: 42
+Theoretical Score: 31
+Moves: [B@13f7c165
+Game ID: 8559963668486
+Actual Score: 13
+Theoretical Score: 20
+Moves: [B@655f92a1
+Game ID: 807565983750
+Actual Score: 50
+Theoretical Score: 30
+Moves: [B@1d2d793d
+Game ID: 7348894564358
+Actual Score: 18
+Theoretical Score: 19
+Moves: [B@57fec63f
+Game ID: 7348783153158
+Actual Score: 22
+Theoretical Score: 26
+Moves: [B@7a2fd94c
+Game ID: 10376753119238
+Actual Score: 57
+Theoretical Score: 44
+Moves: [B@637c8632
+Game ID: 7348782891014
+Actual Score: 21
+Theoretical Score: 17
+Moves: [B@156eeff1
+Game ID: 13232906371078
+Actual Score: 50
+Theoretical Score: 49
+Moves: [B@34001c5d
+Game ID: 6515470761990
+Actual Score: 16
+Theoretical Score: 23
+Moves: [B@30e15628
+Game ID: 8813278265350
+Actual Score: 60
+Theoretical Score: 60
+Moves: [B@37ab1b10
+Game ID: 6150398541830
+Actual Score: 40
+Theoretical Score: 40
+Moves: [B@55d87b73
+Game ID: 13232799612934
+Actual Score: 43
+Theoretical Score: 40
+Moves: [B@618e7761
+Game ID: 13469029761030
+Actual Score: 33
+Theoretical Score: 26
+Moves: [B@5b643d6e
+Game ID: 807547961350
+Actual Score: 42
+Theoretical Score: 38
+Moves: [B@34f8ce89
+Game ID: 807612186630
+Actual Score: 42
+Theoretical Score: 39
+Moves: [B@22ed2886
+Game ID: 8813285212166
+Actual Score: 38
+Theoretical Score: 47
+Moves: [B@30ca66c5
+Game ID: 10827624873990
+Actual Score: 53
+Theoretical Score: 51
+Moves: [B@4abfa2ff
+Game ID: 13232806559750
+Actual Score: 36
+Theoretical Score: 46
+Moves: [B@38c1b1a7
+Game ID: 807659307014
+Actual Score: 21
+Theoretical Score: 27
+Moves: [B@73230721
+Game ID: 13469108928518
+Actual Score: 29
+Theoretical Score: 35
+Moves: [B@10bcbbce
+Game ID: 13469151920134
+Actual Score: 44
+Theoretical Score: 36
+Moves: [B@27234b7c
+Game ID: 6150598688774
+Actual Score: 36
+Theoretical Score: 52
+Moves: [B@125a8ab6
+Game ID: 10827818074118
+Actual Score: 36
+Theoretical Score: 48
+Moves: [B@792b9dd3
+Game ID: 6167672455174
+Actual Score: 32
+Theoretical Score: 25
+Moves: [B@cbc3bf3
+Game ID: 6515623723014
+Actual Score: 39
+Theoretical Score: 38
+Moves: [B@31f9f9b3
+Game ID: 640049545222
+Actual Score: 22
+Theoretical Score: 27
+Moves: [B@7730da00
+Game ID: 6515476398086
+Actual Score: 11
+Theoretical Score: 19
+Moves: [B@52d01430
+Game ID: 6167584047110
+Actual Score: 14
+Theoretical Score: 20
+Moves: [B@3fdede3a
+Game ID: 10827706662918
+Actual Score: 43
+Theoretical Score: 32
+Moves: [B@41948c13
+Game ID: 6167581032454
+Actual Score: 22
+Theoretical Score: 11
+Moves: [B@3085befb
+Game ID: 6150551502854
+Actual Score: 23
+Theoretical Score: 31
+Moves: [B@62264d4f
+Game ID: 10827770888198
+Actual Score: 38
+Theoretical Score: 48
+Moves: [B@2bc0603f
+Game ID: 10376668184582
+Actual Score: 20
+Theoretical Score: 32
+Moves: [B@4ed19540
+Game ID: 13232952573958
+Actual Score: 55
+Theoretical Score: 46
+Moves: [B@533e8807
+Game ID: 5995868192774
+Actual Score: 33
+Theoretical Score: 25
+Moves: [B@322eb1a
+Game ID: 1782502916102
+Actual Score: 48
+Theoretical Score: 45
+Moves: [B@2b4ba2d9
+Game ID: 8813282656262
+Actual Score: 29
+Theoretical Score: 45
+Moves: [B@69f24965
+Game ID: 11600841146374
+Actual Score: 40
+Theoretical Score: 37
+Moves: [B@4eab9aec
+Game ID: 13464856952838
+Actual Score: 61
+Theoretical Score: 55
+Moves: [B@5a45c218
+Game ID: 10827706400774
+Actual Score: 26
+Theoretical Score: 43
+Moves: [B@2c6efee3
+Game ID: 6150595084294
+Actual Score: 25
+Theoretical Score: 34
+Moves: [B@57ac236a
+Game ID: 6150570180614
+Actual Score: 10
+Theoretical Score: 22
+Moves: [B@4542af89
+Game ID: 721719721990
+Actual Score: 31
+Theoretical Score: 15
+Moves: [B@3163e03b
+Game ID: 721756422150
+Actual Score: 23
+Theoretical Score: 33
+Moves: [B@6aa18912
+Game ID: 11600871882758
+Actual Score: 46
+Theoretical Score: 32
+Moves: [B@5c20505f
+Game ID: 13464887689222
+Actual Score: 38
+Theoretical Score: 27
+Moves: [B@cce92b5
+Game ID: 1782613344262
+Actual Score: 34
+Theoretical Score: 24
+Moves: [B@2202c92f
+Game ID: 11600908582918
+Actual Score: 32
+Theoretical Score: 38
+Moves: [B@440d2d64
+Game ID: 13464924389382
+Actual Score: 34
+Theoretical Score: 51
+Moves: [B@1a712f12
+Game ID: 4374003722
+Actual Score: 42
+Theoretical Score: 32
+Moves: [B@62525dd3
+Game ID: 5179730624522
+Actual Score: 21
+Theoretical Score: 26
+Moves: [B@56adbb07
+Game ID: 94588698634
+Actual Score: 29
+Theoretical Score: 29
+Moves: [B@7be6dabb
+Game ID: 4374003722
+Actual Score: 30
+Theoretical Score: 32
+Moves: [B@68fc636a
+Game ID: 5179829977098
+Actual Score: 27
+Theoretical Score: 32
+Moves: [B@18301763
+Game ID: 94568316938
+Actual Score: 38
+Theoretical Score: 31
+Moves: [B@237ee2e1
+Game ID: 12963938314
+Actual Score: 33
+Theoretical Score: 35
+Moves: [B@6e00d737
+Game ID: 120338120714
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@656c0eae
+Game ID: 5179731148810
+Actual Score: 19
+Theoretical Score: 22
+Moves: [B@7d7f966f
+Game ID: 5179755593738
+Actual Score: 6
+Theoretical Score: 9
+Moves: [B@29c21acb
+Game ID: 5179823357962
+Actual Score: 26
+Theoretical Score: 24
+Moves: [B@4113d9ab
+Game ID: 5995853381642
+Actual Score: 47
+Theoretical Score: 47
+Moves: [B@448fa659
+Game ID: 5179736391690
+Actual Score: 27
+Theoretical Score: 35
+Moves: [B@45c28c49
+Game ID: 5179823292426
+Actual Score: 12
+Theoretical Score: 20
+Moves: [B@7c6fc278
+Game ID: 4394385418
+Actual Score: 20
+Theoretical Score: 31
+Moves: [B@23ee92df
+Game ID: 94489346058
+Actual Score: 43
+Theoretical Score: 32
+Moves: [B@1a6a4595
+Game ID: 4295163914
+Actual Score: 44
+Theoretical Score: 34
+Moves: [B@4b1b2255
+Game ID: 4296802314
+Actual Score: 27
+Theoretical Score: 32
+Moves: [B@4965454c
+Game ID: 38654771210
+Actual Score: 32
+Theoretical Score: 31
+Moves: [B@1e4a4ed5
+Game ID: 1640677572618
+Actual Score: 48
+Theoretical Score: 40
+Moves: [B@5644f664
+Game ID: 4387766282
+Actual Score: 31
+Theoretical Score: 34
+Moves: [B@445f6f73
+Game ID: 4386455562
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@27f31d91
+Game ID: 382252154890
+Actual Score: 38
+Theoretical Score: 35
+Moves: [B@6b03c35c
+Game ID: 6077378789386
+Actual Score: 54
+Theoretical Score: 57
+Moves: [B@1a05ff8e
+Game ID: 94588698634
+Actual Score: 53
+Theoretical Score: 44
+Moves: [B@251e2f4a
+Game ID: 6515465584650
+Actual Score: 10
+Theoretical Score: 23
+Moves: [B@1abea1ed
+Game ID: 6515467223050
+Actual Score: 16
+Theoretical Score: 31
+Moves: [B@6f5288c5
+Game ID: 6515465977866
+Actual Score: 25
+Theoretical Score: 37
+Moves: [B@5a9ef32e
+Game ID: 6515490422794
+Actual Score: 7
+Theoretical Score: 28
+Moves: [B@e2ee348
+Game ID: 6081773109258
+Actual Score: 48
+Theoretical Score: 45
+Moves: [B@61f08aa9
+Game ID: 5995873763338
+Actual Score: 44
+Theoretical Score: 44
+Moves: [B@1a1f22f2
+Game ID: 382351507466
+Actual Score: 49
+Theoretical Score: 48
+Moves: [B@37b5a51c
+Game ID: 6515558121482
+Actual Score: 10
+Theoretical Score: 28
+Moves: [B@4e782401
+Game ID: 94489477130
+Actual Score: 15
+Theoretical Score: 26
+Moves: [B@2bb84aa5
+Game ID: 94491115530
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@4853f592
+Game ID: 38656147466
+Actual Score: 44
+Theoretical Score: 43
+Moves: [B@52d434c1
+Game ID: 1640678948874
+Actual Score: 53
+Theoretical Score: 51
+Moves: [B@5d035ab6
+Game ID: 94580768778
+Actual Score: 21
+Theoretical Score: 26
+Moves: [B@3407ded1
+Game ID: 382253531146
+Actual Score: 53
+Theoretical Score: 60
+Moves: [B@63af52a6
+Game ID: 6077380165642
+Actual Score: 54
+Theoretical Score: 39
+Moves: [B@10ae002e
+Game ID: 12886736906
+Actual Score: 18
+Theoretical Score: 34
+Moves: [B@573f2e67
+Game ID: 38654902282
+Actual Score: 40
+Theoretical Score: 39
+Moves: [B@5d449307
+Game ID: 12909936650
+Actual Score: 25
+Theoretical Score: 30
+Moves: [B@44e7c06b
+Game ID: 12977700874
+Actual Score: 23
+Theoretical Score: 29
+Moves: [B@24a807a9
+Game ID: 5995774541834
+Actual Score: 48
+Theoretical Score: 38
+Moves: [B@aca594d
+Game ID: 12890734602
+Actual Score: 7
+Theoretical Score: 19
+Moves: [B@736f2fb8
+Game ID: 6077378920458
+Actual Score: 46
+Theoretical Score: 31
+Moves: [B@9715d26
+Game ID: 38656540682
+Actual Score: 43
+Theoretical Score: 45
+Moves: [B@6d8096ee
+Game ID: 120284119050
+Actual Score: 48
+Theoretical Score: 31
+Moves: [B@35d8ba22
+Game ID: 120351883274
+Actual Score: 24
+Theoretical Score: 26
+Moves: [B@3fc051ce
+Game ID: 5995776180234
+Actual Score: 59
+Theoretical Score: 53
+Moves: [B@3c5bb37d
+Game ID: 120264917002
+Actual Score: 27
+Theoretical Score: 25
+Moves: [B@558575fe
+Game ID: 120351817738
+Actual Score: 0
+Theoretical Score: 9
+Moves: [B@25fcdcc6
+Game ID: 1640678096906
+Actual Score: 32
+Theoretical Score: 40
+Moves: [B@180fb796
+Game ID: 6081674280970
+Actual Score: 44
+Theoretical Score: 27
+Moves: [B@79ae3fb1
+Game ID: 38746193930
+Actual Score: 24
+Theoretical Score: 25
+Moves: [B@7fa8fff
+Game ID: 382252679178
+Actual Score: 43
+Theoretical Score: 38
+Moves: [B@4423692a
+Game ID: 6077379313674
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@2175d53f
+Game ID: 1640768995338
+Actual Score: 18
+Theoretical Score: 28
+Moves: [B@29ae2517
+Game ID: 382277124106
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@7a78d2aa
+Game ID: 5995867144202
+Actual Score: 38
+Theoretical Score: 35
+Moves: [B@254d8ef6
+Game ID: 6081679523850
+Actual Score: 23
+Theoretical Score: 44
+Moves: [B@2a9e7b4d
+Game ID: 5995780177930
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@72406594
+Game ID: 382344822794
+Actual Score: 30
+Theoretical Score: 27
+Moves: [B@4e1104f4
+Game ID: 9406057414901
+Actual Score: 29
+Theoretical Score: 28
+Moves: [B@76219fe
+Game ID: 5179874083061
+Actual Score: 35
+Theoretical Score: 26
+Moves: [B@5eff5e4c
+Game ID: 4483252469
+Actual Score: 16
+Theoretical Score: 21
+Moves: [B@2fe2fcc2
+Game ID: 9406057414901
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@69926b6e
+Game ID: 5179874083061
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@7ea8224b
+Game ID: 4374003957
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@5a010eec
+Game ID: 5179730624757
+Actual Score: 17
+Theoretical Score: 33
+Moves: [B@623ded82
+Game ID: 12339520078069
+Actual Score: 58
+Theoretical Score: 56
+Moves: [B@180e33b0
+Game ID: 5179918844149
+Actual Score: 27
+Theoretical Score: 26
+Moves: [B@270be080
+Game ID: 13726794514677
+Actual Score: 45
+Theoretical Score: 44
+Moves: [B@752ffce3
+Game ID: 5179940012277
+Actual Score: 26
+Theoretical Score: 16
+Moves: [B@78f35e39
+Game ID: 4438491381
+Actual Score: 16
+Theoretical Score: 38
+Moves: [B@11896124
+Game ID: 9405978444021
+Actual Score: 28
+Theoretical Score: 28
+Moves: [B@69fe8c75
+Game ID: 12339584565493
+Actual Score: 42
+Theoretical Score: 43
+Moves: [B@633cad4d
+Game ID: 9406166663413
+Actual Score: 26
+Theoretical Score: 40
+Moves: [B@15c3585
+Game ID: 13726859002101
+Actual Score: 41
+Theoretical Score: 41
+Moves: [B@5b86f4cb
+Game ID: 9406187831541
+Actual Score: 31
+Theoretical Score: 30
+Moves: [B@468646ea
+Game ID: 12339441107189
+Actual Score: 28
+Theoretical Score: 35
+Moves: [B@4056cdb2
+Game ID: 4483252469
+Actual Score: 17
+Theoretical Score: 31
+Moves: [B@20462820
+Game ID: 13726715543797
+Actual Score: 43
+Theoretical Score: 41
+Moves: [B@4c0ab04f
+Game ID: 4504420597
+Actual Score: 23
+Theoretical Score: 24
+Moves: [B@384f0e32
+Game ID: 12339650494709
+Actual Score: 22
+Theoretical Score: 27
+Moves: [B@4e826fd4
+Game ID: 4296802607
+Actual Score: 49
+Theoretical Score: 35
+Moves: [B@5f14590c
+Game ID: 120259150127
+Actual Score: 26
+Theoretical Score: 27
+Moves: [B@46051269
+Game ID: 13567985254703
+Actual Score: 21
+Theoretical Score: 32
+Moves: [B@67baa05
+Game ID: 7877101027479
+Actual Score: 26
+Theoretical Score: 24
+Moves: [B@5b5a89d1
+Game ID: 8585759817879
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@267b678f
+Game ID: 7877101027479
+Actual Score: 22
+Theoretical Score: 25
+Moves: [B@4803bf73
+Game ID: 120371019927
+Actual Score: 50
+Theoretical Score: 39
+Moves: [B@13731ff4
+Game ID: 7877081956503
+Actual Score: 32
+Theoretical Score: 28
+Moves: [B@1ce8084a
+Game ID: 7876971856023
+Actual Score: 30
+Theoretical Score: 25
+Moves: [B@61d24347
+Game ID: 7876970086551
+Actual Score: 40
+Theoretical Score: 29
+Moves: [B@347f8029
+Game ID: 94609473687
+Actual Score: 33
+Theoretical Score: 33
+Moves: [B@3f78a5ed
+Game ID: 7877049057431
+Actual Score: 12
+Theoretical Score: 21
+Moves: [B@630e5010
+Game ID: 6167693230231
+Actual Score: 35
+Theoretical Score: 42
+Moves: [B@10b5ff4d
+Game ID: 8607234654359
+Actual Score: 39
+Theoretical Score: 27
+Moves: [B@58835bba
+Game ID: 7615097208983
+Actual Score: 48
+Theoretical Score: 47
+Moves: [B@222eda8a
+Game ID: 7877104500887
+Actual Score: 19
+Theoretical Score: 27
+Moves: [B@3331800f
+Game ID: 8585751560343
+Actual Score: 30
+Theoretical Score: 35
+Moves: [B@c414eb3
+Game ID: 8585641459863
+Actual Score: 15
+Theoretical Score: 35
+Moves: [B@4edd8a0a
+Game ID: 4425973911
+Actual Score: 23
+Theoretical Score: 26
+Moves: [B@1a73f3d1
+Game ID: 8585641066647
+Actual Score: 31
+Theoretical Score: 30
+Moves: [B@257d3968
+Game ID: 5179861565591
+Actual Score: 38
+Theoretical Score: 42
+Moves: [B@23cfdfa2
+Game ID: 6167704043671
+Actual Score: 29
+Theoretical Score: 36
+Moves: [B@1e09c0b
+Game ID: 8607245467799
+Actual Score: 34
+Theoretical Score: 35
+Moves: [B@4880a9d
+Game ID: 8585755820183
+Actual Score: 17
+Theoretical Score: 26
+Moves: [B@48f2d51d
+Game ID: 120371019927
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@151d216e
+Game ID: 7335804207255
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@1018f702
+Game ID: 7335805583511
+Actual Score: 22
+Theoretical Score: 26
+Moves: [B@5400db7e
+Game ID: 7335883178135
+Actual Score: 12
+Theoretical Score: 31
+Moves: [B@a84b6de
+Game ID: 7335934754967
+Actual Score: 18
+Theoretical Score: 21
+Moves: [B@76eee0b1
+Game ID: 7335898251415
+Actual Score: 16
+Theoretical Score: 25
+Moves: [B@2119b989
+Game ID: 8607226396823
+Actual Score: 29
+Theoretical Score: 41
+Moves: [B@73905dff
+Game ID: 7615088951447
+Actual Score: 44
+Theoretical Score: 53
+Moves: [B@5c0d3715
+Game ID: 8813384827031
+Actual Score: 55
+Theoretical Score: 51
+Moves: [B@5d67bf4d
+Game ID: 4296802455
+Actual Score: 57
+Theoretical Score: 29
+Moves: [B@31de8099
+Game ID: 120260526231
+Actual Score: 29
+Theoretical Score: 30
+Moves: [B@40d04cf8
+Game ID: 5179732394135
+Actual Score: 47
+Theoretical Score: 31
+Moves: [B@75507e68
+Game ID: 120389697687
+Actual Score: 22
+Theoretical Score: 22
+Moves: [B@152d2a58
+Game ID: 120353194135
+Actual Score: 40
+Theoretical Score: 36
+Moves: [B@50b2ba2c
+Game ID: 8607116296343
+Actual Score: 47
+Theoretical Score: 44
+Moves: [B@12478b4e
+Game ID: 7614978850967
+Actual Score: 59
+Theoretical Score: 60
+Moves: [B@64921450
+Game ID: 120393564311
+Actual Score: 18
+Theoretical Score: 20
+Moves: [B@18918d70
+Game ID: 94489346199
+Actual Score: 36
+Theoretical Score: 38
+Moves: [B@5d373794
+Game ID: 5179730624663
+Actual Score: 29
+Theoretical Score: 40
+Moves: [B@7304ca87
+Game ID: 8559869886615
+Actual Score: 31
+Theoretical Score: 35
+Moves: [B@7c07023
+Game ID: 6167573102743
+Actual Score: 41
+Theoretical Score: 49
+Moves: [B@13ae87a6
+Game ID: 4426301591
+Actual Score: 14
+Theoretical Score: 28
+Moves: [B@774189d0
+Game ID: 4411162775
+Actual Score: 10
+Theoretical Score: 28
+Moves: [B@22c4354d
+Game ID: 4429447319
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@2681185e
+Game ID: 94568317079
+Actual Score: 23
+Theoretical Score: 35
+Moves: [B@41f5389f
+Game ID: 94619893911
+Actual Score: 19
+Theoretical Score: 17
+Moves: [B@3a012678
+Game ID: 94583390359
+Actual Score: 14
+Theoretical Score: 19
+Moves: [B@396c1228
+Game ID: 94620614807
+Actual Score: 15
+Theoretical Score: 23
+Moves: [B@1701beb3
+Game ID: 7614978457751
+Actual Score: 38
+Theoretical Score: 44
+Moves: [B@7f584d0c
+Game ID: 8813274333335
+Actual Score: 37
+Theoretical Score: 40
+Moves: [B@4c599679
+Game ID: 8559948857495
+Actual Score: 33
+Theoretical Score: 34
+Moves: [B@15fd3088
+Game ID: 6167652073623
+Actual Score: 42
+Theoretical Score: 48
+Moves: [B@f13e0a2
+Game ID: 5179861893271
+Actual Score: 15
+Theoretical Score: 25
+Moves: [B@329efc61
+Game ID: 5179846754455
+Actual Score: 19
+Theoretical Score: 22
+Moves: [B@32f45e15
+Game ID: 8813351927959
+Actual Score: 34
+Theoretical Score: 46
+Moves: [B@4e7151b3
+Game ID: 8559963930775
+Actual Score: 22
+Theoretical Score: 26
+Moves: [B@5ef7ae2f
+Game ID: 8560001155223
+Actual Score: 29
+Theoretical Score: 41
+Moves: [B@1bcf2c64
+Game ID: 7615107629207
+Actual Score: 46
+Theoretical Score: 40
+Moves: [B@b5bddfe
+Game ID: 8813403504791
+Actual Score: 46
+Theoretical Score: 44
+Moves: [B@4fe3f9ef
+Game ID: 6167704371351
+Actual Score: 32
+Theoretical Score: 30
+Moves: [B@2c86b0ea
+Game ID: 6167689232535
+Actual Score: 11
+Theoretical Score: 25
+Moves: [B@4e481512
+Game ID: 8813367001239
+Actual Score: 54
+Theoretical Score: 40
+Moves: [B@1ba98508
+Game ID: 8607230656663
+Actual Score: 27
+Theoretical Score: 19
+Moves: [B@4b552b13
+Game ID: 8607248941207
+Actual Score: 28
+Theoretical Score: 30
+Moves: [B@524dd373
+Game ID: 7615111495831
+Actual Score: 27
+Theoretical Score: 24
+Moves: [B@5ca3acad
+Game ID: 8444041166873
+Actual Score: 18
+Theoretical Score: 26
+Moves: [B@b75f3f4
+Game ID: 8877826244633
+Actual Score: 25
+Theoretical Score: 22
+Moves: [B@691a5c3a
+Game ID: 8444041166873
+Actual Score: 31
+Theoretical Score: 27
+Moves: [B@5570dc21
+Game ID: 11785469296665
+Actual Score: 22
+Theoretical Score: 22
+Moves: [B@1477d4e6
+Game ID: 13417662513177
+Actual Score: 43
+Theoretical Score: 34
+Moves: [B@30b97fcf
+Game ID: 8444041166873
+Actual Score: 16
+Theoretical Score: 17
+Moves: [B@b791e6e
+Game ID: 8877877231641
+Actual Score: 30
+Theoretical Score: 35
+Moves: [B@583b4af4
+Game ID: 167639187481
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@72c175f1
+Game ID: 8877697466393
+Actual Score: 16
+Theoretical Score: 34
+Moves: [B@9fd3b61
+Game ID: 8877875003417
+Actual Score: 10
+Theoretical Score: 21
+Moves: [B@4a34de5e
+Game ID: 1653697871897
+Actual Score: 58
+Theoretical Score: 61
+Moves: [B@48da5106
+Game ID: 644380557337
+Actual Score: 41
+Theoretical Score: 46
+Moves: [B@31cddb11
+Game ID: 8607249924121
+Actual Score: 37
+Theoretical Score: 49
+Moves: [B@510bd87a
+Game ID: 120394547225
+Actual Score: 42
+Theoretical Score: 27
+Moves: [B@3d213a2b
+Game ID: 8877774929945
+Actual Score: 1
+Theoretical Score: 18
+Moves: [B@27691ee8
+Game ID: 8877902135321
+Actual Score: 17
+Theoretical Score: 27
+Moves: [B@78a34c47
+Game ID: 8444085534745
+Actual Score: 42
+Theoretical Score: 35
+Moves: [B@77648321
+Game ID: 5179859402777
+Actual Score: 34
+Theoretical Score: 34
+Moves: [B@43201f84
+Game ID: 8443908259865
+Actual Score: 28
+Theoretical Score: 29
+Moves: [B@2c51c756
+Game ID: 4423811097
+Actual Score: 45
+Theoretical Score: 34
+Moves: [B@4ef277ef
+Game ID: 8443930935321
+Actual Score: 20
+Theoretical Score: 24
+Moves: [B@1ddc889b
+Game ID: 644373938201
+Actual Score: 43
+Theoretical Score: 32
+Moves: [B@5ec3689b
+Game ID: 8444037038105
+Actual Score: 26
+Theoretical Score: 28
+Moves: [B@7c0a6f62
+Game ID: 120387928089
+Actual Score: 26
+Theoretical Score: 27
+Moves: [B@219a2203
+Game ID: 8444035792921
+Actual Score: 10
+Theoretical Score: 21
+Moves: [B@58fbfefb
+Game ID: 914956877849
+Actual Score: 54
+Theoretical Score: 40
+Moves: [B@1db9c2cf
+Game ID: 11785392816153
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@32e7df65
+Game ID: 4474798105
+Actual Score: 24
+Theoretical Score: 30
+Moves: [B@421d7900
+Game ID: 11785567862809
+Actual Score: 25
+Theoretical Score: 32
+Moves: [B@45964b9e
+Game ID: 644424925209
+Actual Score: 33
+Theoretical Score: 38
+Moves: [B@166a5659
+Game ID: 11785392095257
+Actual Score: 12
+Theoretical Score: 19
+Moves: [B@1afabf06
+Game ID: 167582760985
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@33060020
+Game ID: 5179730624537
+Actual Score: 42
+Theoretical Score: 34
+Moves: [B@443b6765
+Game ID: 5179908161561
+Actual Score: 36
+Theoretical Score: 40
+Moves: [B@a72925
+Game ID: 120338120729
+Actual Score: 52
+Theoretical Score: 40
+Moves: [B@4feaa4b8
+Game ID: 11639546052633
+Actual Score: 12
+Theoretical Score: 36
+Moves: [B@4c6eaa65
+Game ID: 12103227670553
+Actual Score: 48
+Theoretical Score: 32
+Moves: [B@53f1fcc2
+Game ID: 8525694763033
+Actual Score: 40
+Theoretical Score: 28
+Moves: [B@6a261998
+Game ID: 915012714521
+Actual Score: 38
+Theoretical Score: 31
+Moves: [B@70f3bf00
+Game ID: 11639363928089
+Actual Score: 37
+Theoretical Score: 30
+Moves: [B@49770ef9
+Game ID: 167528955929
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@15bcecf9
+Game ID: 120261640217
+Actual Score: 43
+Theoretical Score: 39
+Moves: [B@4f0cdd0f
+Game ID: 914830589977
+Actual Score: 56
+Theoretical Score: 39
+Moves: [B@22ea6051
+Game ID: 167707738137
+Actual Score: 29
+Theoretical Score: 30
+Moves: [B@539bb233
+Game ID: 4472569881
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@21b2579d
+Game ID: 1653562474521
+Actual Score: 22
+Theoretical Score: 35
+Moves: [B@87f1201
+Game ID: 4296802329
+Actual Score: 41
+Theoretical Score: 43
+Moves: [B@796613b7
+Game ID: 5080946376729
+Actual Score: 59
+Theoretical Score: 58
+Moves: [B@77622c82
+Game ID: 4479975449
+Actual Score: 16
+Theoretical Score: 28
+Moves: [B@44df834c
+Game ID: 4498980889
+Actual Score: 25
+Theoretical Score: 25
+Moves: [B@34c07ecc
+Game ID: 13473312473113
+Actual Score: 59
+Theoretical Score: 61
+Moves: [B@7df23848
+Game ID: 11639371202585
+Actual Score: 42
+Theoretical Score: 34
+Moves: [B@1b120d48
+Game ID: 11639375331353
+Actual Score: 31
+Theoretical Score: 39
+Moves: [B@236f3885
+Game ID: 5081123913753
+Actual Score: 56
+Theoretical Score: 63
+Moves: [B@14ee143a
+Game ID: 13426245369881
+Actual Score: 51
+Theoretical Score: 59
+Moves: [B@78324e97
+Game ID: 11639567155225
+Actual Score: 4
+Theoretical Score: 10
+Moves: [B@73417494
+Game ID: 1653576368153
+Actual Score: 33
+Theoretical Score: 39
+Moves: [B@29b0c169
+Game ID: 8607124291609
+Actual Score: 41
+Theoretical Score: 42
+Moves: [B@4d1b4fa1
+Game ID: 644246929433
+Actual Score: 42
+Theoretical Score: 44
+Moves: [B@27b7e663
+Game ID: 12124702507033
+Actual Score: 37
+Theoretical Score: 38
+Moves: [B@5f2ad3d5
+Game ID: 644449828889
+Actual Score: 14
+Theoretical Score: 23
+Moves: [B@703eead0
+Game ID: 644435148825
+Actual Score: 38
+Theoretical Score: 34
+Moves: [B@674fd531
+Game ID: 13430372565017
+Actual Score: 55
+Theoretical Score: 53
+Moves: [B@7f53b345
+Game ID: 8607116296217
+Actual Score: 29
+Theoretical Score: 36
+Moves: [B@76ee7301
+Game ID: 914959368217
+Actual Score: 40
+Theoretical Score: 34
+Moves: [B@71817f66
+Game ID: 12124694511641
+Actual Score: 43
+Theoretical Score: 38
+Moves: [B@68feca3a
+Game ID: 120449138713
+Actual Score: 2
+Theoretical Score: 1
+Moves: [B@ad585fb
+Game ID: 120469389337
+Actual Score: 12
+Theoretical Score: 20
+Moves: [B@fa689db
+Game ID: 12455419117593
+Actual Score: 50
+Theoretical Score: 46
+Moves: [B@75a6bd06
+Game ID: 13438966628377
+Actual Score: 51
+Theoretical Score: 48
+Moves: [B@6b170692
+Game ID: 13426081726489
+Actual Score: 45
+Theoretical Score: 33
+Moves: [B@4d4bac56
+Game ID: 13494801203225
+Actual Score: 47
+Theoretical Score: 58
+Moves: [B@76980c75
+Game ID: 6515645218971
+Actual Score: 19
+Theoretical Score: 34
+Moves: [B@3696d12d
+Game ID: 11785489678491
+Actual Score: 27
+Theoretical Score: 20
+Moves: [B@656672fb
+Game ID: 6515645218971
+Actual Score: 23
+Theoretical Score: 22
+Moves: [B@75df4b1d
+Game ID: 94568317083
+Actual Score: 33
+Theoretical Score: 35
+Moves: [B@43120a77
+Game ID: 6515645218971
+Actual Score: 29
+Theoretical Score: 35
+Moves: [B@430db481
+Game ID: 7335983972507
+Actual Score: 34
+Theoretical Score: 29
+Moves: [B@15aaf7b1
+Game ID: 6515466829979
+Actual Score: 29
+Theoretical Score: 25
+Moves: [B@1a22c1ba
+Game ID: 6515544424603
+Actual Score: 45
+Theoretical Score: 35
+Moves: [B@4930213b
+Game ID: 8285091332251
+Actual Score: 45
+Theoretical Score: 43
+Moves: [B@67372d20
+Game ID: 6515626213531
+Actual Score: 40
+Theoretical Score: 30
+Moves: [B@25e24908
+Game ID: 6515645612187
+Actual Score: 27
+Theoretical Score: 27
+Moves: [B@2941631f
+Game ID: 8259321528475
+Actual Score: 35
+Theoretical Score: 28
+Moves: [B@6130a6f5
+Game ID: 8465479958683
+Actual Score: 37
+Theoretical Score: 39
+Moves: [B@3fb0d9de
+Game ID: 6515606290587
+Actual Score: 18
+Theoretical Score: 23
+Moves: [B@8ad6d29
+Game ID: 13177059082395
+Actual Score: 34
+Theoretical Score: 29
+Moves: [B@2ad6aeb8
+Game ID: 13675275288731
+Actual Score: 60
+Theoretical Score: 56
+Moves: [B@4e35a219
+Game ID: 94601216155
+Actual Score: 24
+Theoretical Score: 39
+Moves: [B@7772ec28
+Game ID: 94618452123
+Actual Score: 30
+Theoretical Score: 35
+Moves: [B@14d513ca
+Game ID: 5179842494619
+Actual Score: 21
+Theoretical Score: 20
+Moves: [B@be9cc86
+Game ID: 8284993749147
+Actual Score: 27
+Theoretical Score: 30
+Moves: [B@68af8288
+Game ID: 7335930560667
+Actual Score: 37
+Theoretical Score: 33
+Moves: [B@8dc3019
+Game ID: 8465506959515
+Actual Score: 34
+Theoretical Score: 43
+Moves: [B@34ab398b
+Game ID: 10539851579547
+Actual Score: 20
+Theoretical Score: 22
+Moves: [B@71634e64
+Game ID: 7335964967067
+Actual Score: 41
+Theoretical Score: 28
+Moves: [B@65cc3902
+Game ID: 8465541365915
+Actual Score: 31
+Theoretical Score: 34
+Moves: [B@c79915a
+Game ID: 10793413640347
+Actual Score: 41
+Theoretical Score: 33
+Moves: [B@6173863f
+Game ID: 11811161899163
+Actual Score: 26
+Theoretical Score: 30
+Moves: [B@a08e41b
+Game ID: 11811271999643
+Actual Score: 35
+Theoretical Score: 42
+Moves: [B@e08d871
+Game ID: 11811289235611
+Actual Score: 29
+Theoretical Score: 37
+Moves: [B@4ebb7bab
+Game ID: 12635919810715
+Actual Score: 32
+Theoretical Score: 35
+Moves: [B@33845e3d
+Game ID: 120451891355
+Actual Score: 19
+Theoretical Score: 26
+Moves: [B@7e615c6a
+Game ID: 7335996948635
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@3662c887
+Game ID: 8465573347483
+Actual Score: 40
+Theoretical Score: 33
+Moves: [B@23119bc3
+Game ID: 120385110171
+Actual Score: 32
+Theoretical Score: 24
+Moves: [B@32f54c2a
+Game ID: 7335930167451
+Actual Score: 27
+Theoretical Score: 39
+Moves: [B@4603c412
+Game ID: 8259227484315
+Actual Score: 50
+Theoretical Score: 37
+Moves: [B@66851aa5
+Game ID: 8259347873947
+Actual Score: 24
+Theoretical Score: 20
+Moves: [B@49654a35
+Game ID: 9234305712283
+Actual Score: 36
+Theoretical Score: 36
+Moves: [B@5169db2f
+Game ID: 8259426058395
+Actual Score: 22
+Theoretical Score: 28
+Moves: [B@912a644
+Game ID: 9912786354331
+Actual Score: 23
+Theoretical Score: 41
+Moves: [B@478cc5f1
+Game ID: 10793254650011
+Actual Score: 35
+Theoretical Score: 36
+Moves: [B@245b0bd7
+Game ID: 10960758374555
+Actual Score: 55
+Theoretical Score: 43
+Moves: [B@3bf41cd0
+Game ID: 120460804251
+Actual Score: 18
+Theoretical Score: 26
+Moves: [B@2748bd6c
+Game ID: 120467554459
+Actual Score: 10
+Theoretical Score: 11
+Moves: [B@64a4739
+Game ID: 120464539803
+Actual Score: 0
+Theoretical Score: 3
+Moves: [B@7ab3f194
+Game ID: 8242154176667
+Actual Score: 46
+Theoretical Score: 47
+Moves: [B@613a608e
+Game ID: 7292966404251
+Actual Score: 46
+Theoretical Score: 45
+Moves: [B@37b1218
+Game ID: 13670992838811
+Actual Score: 52
+Theoretical Score: 53
+Moves: [B@575cfec1
+Game ID: 5665191035035
+Actual Score: 34
+Theoretical Score: 41
+Moves: [B@32068aef
+Game ID: 11759749628059
+Actual Score: 50
+Theoretical Score: 47
+Moves: [B@8ab231
+Game ID: 8465547788443
+Actual Score: 21
+Theoretical Score: 27
+Moves: [B@5b3a8bea
+Game ID: 13662420140187
+Actual Score: 42
+Theoretical Score: 45
+Moves: [B@6ba0dcba
+Game ID: 8465573609627
+Actual Score: 12
+Theoretical Score: 9
+Moves: [B@6d7772d3
+Game ID: 9234344378523
+Actual Score: 27
+Theoretical Score: 17
+Moves: [B@38394e76
+Game ID: 11441994596565
+Actual Score: 22
+Theoretical Score: 21
+Moves: [B@37d3e740
+Game ID: 120394547444
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@5afba80c
+Game ID: 8877699956980
+Actual Score: 23
+Theoretical Score: 32
+Moves: [B@c4ca86a
+Game ID: 8877776437492
+Actual Score: 21
+Theoretical Score: 34
+Moves: [B@7e741d6b
+Game ID: 13477742838004
+Actual Score: 43
+Theoretical Score: 48
+Moves: [B@56351c02
+Game ID: 8877905740020
+Actual Score: 3
+Theoretical Score: 3
+Moves: [B@51097500
+Game ID: 8525645545716
+Actual Score: 36
+Theoretical Score: 30
+Moves: [B@386f88b3
+Game ID: 8877774930164
+Actual Score: 0
+Theoretical Score: 1
+Moves: [B@662e5590
+Game ID: 120438522100
+Actual Score: 9
+Theoretical Score: 15
+Moves: [B@1885905b
+Game ID: 167505559796
+Actual Score: 48
+Theoretical Score: 36
+Moves: [B@23e573e
+Game ID: 5179732394228
+Actual Score: 40
+Theoretical Score: 37
+Moves: [B@46507dda
+Game ID: 120389173492
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@52463255
+Game ID: 13417479667956
+Actual Score: 40
+Theoretical Score: 44
+Moves: [B@66f5770e
+Game ID: 11639363207412
+Actual Score: 42
+Theoretical Score: 41
+Moves: [B@16024b49
+Game ID: 11759798059252
+Actual Score: 27
+Theoretical Score: 35
+Moves: [B@53f94afe
+Game ID: 167681327348
+Actual Score: 19
+Theoretical Score: 21
+Moves: [B@304e1e4e
+Game ID: 8525687685364
+Actual Score: 28
+Theoretical Score: 21
+Moves: [B@7d4e424e
+Game ID: 11639566106868
+Actual Score: 14
+Theoretical Score: 15
+Moves: [B@799206ad
+Game ID: 11639454236916
+Actual Score: 12
+Theoretical Score: 25
+Moves: [B@60251ddb
+Game ID: 12747640537332
+Actual Score: 51
+Theoretical Score: 59
+Moves: [B@2059c3ff
+Game ID: 8465500733735
+Actual Score: 38
+Theoretical Score: 38
+Moves: [B@2f8ab988
+Game ID: 8465511153959
+Actual Score: 36
+Theoretical Score: 28
+Moves: [B@46c475ba
+Game ID: 8465480024359
+Actual Score: 29
+Theoretical Score: 29
+Moves: [B@e47637c
+Game ID: 8272236183847
+Actual Score: 46
+Theoretical Score: 40
+Moves: [B@606f0f70
+Game ID: 7499142070567
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@1a53ac0c
+Game ID: 8465392271655
+Actual Score: 25
+Theoretical Score: 10
+Moves: [B@7fdf7359
+Game ID: 9337388073255
+Actual Score: 36
+Theoretical Score: 40
+Moves: [B@4a36a35d
+Game ID: 6519872291111
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@52ba21e4
+Game ID: 8607226396967
+Actual Score: 39
+Theoretical Score: 30
+Moves: [B@558ed473
+Game ID: 10540042551368
+Actual Score: 43
+Theoretical Score: 33
+Moves: [B@514f2020
+Game ID: 12635954610248
+Actual Score: 26
+Theoretical Score: 30
+Moves: [B@2e1c5d1f
+Game ID: 837520457801
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@2d2afc39
+Game ID: 837647466569
+Actual Score: 41
+Theoretical Score: 44
+Moves: [B@e2498a3
+Game ID: 120394547273
+Actual Score: 34
+Theoretical Score: 33
+Moves: [B@26c2f767
+Game ID: 8444041166921
+Actual Score: 35
+Theoretical Score: 26
+Moves: [B@6a7ab205
+Game ID: 8443907539017
+Actual Score: 49
+Theoretical Score: 33
+Moves: [B@10cb5047
+Game ID: 120261640265
+Actual Score: 29
+Theoretical Score: 36
+Moves: [B@3a00237d
+Game ID: 120436686921
+Actual Score: 17
+Theoretical Score: 24
+Moves: [B@bc88295
+Game ID: 8138964861001
+Actual Score: 41
+Theoretical Score: 38
+Moves: [B@341df373
+Game ID: 682901635145
+Actual Score: 37
+Theoretical Score: 42
+Moves: [B@7e9ed4df
+Game ID: 11785502392332
+Actual Score: 30
+Theoretical Score: 29
+Moves: [B@453e1bba
+Game ID: 7348868874252
+Actual Score: 17
+Theoretical Score: 20
+Moves: [B@aade5a2
+Game ID: 7348868874252
+Actual Score: 19
+Theoretical Score: 33
+Moves: [B@51f009ef
+Game ID: 11785502392332
+Actual Score: 43
+Theoretical Score: 36
+Moves: [B@59c00722
+Game ID: 7348868874252
+Actual Score: 30
+Theoretical Score: 29
+Moves: [B@6c96346b
+Game ID: 5179842691084
+Actual Score: 33
+Theoretical Score: 31
+Moves: [B@9734cae
+Game ID: 7348768079884
+Actual Score: 46
+Theoretical Score: 44
+Moves: [B@589d831e
+Game ID: 4407099404
+Actual Score: 47
+Theoretical Score: 43
+Moves: [B@1bd6638
+Game ID: 7348689109004
+Actual Score: 37
+Theoretical Score: 36
+Moves: [B@5c552f08
+Game ID: 60241674252
+Actual Score: 43
+Theoretical Score: 39
+Moves: [B@4fd00e10
+Game ID: 7348689960972
+Actual Score: 25
+Theoretical Score: 25
+Moves: [B@7be1e187
+Game ID: 17292001292
+Actual Score: 32
+Theoretical Score: 38
+Moves: [B@1107c465
+Game ID: 7348689305612
+Actual Score: 13
+Theoretical Score: 20
+Moves: [B@64df8422
+Game ID: 5179910389772
+Actual Score: 21
+Theoretical Score: 24
+Moves: [B@2b30b627
+Game ID: 11785469296652
+Actual Score: 26
+Theoretical Score: 33
+Moves: [B@5fa9971f
+Game ID: 4474798092
+Actual Score: 33
+Theoretical Score: 31
+Moves: [B@70a24463
+Game ID: 11785390325772
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@684430c1
+Game ID: 60309372940
+Actual Score: 47
+Theoretical Score: 38
+Moves: [B@46eb2260
+Game ID: 11785391177740
+Actual Score: 26
+Theoretical Score: 35
+Moves: [B@556944cd
+Game ID: 17359699980
+Actual Score: 49
+Theoretical Score: 46
+Moves: [B@370a935f
+Game ID: 11785390522380
+Actual Score: 44
+Theoretical Score: 45
+Moves: [B@7e017f47
+Game ID: 4374003724
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@6166aac5
+Game ID: 5179730624524
+Actual Score: 52
+Theoretical Score: 42
+Moves: [B@7e36d508
+Game ID: 60208578572
+Actual Score: 47
+Theoretical Score: 35
+Moves: [B@1d4531fa
+Game ID: 5179731476492
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@68cb8e52
+Game ID: 17258905612
+Actual Score: 20
+Theoretical Score: 33
+Moves: [B@3c2f310c
+Game ID: 5179730821132
+Actual Score: 18
+Theoretical Score: 19
+Moves: [B@74f92d14
+Game ID: 60129607692
+Actual Score: 34
+Theoretical Score: 45
+Moves: [B@40071890
+Game ID: 4295884812
+Actual Score: 48
+Theoretical Score: 32
+Moves: [B@748aa7dc
+Game ID: 17179934732
+Actual Score: 38
+Theoretical Score: 37
+Moves: [B@31e84f10
+Game ID: 4295229452
+Actual Score: 36
+Theoretical Score: 37
+Moves: [B@c4455b4
+Game ID: 17180786700
+Actual Score: 38
+Theoretical Score: 37
+Moves: [B@747f0f34
+Game ID: 60129804300
+Actual Score: 18
+Theoretical Score: 24
+Moves: [B@556ae220
+Game ID: 12885688370
+Actual Score: 11
+Theoretical Score: 25
+Moves: [B@2689b752
+Game ID: 51539804210
+Actual Score: 24
+Theoretical Score: 22
+Moves: [B@84eafc2
+Game ID: 12885688370
+Actual Score: 20
+Theoretical Score: 30
+Moves: [B@4440750
+Game ID: 38655492146
+Actual Score: 44
+Theoretical Score: 36
+Moves: [B@63d9e1a
+Game ID: 9156870864946
+Actual Score: 16
+Theoretical Score: 30
+Moves: [B@6d658aa8
+Game ID: 38683148338
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@10280879
+Game ID: 6081674281010
+Actual Score: 50
+Theoretical Score: 37
+Moves: [B@3472f3ab
+Game ID: 1864016396338
+Actual Score: 63
+Theoretical Score: 55
+Moves: [B@5e557671
+Game ID: 38807928882
+Actual Score: 0
+Theoretical Score: 1
+Moves: [B@1f2497d9
+Game ID: 12532800094448
+Actual Score: 23
+Theoretical Score: 27
+Moves: [B@4f1f2f84
+Game ID: 13026721333488
+Actual Score: 52
+Theoretical Score: 45
+Moves: [B@6c537267
+Game ID: 12498537087280
+Actual Score: 21
+Theoretical Score: 26
+Moves: [B@19c06762
+Game ID: 12996754080048
+Actual Score: 24
+Theoretical Score: 34
+Moves: [B@22e1a1dc
+Game ID: 12498537873712
+Actual Score: 24
+Theoretical Score: 27
+Moves: [B@14b4d90b
+Game ID: 12996753293616
+Actual Score: 46
+Theoretical Score: 33
+Moves: [B@638341b0
+Game ID: 8396762841443
+Actual Score: 41
+Theoretical Score: 35
+Moves: [B@7962c1d5
+Game ID: 5493472231779
+Actual Score: 15
+Theoretical Score: 19
+Moves: [B@56226064
+Game ID: 5484856344931
+Actual Score: 17
+Theoretical Score: 29
+Moves: [B@646c872a
+Game ID: 5493472100707
+Actual Score: 38
+Theoretical Score: 39
+Moves: [B@1d9bd4d6
+Game ID: 6670167900515
+Actual Score: 20
+Theoretical Score: 31
+Moves: [B@7298c2d9
+Game ID: 13692457517411
+Actual Score: 30
+Theoretical Score: 39
+Moves: [B@377cbdae
+Game ID: 5484801360227
+Actual Score: 36
+Theoretical Score: 30
+Moves: [B@37a939bc
+Game ID: 6670168031587
+Actual Score: 45
+Theoretical Score: 41
+Moves: [B@74d776fb
+Game ID: 13374698160306
+Actual Score: 26
+Theoretical Score: 28
+Moves: [B@406decb2
+Game ID: 8229327339698
+Actual Score: 30
+Theoretical Score: 29
+Moves: [B@122ea8dc
+Game ID: 12863597051983
+Actual Score: 32
+Theoretical Score: 30
+Moves: [B@6cb417fc
+Game ID: 11141291966543
+Actual Score: 32
+Theoretical Score: 35
+Moves: [B@239bc43f
+Game ID: 8465480024430
+Actual Score: 41
+Theoretical Score: 33
+Moves: [B@c3ca482
+Game ID: 8272236183918
+Actual Score: 20
+Theoretical Score: 27
+Moves: [B@6b338591
+Game ID: 8731797684590
+Actual Score: 37
+Theoretical Score: 49
+Moves: [B@277474fc
+Game ID: 9169884348782
+Actual Score: 48
+Theoretical Score: 40
+Moves: [B@5ab3f611
+Game ID: 6219241816430
+Actual Score: 40
+Theoretical Score: 31
+Moves: [B@33425171
+Game ID: 8465561551214
+Actual Score: 2
+Theoretical Score: 6
+Moves: [B@44aa5585
+Game ID: 8229160943629
+Actual Score: 41
+Theoretical Score: 35
+Moves: [B@40fd1a78
+Game ID: 13374685315085
+Actual Score: 19
+Theoretical Score: 28
+Moves: [B@53b7f08
+Game ID: 10299335180301
+Actual Score: 32
+Theoretical Score: 35
+Moves: [B@24536f07
+Game ID: 13374653726733
+Actual Score: 32
+Theoretical Score: 29
+Moves: [B@32430075
+Game ID: 25895370765
+Actual Score: 34
+Theoretical Score: 29
+Moves: [B@1a45e29f
+Game ID: 13542238453773
+Actual Score: 37
+Theoretical Score: 27
+Moves: [B@44580de0
+Game ID: 11785525723189
+Actual Score: 28
+Theoretical Score: 32
+Moves: [B@7b4c793b
+Game ID: 120394547253
+Actual Score: 47
+Theoretical Score: 33
+Moves: [B@51a69e8f
+Game ID: 8877776437301
+Actual Score: 20
+Theoretical Score: 30
+Moves: [B@6442cf3e
+Game ID: 11785403039797
+Actual Score: 41
+Theoretical Score: 46
+Moves: [B@60f1f95b
+Game ID: 120438915125
+Actual Score: 37
+Theoretical Score: 28
+Moves: [B@786cc1df
+Game ID: 11785392816181
+Actual Score: 31
+Theoretical Score: 35
+Moves: [B@1ddb6abb
+Game ID: 11785469296693
+Actual Score: 9
+Theoretical Score: 21
+Moves: [B@6f926d01
+Game ID: 915007864885
+Actual Score: 51
+Theoretical Score: 60
+Moves: [B@c67a89
+Game ID: 11785594208309
+Actual Score: 9
+Theoretical Score: 14
+Moves: [B@1e3a2177
+Game ID: 120271863861
+Actual Score: 41
+Theoretical Score: 36
+Moves: [B@58720eb9
+Game ID: 5179743338549
+Actual Score: 39
+Theoretical Score: 55
+Moves: [B@24749ad3
+Game ID: 837696225333
+Actual Score: 17
+Theoretical Score: 14
+Moves: [B@1755aee6
+Game ID: 120261640245
+Actual Score: 21
+Theoretical Score: 30
+Moves: [B@582b14e2
+Game ID: 12103219675189
+Actual Score: 48
+Theoretical Score: 28
+Moves: [B@10e4ce98
+Game ID: 914829869109
+Actual Score: 55
+Theoretical Score: 46
+Moves: [B@10466c55
+Game ID: 12116104577077
+Actual Score: 62
+Theoretical Score: 58
+Moves: [B@2a5ed225
+Game ID: 167681327157
+Actual Score: 22
+Theoretical Score: 32
+Moves: [B@2a525f88
+Game ID: 5179934572597
+Actual Score: 29
+Theoretical Score: 25
+Moves: [B@1cf4d454
+Game ID: 5179934507061
+Actual Score: 16
+Theoretical Score: 22
+Moves: [B@3ff3275b
+Game ID: 11759699492917
+Actual Score: 55
+Theoretical Score: 60
+Moves: [B@63e0057a
+Game ID: 12116181778485
+Actual Score: 34
+Theoretical Score: 23
+Moves: [B@5b76b891
+Game ID: 11639565385781
+Actual Score: 28
+Theoretical Score: 17
+Moves: [B@611a91df
+Game ID: 11639546052661
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@47f5ab58
+Game ID: 11639375331381
+Actual Score: 38
+Theoretical Score: 36
+Moves: [B@245dbd09
+Game ID: 11759798059061
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@4a013b23
+Game ID: 12116280344629
+Actual Score: 50
+Theoretical Score: 45
+Moves: [B@7f20dfd5
+Game ID: 11639496835377
+Actual Score: 47
+Theoretical Score: 42
+Moves: [B@15651402
+Game ID: 8525687685425
+Actual Score: 51
+Theoretical Score: 51
+Moves: [B@5c194652
+Game ID: 11639370875185
+Actual Score: 31
+Theoretical Score: 20
+Moves: [B@1f02b6d1
+Game ID: 6416858743089
+Actual Score: 52
+Theoretical Score: 37
+Moves: [B@66a50c93
+Game ID: 915005636913
+Actual Score: 22
+Theoretical Score: 34
+Moves: [B@5bddd141
+Game ID: 11639566434609
+Actual Score: 18
+Theoretical Score: 14
+Moves: [B@4d6027be
+Game ID: 13649583669553
+Actual Score: 53
+Theoretical Score: 57
+Moves: [B@475eb4fd
+Game ID: 5974401089688
+Actual Score: 42
+Theoretical Score: 41
+Moves: [B@951e911
+Game ID: 6657290469528
+Actual Score: 18
+Theoretical Score: 28
+Moves: [B@3cb376a3
+Game ID: 8478367023256
+Actual Score: 54
+Theoretical Score: 30
+Moves: [B@7022fb5c
+Game ID: 6657328677016
+Actual Score: 26
+Theoretical Score: 29
+Moves: [B@426940f9
+Game ID: 8770424799384
+Actual Score: 42
+Theoretical Score: 41
+Moves: [B@447630c4
+Game ID: 6657333133464
+Actual Score: 18
+Theoretical Score: 19
+Moves: [B@63d75087
+Game ID: 13237190787224
+Actual Score: 54
+Theoretical Score: 50
+Moves: [B@4c8afba
+Game ID: 6657401290904
+Actual Score: 21
+Theoretical Score: 21
+Moves: [B@cae4952
+Game ID: 9221396365464
+Actual Score: 53
+Theoretical Score: 52
+Moves: [B@79aba813
+Game ID: 6657340014744
+Actual Score: 16
+Theoretical Score: 19
+Moves: [B@20a18cc9
+Game ID: 6657211695256
+Actual Score: 9
+Theoretical Score: 10
+Moves: [B@61555218
+Game ID: 1009418895512
+Actual Score: 54
+Theoretical Score: 44
+Moves: [B@1fcf73b9
+Game ID: 13658097582232
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@3b80bb63
+Game ID: 6657407713432
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@17ebbf1e
+Game ID: 8478356603032
+Actual Score: 53
+Theoretical Score: 39
+Moves: [B@5c65fa69
+Game ID: 5974428876952
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@38d308e7
+Game ID: 8770414379160
+Actual Score: 31
+Theoretical Score: 35
+Moves: [B@6b6f73d
+Game ID: 5974433333400
+Actual Score: 26
+Theoretical Score: 24
+Moves: [B@4c6fabba
+Game ID: 13237180367000
+Actual Score: 44
+Theoretical Score: 56
+Moves: [B@3f2ab6ec
+Game ID: 5974501490840
+Actual Score: 20
+Theoretical Score: 17
+Moves: [B@1f1e15de
+Game ID: 9221385945240
+Actual Score: 44
+Theoretical Score: 30
+Moves: [B@2ea0161f
+Game ID: 5974440214680
+Actual Score: 29
+Theoretical Score: 28
+Moves: [B@1f235a0a
+Game ID: 811839979672
+Actual Score: 46
+Theoretical Score: 44
+Moves: [B@75d402d4
+Game ID: 5974314909848
+Actual Score: 13
+Theoretical Score: 27
+Moves: [B@1a0b4955
+Game ID: 13658087162008
+Actual Score: 56
+Theoretical Score: 42
+Moves: [B@3435a4e5
+Game ID: 5974507913368
+Actual Score: 8
+Theoretical Score: 9
+Moves: [B@31434b63
+Game ID: 8770452586648
+Actual Score: 31
+Theoretical Score: 24
+Moves: [B@64d42d3d
+Game ID: 8478399266968
+Actual Score: 30
+Theoretical Score: 35
+Moves: [B@24558113
+Game ID: 13237218574488
+Actual Score: 50
+Theoretical Score: 39
+Moves: [B@3d5e0bf0
+Game ID: 8478467424408
+Actual Score: 38
+Theoretical Score: 33
+Moves: [B@166d576b
+Game ID: 9221424152728
+Actual Score: 51
+Theoretical Score: 64
+Moves: [B@53153d5e
+Game ID: 8478406148248
+Actual Score: 10
+Theoretical Score: 22
+Moves: [B@5b407336
+Game ID: 8478277828760
+Actual Score: 9
+Theoretical Score: 28
+Moves: [B@160cf225
+Game ID: 1009446682776
+Actual Score: 53
+Theoretical Score: 44
+Moves: [B@6a262980
+Game ID: 8478473846936
+Actual Score: 10
+Theoretical Score: 12
+Moves: [B@10230657
+Game ID: 13237223030936
+Actual Score: 48
+Theoretical Score: 55
+Moves: [B@48a21ea6
+Game ID: 8770525200536
+Actual Score: 42
+Theoretical Score: 36
+Moves: [B@394e504d
+Game ID: 9221428609176
+Actual Score: 46
+Theoretical Score: 44
+Moves: [B@62ff14cd
+Game ID: 811882643608
+Actual Score: 36
+Theoretical Score: 37
+Moves: [B@6ae6a77b
+Game ID: 8770338619544
+Actual Score: 28
+Theoretical Score: 25
+Moves: [B@32e9c3af
+Game ID: 13658129825944
+Actual Score: 64
+Theoretical Score: 56
+Moves: [B@796e2187
+Game ID: 8770531623064
+Actual Score: 11
+Theoretical Score: 1
+Moves: [B@632d1b1b
+Game ID: 13237101592728
+Actual Score: 30
+Theoretical Score: 24
+Moves: [B@3c2fa57a
+Game ID: 9221307170968
+Actual Score: 39
+Theoretical Score: 45
+Moves: [B@4027edeb
+Game ID: 811957223576
+Actual Score: 15
+Theoretical Score: 27
+Moves: [B@48cd8e71
+Game ID: 8259333390626
+Actual Score: 21
+Theoretical Score: 28
+Moves: [B@43b3b1b0
+Game ID: 7293015294242
+Actual Score: 51
+Theoretical Score: 50
+Moves: [B@2f6d8c9
+Game ID: 5995900371234
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@7d4135c9
+Game ID: 8259376513314
+Actual Score: 26
+Theoretical Score: 29
+Moves: [B@59db8216
+Game ID: 8242168267042
+Actual Score: 35
+Theoretical Score: 34
+Moves: [B@7bb86ac
+Game ID: 8259376447778
+Actual Score: 16
+Theoretical Score: 28
+Moves: [B@33bf2602
+Game ID: 10119034437922
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@4724b2c1
+Game ID: 10539975770402
+Actual Score: 36
+Theoretical Score: 28
+Moves: [B@426a4301
+Game ID: 4295884854
+Actual Score: 27
+Theoretical Score: 40
+Moves: [B@193f3306
+Game ID: 1301375156278
+Actual Score: 56
+Theoretical Score: 48
+Moves: [B@537a8915
+Game ID: 7937099628598
+Actual Score: 44
+Theoretical Score: 46
+Moves: [B@31aa9b01
+Game ID: 4298965046
+Actual Score: 12
+Theoretical Score: 13
+Moves: [B@2148b47e
+Game ID: 4447928374
+Actual Score: 19
+Theoretical Score: 13
+Moves: [B@410f1452
+Game ID: 60149399606
+Actual Score: 34
+Theoretical Score: 14
+Moves: [B@463a1f47
+Game ID: 7937100480566
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@23ade612
+Game ID: 60133539894
+Actual Score: 20
+Theoretical Score: 19
+Moves: [B@47224d5d
+Game ID: 60282503222
+Actual Score: 23
+Theoretical Score: 35
+Moves: [B@7e366c6f
+Game ID: 1301496201270
+Actual Score: 24
+Theoretical Score: 48
+Moves: [B@68e094c9
+Game ID: 1301379088438
+Actual Score: 32
+Theoretical Score: 27
+Moves: [B@243162b1
+Game ID: 10024473526326
+Actual Score: 18
+Theoretical Score: 22
+Moves: [B@712c9bcf
+Game ID: 262114115638
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@3c34c491
+Game ID: 10024574779446
+Actual Score: 59
+Theoretical Score: 50
+Moves: [B@509e4902
+Game ID: 262145966134
+Actual Score: 18
+Theoretical Score: 16
+Moves: [B@7f958d4a
+Game ID: 7348768079898
+Actual Score: 38
+Theoretical Score: 40
+Moves: [B@6af29394
+Game ID: 5179858157594
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@70f8d217
+Game ID: 5179731476506
+Actual Score: 3
+Theoretical Score: 11
+Moves: [B@528c4353
+Game ID: 7915703762970
+Actual Score: 43
+Theoretical Score: 37
+Moves: [B@1a06b95
+Game ID: 5179851669530
+Actual Score: 10
+Theoretical Score: 30
+Moves: [B@7fb02606
+Game ID: 8362413457434
+Actual Score: 44
+Theoretical Score: 45
+Moves: [B@49ee3b8d
+Game ID: 7348689109018
+Actual Score: 15
+Theoretical Score: 31
+Moves: [B@79486f38
+Game ID: 7937211695130
+Actual Score: 47
+Theoretical Score: 33
+Moves: [B@7b364f47
+Game ID: 10024565800986
+Actual Score: 53
+Theoretical Score: 47
+Moves: [B@5c8d631
+Game ID: 60257140762
+Actual Score: 36
+Theoretical Score: 27
+Moves: [B@3d42b756
+Game ID: 8362454286362
+Actual Score: 25
+Theoretical Score: 43
+Moves: [B@7c93e69
+Game ID: 1301502689306
+Actual Score: 45
+Theoretical Score: 28
+Moves: [B@4e4c05a0
+Game ID: 4295884826
+Actual Score: 55
+Theoretical Score: 51
+Moves: [B@d763b06
+Game ID: 60250325018
+Actual Score: 25
+Theoretical Score: 28
+Moves: [B@2526d5f9
+Game ID: 60250652698
+Actual Score: 29
+Theoretical Score: 24
+Moves: [B@6b529d42
+Game ID: 4415750170
+Actual Score: 29
+Theoretical Score: 29
+Moves: [B@459df48d
+Game ID: 1301375156250
+Actual Score: 35
+Theoretical Score: 52
+Moves: [B@790f4933
+Game ID: 7915777687578
+Actual Score: 16
+Theoretical Score: 21
+Moves: [B@6a95c2f6
+Game ID: 7937119420442
+Actual Score: 18
+Theoretical Score: 29
+Moves: [B@15d2ea6b
+Game ID: 10024473526298
+Actual Score: 22
+Theoretical Score: 37
+Moves: [B@3fc14dc0
+Game ID: 7348689960995
+Actual Score: 34
+Theoretical Score: 35
+Moves: [B@3c04ddda
+Game ID: 17180786723
+Actual Score: 34
+Theoretical Score: 34
+Moves: [B@78c23ade
+Game ID: 60129607715
+Actual Score: 23
+Theoretical Score: 28
+Moves: [B@7ac1161f
+Game ID: 1301376008227
+Actual Score: 52
+Theoretical Score: 44
+Moves: [B@4f5bfbca
+Game ID: 60335849507
+Actual Score: 5
+Theoretical Score: 9
+Moves: [B@552b15f6
+Game ID: 17292001315
+Actual Score: 50
+Theoretical Score: 38
+Moves: [B@3cd6d147
+Game ID: 7348689109027
+Actual Score: 27
+Theoretical Score: 36
+Moves: [B@4ed5492c
+Game ID: 7348810154019
+Actual Score: 17
+Theoretical Score: 18
+Moves: [B@5ec06e97
+Game ID: 13516374212643
+Actual Score: 51
+Theoretical Score: 45
+Moves: [B@53c9541c
+Game ID: 7937099825187
+Actual Score: 52
+Theoretical Score: 44
+Moves: [B@591febcb
+Game ID: 13520557309987
+Actual Score: 53
+Theoretical Score: 64
+Moves: [B@3d6745ed
+Game ID: 17386111011
+Actual Score: 0
+Theoretical Score: 0
+Moves: [B@600e2000
+Game ID: 4314824739
+Actual Score: 19
+Theoretical Score: 12
+Moves: [B@797ee1a9
+Game ID: 4416077859
+Actual Score: 7
+Theoretical Score: 14
+Moves: [B@5f190cfe
+Game ID: 4501274659
+Actual Score: 4
+Theoretical Score: 6
+Moves: [B@585672dd
+Game ID: 1301496201251
+Actual Score: 40
+Theoretical Score: 27
+Moves: [B@49c947f7
+Game ID: 7937305804835
+Actual Score: 33
+Theoretical Score: 20
+Moves: [B@47b494ce
+Game ID: 7915624792084
+Actual Score: 30
+Theoretical Score: 40
+Moves: [B@50dd1e3a
+Game ID: 4295884820
+Actual Score: 30
+Theoretical Score: 30
+Moves: [B@3b764e66
+Game ID: 4407099412
+Actual Score: 29
+Theoretical Score: 34
+Moves: [B@38834000
+Game ID: 17179934740
+Actual Score: 38
+Theoretical Score: 40
+Moves: [B@5b72b13a
+Game ID: 4416077844
+Actual Score: 14
+Theoretical Score: 21
+Moves: [B@63e648a0
+Game ID: 1301375156244
+Actual Score: 64
+Theoretical Score: 64
+Moves: [B@6a6a3fc4
+Game ID: 60250325012
+Actual Score: 34
+Theoretical Score: 41
+Moves: [B@48cbe1c9
+Game ID: 7348809826324
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@67e628b
+Game ID: 7915624988692
+Actual Score: 23
+Theoretical Score: 30
+Moves: [B@578c99ac
+Game ID: 7937220345876
+Actual Score: 42
+Theoretical Score: 47
+Moves: [B@6ca30886
+Game ID: 7915644583956
+Actual Score: 18
+Theoretical Score: 16
+Moves: [B@7bf16972
+Game ID: 60241674260
+Actual Score: 24
+Theoretical Score: 32
+Moves: [B@eee26bd
+Game ID: 17180786708
+Actual Score: 50
+Theoretical Score: 43
+Moves: [B@3d1c8f35
+Game ID: 60250652692
+Actual Score: 19
+Theoretical Score: 24
+Moves: [B@498f5728
+Game ID: 1301376008212
+Actual Score: 63
+Theoretical Score: 64
+Moves: [B@39451d92
+Game ID: 7348689305620
+Actual Score: 26
+Theoretical Score: 32
+Moves: [B@46610fc9
+Game ID: 7937211695124
+Actual Score: 50
+Theoretical Score: 50
+Moves: [B@1fdd5517
+Game ID: 7348708900884
+Actual Score: 17
+Theoretical Score: 31
+Moves: [B@2cd877d3
+Game ID: 17300979732
+Actual Score: 34
+Theoretical Score: 22
+Moves: [B@3d605657
+Game ID: 7937119420436
+Actual Score: 37
+Theoretical Score: 34
+Moves: [B@73b10975
+Game ID: 5905692164123
+Actual Score: 39
+Theoretical Score: 33
+Moves: [B@6318ff9
+Game ID: 7348810154011
+Actual Score: 24
+Theoretical Score: 13
+Moves: [B@69b80603
+Game ID: 7348842004507
+Actual Score: 15
+Theoretical Score: 15
+Moves: [B@5655278d
+Game ID: 7348899020827
+Actual Score: 4
+Theoretical Score: 3
+Moves: [B@2dd46693
+Game ID: 13765482315803
+Actual Score: 58
+Theoretical Score: 49
+Moves: [B@27107a97
+Game ID: 5905732993051
+Actual Score: 20
+Theoretical Score: 23
+Moves: [B@eb1e868
+Game ID: 13761165328411
+Actual Score: 48
+Theoretical Score: 48
+Moves: [B@71a7cf7c
+Game ID: 13765460295707
+Actual Score: 46
+Theoretical Score: 48
+Moves: [B@7f49df25
+Game ID: 5905790140443
+Actual Score: 15
+Theoretical Score: 6
+Moves: [B@5b29d699
+Game ID: 987963588635
+Actual Score: 46
+Theoretical Score: 59
+Moves: [B@5a5a973c
+Game ID: 7937252524059
+Actual Score: 44
+Theoretical Score: 41
+Moves: [B@15c96f24
+Game ID: 7937309474843
+Actual Score: 9
+Theoretical Score: 1
+Moves: [B@24482a4f
+Game ID: 13756795322395
+Actual Score: 34
+Theoretical Score: 45
+Moves: [B@3140ad41
+Game ID: 13761090289691
+Actual Score: 41
+Theoretical Score: 50
+Moves: [B@3f2d2f22
+Game ID: 988052520987
+Actual Score: 49
+Theoretical Score: 50
+Moves: [B@61c3d7ac
+Game ID: 13769680224283
+Actual Score: 53
+Theoretical Score: 50
+Moves: [B@4bc9389
+Game ID: 10024663580699
+Actual Score: 25
+Theoretical Score: 41
+Moves: [B@30221cfa
+Game ID: 10024663711771
+Actual Score: 29
+Theoretical Score: 49
+Moves: [B@662061e3
+Game ID: 7348689960988
+Actual Score: 18
+Theoretical Score: 16
+Moves: [B@1921b43c
+Game ID: 13778367217692
+Actual Score: 47
+Theoretical Score: 52
+Moves: [B@79e15c4a
+Game ID: 13774072250396
+Actual Score: 57
+Theoretical Score: 45
+Moves: [B@59845a40
+Game ID: 7348810154012
+Actual Score: 25
+Theoretical Score: 25
+Moves: [B@3c4e17ea
+Game ID: 7348842004508
+Actual Score: 0
+Theoretical Score: 7
+Moves: [B@285ac40b
+Game ID: 60339781660
+Actual Score: 26
+Theoretical Score: 18
+Moves: [B@5b2ade46
+Game ID: 60339716124
+Actual Score: 9
+Theoretical Score: 25
+Moves: [B@2087c939
+Game ID: 7937100480540
+Actual Score: 55
+Theoretical Score: 43
+Moves: [B@6c3a7b84
+Game ID: 60149399580
+Actual Score: 8
+Theoretical Score: 24
+Moves: [B@123e9094
+Game ID: 7937309802524
+Actual Score: 47
+Theoretical Score: 38
+Moves: [B@1f6ba47b
+Game ID: 13778408046620
+Actual Score: 18
+Theoretical Score: 31
+Moves: [B@1bb78ae
+Game ID: 10024663842844
+Actual Score: 51
+Theoretical Score: 37
+Moves: [B@3ee2d546
+Game ID: 1301585264668
+Actual Score: 46
+Theoretical Score: 38
+Moves: [B@58be583e
+Game ID: 1301496201244
+Actual Score: 58
+Theoretical Score: 64
+Moves: [B@1a34772e
+Game ID: 10024473526300
+Actual Score: 31
+Theoretical Score: 25
+Moves: [B@401002ce
+Game ID: 10505672130780
+Actual Score: 41
+Theoretical Score: 28
+Moves: [B@6870a76f
+Game ID: 10505498788060
+Actual Score: 25
+Theoretical Score: 28
+Moves: [B@42257df7
+Game ID: 13709539213520
+Actual Score: 49
+Theoretical Score: 35
+Moves: [B@7b11ff9a
+Game ID: 8229366595792
+Actual Score: 14
+Theoretical Score: 12
+Moves: [B@3bd79444
+Game ID: 13374653726928
+Actual Score: 47
+Theoretical Score: 36
+Moves: [B@5671078e
+Game ID: 8229327012048
+Actual Score: 29
+Theoretical Score: 35
+Moves: [B@3fd21272
+Game ID: 13709661176016
+Actual Score: 20
+Theoretical Score: 26
+Moves: [B@4b4bc73d
+Game ID: 11643826340048
+Actual Score: 45
+Theoretical Score: 41
+Moves: [B@4cb91fa4
+Game ID: 1503267520601
+Actual Score: 35
+Theoretical Score: 30
+Moves: [B@12aa2cca
+Game ID: 8229158912008
+Actual Score: 25
+Theoretical Score: 30
+Moves: [B@3dc4ed6f
+Game ID: 8229158912008
+Actual Score: 33
+Theoretical Score: 39
+Moves: [B@2823b7c5
+Game ID: 13361781604360
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@2ce3d95a
+Game ID: 236224774152
+Actual Score: 36
+Theoretical Score: 29
+Moves: [B@6f6c6c70
+Game ID: 5179910389891
+Actual Score: 35
+Theoretical Score: 29
+Moves: [B@75d95b67
+Game ID: 11785469296771
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@40f15786
+Game ID: 5179910389891
+Actual Score: 28
+Theoretical Score: 33
+Moves: [B@72ea6fcb
+Game ID: 7348689305731
+Actual Score: 40
+Theoretical Score: 20
+Moves: [B@7ee9920a
+Game ID: 17359700099
+Actual Score: 30
+Theoretical Score: 40
+Moves: [B@4154ecd3
+Game ID: 11785390522499
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@b53ce18
+Game ID: 17359700099
+Actual Score: 37
+Theoretical Score: 35
+Moves: [B@2a666c8e
+Game ID: 5179842691203
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@18adc20a
+Game ID: 7348768080003
+Actual Score: 50
+Theoretical Score: 36
+Moves: [B@7e7987b8
+Game ID: 5179842691203
+Actual Score: 49
+Theoretical Score: 35
+Moves: [B@6bcfb561
+Game ID: 4374003729
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@7254a68a
+Game ID: 5179730624529
+Actual Score: 21
+Theoretical Score: 31
+Moves: [B@49f9758
+Game ID: 4374003729
+Actual Score: 50
+Theoretical Score: 45
+Moves: [B@36e98434
+Game ID: 5179730624529
+Actual Score: 33
+Theoretical Score: 37
+Moves: [B@209b4b35
+Game ID: 4374003729
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@77acc95a
+Game ID: 1301375156241
+Actual Score: 61
+Theoretical Score: 61
+Moves: [B@ff1a5a0
+Game ID: 4314824721
+Actual Score: 15
+Theoretical Score: 13
+Moves: [B@75c3584e
+Game ID: 1301454127121
+Actual Score: 49
+Theoretical Score: 35
+Moves: [B@f7b7720
+Game ID: 5179750416401
+Actual Score: 23
+Theoretical Score: 19
+Moves: [B@1e0c898c
+Game ID: 25773408429
+Actual Score: 39
+Theoretical Score: 36
+Moves: [B@1cd2e348
+Game ID: 11141148770477
+Actual Score: 34
+Theoretical Score: 27
+Moves: [B@73bcd9b4
+Game ID: 11020889686189
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@27aa7294
+Game ID: 13215614763181
+Actual Score: 46
+Theoretical Score: 36
+Moves: [B@5d10df04
+Game ID: 13447542997165
+Actual Score: 37
+Theoretical Score: 38
+Moves: [B@56d3af4d
+Game ID: 13451837964461
+Actual Score: 48
+Theoretical Score: 41
+Moves: [B@43b7bd5a
+Game ID: 12309376663725
+Actual Score: 45
+Theoretical Score: 34
+Moves: [B@37fd496a
+Game ID: 25937969325
+Actual Score: 34
+Theoretical Score: 30
+Moves: [B@6c4e486e
+Game ID: 180389019821
+Actual Score: 27
+Theoretical Score: 29
+Moves: [B@27ac3b6d
+Game ID: 12820480131245
+Actual Score: 35
+Theoretical Score: 29
+Moves: [B@598f1faf
+Game ID: 12313674842285
+Actual Score: 48
+Theoretical Score: 43
+Moves: [B@464abed
+Game ID: 13563510325421
+Actual Score: 33
+Theoretical Score: 29
+Moves: [B@1af78e37
+Game ID: 10149195743471
+Actual Score: 36
+Theoretical Score: 39
+Moves: [B@5c46a957
+Game ID: 12326713557231
+Actual Score: 34
+Theoretical Score: 38
+Moves: [B@7d95a717
+Game ID: 13683953959151
+Actual Score: 35
+Theoretical Score: 19
+Moves: [B@5c0f508b
+Game ID: 10999613423830
+Actual Score: 24
+Theoretical Score: 28
+Moves: [B@7a2ffb0b
+Game ID: 13078379692314
+Actual Score: 35
+Theoretical Score: 33
+Moves: [B@13cae908
+Game ID: 13619532398874
+Actual Score: 40
+Theoretical Score: 46
+Moves: [B@43b74979
+Game ID: 13619540853018
+Actual Score: 42
+Theoretical Score: 42
+Moves: [B@659ac28c
+Game ID: 13387604164890
+Actual Score: 30
+Theoretical Score: 25
+Moves: [B@60688a97
+Game ID: 13619532398874
+Actual Score: 25
+Theoretical Score: 35
+Moves: [B@242ebd3b
+Game ID: 13387620876570
+Actual Score: 36
+Theoretical Score: 30
+Moves: [B@5d2bc446
+Game ID: 13619540853018
+Actual Score: 25
+Theoretical Score: 28
+Moves: [B@6e96f3cd
+Game ID: 13387604164890
+Actual Score: 46
+Theoretical Score: 36
+Moves: [B@4a0ee0ba
+Game ID: 12524324192538
+Actual Score: 26
+Theoretical Score: 35
+Moves: [B@1b984ba5
+Game ID: 12524332515610
+Actual Score: 23
+Theoretical Score: 41
+Moves: [B@1812b564
+Game ID: 12524329042202
+Actual Score: 12
+Theoretical Score: 12
+Moves: [B@41433530
+Game ID: 12524332712218
+Actual Score: 21
+Theoretical Score: 29
+Moves: [B@7c751692
+Game ID: 13078379692314
+Actual Score: 44
+Theoretical Score: 45
+Moves: [B@2569afda
+Game ID: 13623835820314
+Actual Score: 34
+Theoretical Score: 30
+Moves: [B@28dd8786
+Game ID: 13078383362330
+Actual Score: 31
+Theoretical Score: 27
+Moves: [B@70efdd18
+Game ID: 13396202553626
+Actual Score: 33
+Theoretical Score: 26
+Moves: [B@247a8411
+Game ID: 13078383427866
+Actual Score: 25
+Theoretical Score: 35
+Moves: [B@4c05f83b
+Game ID: 13623840669978
+Actual Score: 16
+Theoretical Score: 13
+Moves: [B@820b78a
+Game ID: 13628139241754
+Actual Score: 18
+Theoretical Score: 35
+Moves: [B@6a9ac8b
+Game ID: 13628135702810
+Actual Score: 32
+Theoretical Score: 34
+Moves: [B@7683ea43
+Game ID: 13641024078106
+Actual Score: 47
+Theoretical Score: 60
+Moves: [B@15a41088
+Game ID: 13632430604570
+Actual Score: 53
+Theoretical Score: 45
+Moves: [B@18356951
+Game ID: 13400502370586
+Actual Score: 34
+Theoretical Score: 37
+Moves: [B@53335328
+Game ID: 13396211138842
+Actual Score: 25
+Theoretical Score: 32
+Moves: [B@3a0b6aff
+Game ID: 60250325127
+Actual Score: 40
+Theoretical Score: 37
+Moves: [B@f1e1d66
+Game ID: 7348689961095
+Actual Score: 34
+Theoretical Score: 30
+Moves: [B@3cd28235
+Game ID: 17180786823
+Actual Score: 42
+Theoretical Score: 34
+Moves: [B@75312c94
+Game ID: 60250652807
+Actual Score: 18
+Theoretical Score: 13
+Moves: [B@140cfc5f
+Game ID: 13773961035911
+Actual Score: 63
+Theoretical Score: 55
+Moves: [B@6b063695
+Game ID: 7915736858759
+Actual Score: 43
+Theoretical Score: 38
+Moves: [B@43edd2ea
+Game ID: 4415750279
+Actual Score: 47
+Theoretical Score: 36
+Moves: [B@3fc4038f
+Game ID: 7915834769543
+Actual Score: 20
+Theoretical Score: 21
+Moves: [B@4cd9ee2c
+Game ID: 10024574451847
+Actual Score: 46
+Theoretical Score: 46
+Moves: [B@1631dbbc
+Game ID: 4407099527
+Actual Score: 35
+Theoretical Score: 43
+Moves: [B@3b663112
+Game ID: 7348689305735
+Actual Score: 28
+Theoretical Score: 26
+Moves: [B@24a1858a
+Game ID: 13778367217799
+Actual Score: 49
+Theoretical Score: 51
+Moves: [B@270ab7bc
+Game ID: 13778255151239
+Actual Score: 55
+Theoretical Score: 52
+Moves: [B@3ffe74da
+Game ID: 4505010311
+Actual Score: 7
+Theoretical Score: 23
+Moves: [B@359a2c96
+Game ID: 1301375156359
+Actual Score: 53
+Theoretical Score: 49
+Moves: [B@1dbf727a
+Game ID: 17300979847
+Actual Score: 28
+Theoretical Score: 24
+Moves: [B@6ffa8126
+Game ID: 13765370445959
+Actual Score: 55
+Theoretical Score: 43
+Moves: [B@23ee70a7
+Game ID: 17332830343
+Actual Score: 14
+Theoretical Score: 9
+Moves: [B@47f416d0
+Game ID: 10024663908487
+Actual Score: 37
+Theoretical Score: 48
+Moves: [B@21be80f6
+Game ID: 7937309737095
+Actual Score: 26
+Theoretical Score: 42
+Moves: [B@1af6d656
+Game ID: 7937252524167
+Actual Score: 32
+Theoretical Score: 36
+Moves: [B@4acdf6e7
+Game ID: 7937309474951
+Actual Score: 32
+Theoretical Score: 24
+Moves: [B@2de82bf8
+Game ID: 13765390041223
+Actual Score: 27
+Theoretical Score: 26
+Moves: [B@7804a783
+Game ID: 13765580095623
+Actual Score: 1
+Theoretical Score: 0
+Moves: [B@54ec8ab3
+Game ID: 13773979975815
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@71b32407
+Game ID: 13756990423175
+Actual Score: 44
+Theoretical Score: 32
+Moves: [B@1d686622
+Game ID: 10024663580807
+Actual Score: 19
+Theoretical Score: 13
+Moves: [B@400df2b3
+Game ID: 13756800106631
+Actual Score: 64
+Theoretical Score: 50
+Moves: [B@70044113
+Game ID: 94590861330
+Actual Score: 35
+Theoretical Score: 37
+Moves: [B@18ffc008
+Game ID: 6657200750610
+Actual Score: 20
+Theoretical Score: 22
+Moves: [B@4678ec43
+Game ID: 1838347583506
+Actual Score: 54
+Theoretical Score: 41
+Moves: [B@694f0655
+Game ID: 6657227358226
+Actual Score: 21
+Theoretical Score: 20
+Moves: [B@3b11deb6
+Game ID: 12760449417234
+Actual Score: 47
+Theoretical Score: 45
+Moves: [B@5d08a65c
+Game ID: 6657394016274
+Actual Score: 13
+Theoretical Score: 24
+Moves: [B@5c13534a
+Game ID: 1838247444498
+Actual Score: 41
+Theoretical Score: 36
+Moves: [B@4d7f9b33
+Game ID: 94517329938
+Actual Score: 40
+Theoretical Score: 20
+Moves: [B@782e0844
+Game ID: 12760349278226
+Actual Score: 41
+Theoretical Score: 39
+Moves: [B@608c7b5b
+Game ID: 94683987986
+Actual Score: 32
+Theoretical Score: 39
+Moves: [B@2643ed03
+Game ID: 94590861330
+Actual Score: 51
+Theoretical Score: 46
+Moves: [B@17d45cfb
+Game ID: 6657201209362
+Actual Score: 28
+Theoretical Score: 27
+Moves: [B@1fb00a6d
+Game ID: 12756154449938
+Actual Score: 49
+Theoretical Score: 34
+Moves: [B@1c65ec63
+Game ID: 6657227358226
+Actual Score: 16
+Theoretical Score: 19
+Moves: [B@25f73119
+Game ID: 12760449417234
+Actual Score: 42
+Theoretical Score: 33
+Moves: [B@10f192d8
+Game ID: 6657353187346
+Actual Score: 19
+Theoretical Score: 18
+Moves: [B@f0d01c9
+Game ID: 6657394081810
+Actual Score: 22
+Theoretical Score: 25
+Moves: [B@3c38e2bf
+Game ID: 124555493394
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@205b73d8
+Game ID: 12756054310930
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@3c205259
+Game ID: 1838247444498
+Actual Score: 44
+Theoretical Score: 44
+Moves: [B@5bc40f5d
+Game ID: 94683987986
+Actual Score: 14
+Theoretical Score: 29
+Moves: [B@20923380
+Game ID: 94691262482
+Actual Score: 17
+Theoretical Score: 24
+Moves: [B@5b2c41f9
+Game ID: 94643159058
+Actual Score: 14
+Theoretical Score: 23
+Moves: [B@6520625f
+Game ID: 124748693522
+Actual Score: 28
+Theoretical Score: 24
+Moves: [B@1ee52741
+Game ID: 12756247576594
+Actual Score: 24
+Theoretical Score: 32
+Moves: [B@2f5a092e
+Game ID: 12764837445650
+Actual Score: 53
+Theoretical Score: 42
+Moves: [B@1640a6b5
+Game ID: 1838440710162
+Actual Score: 43
+Theoretical Score: 36
+Moves: [B@70940cb8
+Game ID: 12764670853138
+Actual Score: 54
+Theoretical Score: 49
+Moves: [B@47fce2c4
+Game ID: 7305865396423
+Actual Score: 42
+Theoretical Score: 35
+Moves: [B@3810806c
+Game ID: 8259347873991
+Actual Score: 38
+Theoretical Score: 27
+Moves: [B@2b76ecd5
+Game ID: 8259414917319
+Actual Score: 34
+Theoretical Score: 29
+Moves: [B@7bd7c4cf
+Game ID: 7786901733575
+Actual Score: 33
+Theoretical Score: 33
+Moves: [B@5b9df3b3
+Game ID: 7743952060615
+Actual Score: 40
+Theoretical Score: 34
+Moves: [B@67b20b4c
+Game ID: 12635919548615
+Actual Score: 9
+Theoretical Score: 19
+Moves: [B@7bbe532b
+Game ID: 10127580135711
+Actual Score: 30
+Theoretical Score: 32
+Moves: [B@3e0a112f
+Game ID: 103249215775
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@abe7d36
+Game ID: 10127534457119
+Actual Score: 30
+Theoretical Score: 25
+Moves: [B@7da1ef46
+Game ID: 11141192417567
+Actual Score: 44
+Theoretical Score: 34
+Moves: [B@740fccd2
+Game ID: 10127701573919
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@1ae23815
+Game ID: 10673040982303
+Actual Score: 46
+Theoretical Score: 37
+Moves: [B@63ccb1b2
+Game ID: 180558627103
+Actual Score: 40
+Theoretical Score: 38
+Moves: [B@1165a952
+Game ID: 571232223519
+Actual Score: 38
+Theoretical Score: 32
+Moves: [B@1b868ef0
+Game ID: 13091242574111
+Actual Score: 38
+Theoretical Score: 43
+Moves: [B@102f3f05
+Game ID: 10127695741215
+Actual Score: 40
+Theoretical Score: 36
+Moves: [B@16e84d93
+Game ID: 10127541600543
+Actual Score: 25
+Theoretical Score: 28
+Moves: [B@2a7b5925
+Game ID: 10127534457119
+Actual Score: 28
+Theoretical Score: 28
+Moves: [B@5a5b394
+Game ID: 11141299699999
+Actual Score: 35
+Theoretical Score: 33
+Moves: [B@6c9b6332
+Game ID: 11055400354079
+Actual Score: 36
+Theoretical Score: 38
+Moves: [B@384b3fe7
+Game ID: 10127690039583
+Actual Score: 33
+Theoretical Score: 27
+Moves: [B@4889fbba
+Game ID: 10127736176927
+Actual Score: 18
+Theoretical Score: 33
+Moves: [B@6018d82c
+Game ID: 5978749010207
+Actual Score: 58
+Theoretical Score: 50
+Moves: [B@572db5ee
+Game ID: 8478419976479
+Actual Score: 63
+Theoretical Score: 43
+Moves: [B@36f80ceb
+Game ID: 10672996483359
+Actual Score: 37
+Theoretical Score: 42
+Moves: [B@31ab75a5
+Game ID: 10673040982303
+Actual Score: 29
+Theoretical Score: 26
+Moves: [B@17541204
+Game ID: 10673150886175
+Actual Score: 28
+Theoretical Score: 35
+Moves: [B@2dec57c5
+Game ID: 236386058527
+Actual Score: 39
+Theoretical Score: 30
+Moves: [B@5b8599c7
+Game ID: 10673119297823
+Actual Score: 35
+Theoretical Score: 35
+Moves: [B@31e9d94f
+Game ID: 10672995565855
+Actual Score: 30
+Theoretical Score: 26
+Moves: [B@69a3944
+Game ID: 1838408859935
+Actual Score: 60
+Theoretical Score: 41
+Moves: [B@4987142d
+Game ID: 10673196106015
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@3e3bf77b
+Game ID: 12373963637023
+Actual Score: 47
+Theoretical Score: 47
+Moves: [B@41e76252
+Game ID: 180390199583
+Actual Score: 39
+Theoretical Score: 37
+Moves: [B@16602333
+Game ID: 11141147918623
+Actual Score: 27
+Theoretical Score: 32
+Moves: [B@67376bae
+Game ID: 180435878175
+Actual Score: 36
+Theoretical Score: 32
+Moves: [B@6d6d81c
+Game ID: 10316514197791
+Actual Score: 36
+Theoretical Score: 37
+Moves: [B@7c59cf66
+Game ID: 180514193695
+Actual Score: 28
+Theoretical Score: 30
+Moves: [B@6bb71265
+Game ID: 120261837087
+Actual Score: 51
+Theoretical Score: 32
+Moves: [B@37816ea6
+Game ID: 4501128479007
+Actual Score: 43
+Theoretical Score: 31
+Moves: [B@7a74672
+Game ID: 180543815967
+Actual Score: 19
+Theoretical Score: 24
+Moves: [B@35b79b1f
+Game ID: 103087931679
+Actual Score: 33
+Theoretical Score: 30
+Moves: [B@664083f6
+Game ID: 571400651039
+Actual Score: 47
+Theoretical Score: 27
+Moves: [B@5a8835c6
+Game ID: 571277902111
+Actual Score: 30
+Theoretical Score: 29
+Moves: [B@67216c33
+Game ID: 571399340319
+Actual Score: 26
+Theoretical Score: 32
+Moves: [B@6ec77cab
+Game ID: 13374536876319
+Actual Score: 35
+Theoretical Score: 29
+Moves: [B@c7a1db6
+Game ID: 571388068127
+Actual Score: 28
+Theoretical Score: 33
+Moves: [B@17c72ffa
+Game ID: 571356217631
+Actual Score: 39
+Theoretical Score: 28
+Moves: [B@7b6b99c5
+Game ID: 571418738975
+Actual Score: 29
+Theoretical Score: 35
+Moves: [B@2e1c8027
+Game ID: 12399579300127
+Actual Score: 54
+Theoretical Score: 50
+Moves: [B@72d7afff
+Game ID: 10149016437023
+Actual Score: 35
+Theoretical Score: 32
+Moves: [B@5c41f6a0
+Game ID: 103249215775
+Actual Score: 26
+Theoretical Score: 34
+Moves: [B@7b43f95c
+Game ID: 103283294495
+Actual Score: 25
+Theoretical Score: 26
+Moves: [B@311453ab
+Game ID: 8229158912287
+Actual Score: 37
+Theoretical Score: 37
+Moves: [B@7ef3aa21
+Game ID: 103081050399
+Actual Score: 25
+Theoretical Score: 31
+Moves: [B@2dd4a7a9
+Game ID: 103107264799
+Actual Score: 38
+Theoretical Score: 35
+Moves: [B@49392256
+Game ID: 9440339689759
+Actual Score: 39
+Theoretical Score: 31
+Moves: [B@5a23b9d1
+Game ID: 10170484130079
+Actual Score: 35
+Theoretical Score: 37
+Moves: [B@3962b216
+Game ID: 103275954463
+Actual Score: 21
+Theoretical Score: 18
+Moves: [B@3183a37c
+Game ID: 11141192417567
+Actual Score: 32
+Theoretical Score: 37
+Moves: [B@31a80c88
+Game ID: 11055415820575
+Actual Score: 31
+Theoretical Score: 35
+Moves: [B@7602c65d
+Game ID: 236393201951
+Actual Score: 39
+Theoretical Score: 42
+Moves: [B@5a5c2889
+Game ID: 8229327339807
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@7668f8fd
+Game ID: 11141145559327
+Actual Score: 31
+Theoretical Score: 24
+Moves: [B@75566f4
+Game ID: 11141349310751
+Actual Score: 27
+Theoretical Score: 31
+Moves: [B@6785786d
+Game ID: 3096840110367
+Actual Score: 36
+Theoretical Score: 33
+Moves: [B@5c261c74
+Game ID: 10299378827551
+Actual Score: 44
+Theoretical Score: 40
+Moves: [B@6d38a81d
+Game ID: 3096675025183
+Actual Score: 22
+Theoretical Score: 28
+Moves: [B@41f61188
+Game ID: 3096796987679
+Actual Score: 29
+Theoretical Score: 28
+Moves: [B@d7c4fcb
+Game ID: 3096671813919
+Actual Score: 30
+Theoretical Score: 28
+Moves: [B@61d527ac
+Game ID: 3096673255711
+Actual Score: 25
+Theoretical Score: 37
+Moves: [B@498503cb
+Game ID: 11055402975519
+Actual Score: 31
+Theoretical Score: 31
+Moves: [B@380e3122
+Game ID: 236391891231
+Actual Score: 37
+Theoretical Score: 39
+Moves: [B@576323ff
+Game ID: 11055246213407
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@1fc386f8
+Game ID: 11055314501919
+Actual Score: 13
+Theoretical Score: 25
+Moves: [B@7eb94590
+Game ID: 10170651246879
+Actual Score: 39
+Theoretical Score: 36
+Moves: [B@3777fc44
+Game ID: 11055410970911
+Actual Score: 27
+Theoretical Score: 27
+Moves: [B@79454d8e
+Game ID: 236380356895
+Actual Score: 34
+Theoretical Score: 33
+Moves: [B@7ab2e018
+Game ID: 10299535655199
+Actual Score: 27
+Theoretical Score: 29
+Moves: [B@4e13af1b
+Game ID: 11944461205791
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@468eff41
+Game ID: 10299519664415
+Actual Score: 12
+Theoretical Score: 26
+Moves: [B@1574f323
+Game ID: 10299359625503
+Actual Score: 14
+Theoretical Score: 20
+Moves: [B@78ab63b5
+Game ID: 10299528315167
+Actual Score: 30
+Theoretical Score: 28
+Moves: [B@2b9370cc
+Game ID: 8229160943903
+Actual Score: 35
+Theoretical Score: 36
+Moves: [B@1a56f608
+Game ID: 25773408543
+Actual Score: 40
+Theoretical Score: 40
+Moves: [B@2809e38a
+Game ID: 120262689055
+Actual Score: 48
+Theoretical Score: 49
+Moves: [B@b9c9bf5
+Game ID: 4501129330975
+Actual Score: 44
+Theoretical Score: 37
+Moves: [B@3b399f5a
+Game ID: 10823321190687
+Actual Score: 37
+Theoretical Score: 32
+Moves: [B@16f2d883
+Game ID: 236411355423
+Actual Score: 7
+Theoretical Score: 14
+Moves: [B@71806c64
+Game ID: 10316715524383
+Actual Score: 43
+Theoretical Score: 39
+Moves: [B@1e2c0292
+Game ID: 25973883167
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@69988d42
+Game ID: 13374619386143
+Actual Score: 19
+Theoretical Score: 18
+Moves: [B@69ae7632
+Game ID: 13374716248351
+Actual Score: 24
+Theoretical Score: 31
+Moves: [B@1bbfd42f
+Game ID: 12438429368607
+Actual Score: 33
+Theoretical Score: 32
+Moves: [B@65f96d58
+Game ID: 13374730535199
+Actual Score: 19
+Theoretical Score: 27
+Moves: [B@48a61e38
+Game ID: 10170686636319
+Actual Score: 30
+Theoretical Score: 37
+Moves: [B@52a3eef8
+Game ID: 13374693310751
+Actual Score: 21
+Theoretical Score: 23
+Moves: [B@37d8562f
+Game ID: 10316714737951
+Actual Score: 24
+Theoretical Score: 34
+Moves: [B@19656e21
+Game ID: 10316513280287
+Actual Score: 35
+Theoretical Score: 21
+Moves: [B@614ae4eb
+Game ID: 11944461467935
+Actual Score: 34
+Theoretical Score: 36
+Moves: [B@2cd31214
+Game ID: 10316602671391
+Actual Score: 30
+Theoretical Score: 31
+Moves: [B@594f508f
+Game ID: 12326713557279
+Actual Score: 32
+Theoretical Score: 32
+Moves: [B@6b6939e1
+Game ID: 13091217735967
+Actual Score: 33
+Theoretical Score: 39
+Moves: [B@5d32f5db
+Game ID: 1838403420447
+Actual Score: 46
+Theoretical Score: 34
+Moves: [B@69c51fdb
+Game ID: 10316666306847
+Actual Score: 21
+Theoretical Score: 24
+Moves: [B@4aadf144
+Game ID: 120462377247
+Actual Score: 15
+Theoretical Score: 25
+Moves: [B@68a97fc1
+Game ID: 5978797768991
+Actual Score: 32
+Theoretical Score: 26
+Moves: [B@227fc322
+Game ID: 13323188306207
+Actual Score: 30
+Theoretical Score: 24
+Moves: [B@63053b71
+Game ID: 10505693298975
+Actual Score: 38
+Theoretical Score: 54
+Moves: [B@4687c184
+Game ID: 12893695115551
+Actual Score: 18
+Theoretical Score: 17
+Moves: [B@65f3f9e2
+Game ID: 13323177361695
+Actual Score: 29
+Theoretical Score: 30
+Moves: [B@394950ad
+Game ID: 13323191779615
+Actual Score: 26
+Theoretical Score: 22
+Moves: [B@73dd3a46
+Game ID: 25895371039
+Actual Score: 29
+Theoretical Score: 33
+Moves: [B@bae5e58
+Game ID: 12438350856479
+Actual Score: 47
+Theoretical Score: 37
+Moves: [B@71e89a26
+Game ID: 8229301387551
+Actual Score: 24
+Theoretical Score: 28
+Moves: [B@257708e
+Game ID: 8229312528671
+Actual Score: 31
+Theoretical Score: 30
+Moves: [B@18c26588
+Game ID: 11944304443679
+Actual Score: 44
+Theoretical Score: 34
+Moves: [B@6167a456
+Game ID: 13378823520543
+Actual Score: 41
+Theoretical Score: 30
+Moves: [B@54eb2bf6
+Game ID: 25861030175
+Actual Score: 28
+Theoretical Score: 23
+Moves: [B@6d01f2e5
+Game ID: 12893492216095
+Actual Score: 43
+Theoretical Score: 36
+Moves: [B@66e434e8
+Game ID: 120441340191
+Actual Score: 31
+Theoretical Score: 29
+Moves: [B@3a7d6976
+Game ID: 1838247837983
+Actual Score: 35
+Theoretical Score: 30
+Moves: [B@37c45154
+Game ID: 120461459743
+Actual Score: 31
+Theoretical Score: 32
+Moves: [B@55300b93
+Game ID: 13263041265951
+Actual Score: 53
+Theoretical Score: 48
+Moves: [B@123426a9
+Game ID: 7421885743391
+Actual Score: 44
+Theoretical Score: 35
+Moves: [B@4353db40
+Game ID: 11944397832479
+Actual Score: 20
+Theoretical Score: 31
+Moves: [B@56887c8f
+Game ID: 11944459239711
+Actual Score: 35
+Theoretical Score: 35
+Moves: [B@3b1895e
+Game ID: 13318875840799
+Actual Score: 47
+Theoretical Score: 40
+Moves: [B@3083e6ef
+Game ID: 13379012919583
+Actual Score: 34
+Theoretical Score: 31
+Moves: [B@6d57b264
+Game ID: 4501329871135
+Actual Score: 42
+Theoretical Score: 31
+Moves: [B@782ed745
+Game ID: 13379025502495
+Actual Score: 23
+Theoretical Score: 19
+Moves: [B@775a5a67
+Game ID: 13378936373535
+Actual Score: 20
+Theoretical Score: 18
+Moves: [B@58c16efd
+Game ID: 6146302345503
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@8d52313
+Game ID: 12374004924703
+Actual Score: 24
+Theoretical Score: 35
+Moves: [B@64f49b3
+Game ID: 13378995487007
+Actual Score: 24
+Theoretical Score: 26
+Moves: [B@23e3a27f
+Game ID: 12331055251743
+Actual Score: 35
+Theoretical Score: 38
+Moves: [B@70869678
+Game ID: 9440429343007
+Actual Score: 49
+Theoretical Score: 43
+Moves: [B@51eafec0
+Game ID: 5978783678751
+Actual Score: 18
+Theoretical Score: 23
+Moves: [B@2d94279f
+Game ID: 10823408812319
+Actual Score: 36
+Theoretical Score: 34
+Moves: [B@135a8808
+Game ID: 11295855214879
+Actual Score: 44
+Theoretical Score: 32
+Moves: [B@57abe94d
+Game ID: 12326755893535
+Actual Score: 27
+Theoretical Score: 39
+Moves: [B@51b11186
+Game ID: 12326716440863
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@5d957cf0
+Game ID: 12326745932063
+Actual Score: 31
+Theoretical Score: 42
+Moves: [B@1a48a582
+Game ID: 12326745342239
+Actual Score: 22
+Theoretical Score: 33
+Moves: [B@1221d607
+Game ID: 10823505674527
+Actual Score: 17
+Theoretical Score: 22
+Moves: [B@4b45c8e4
+Game ID: 10505689760031
+Actual Score: 32
+Theoretical Score: 28
+Moves: [B@3dc14f80
+Game ID: 12438425043231
+Actual Score: 35
+Theoretical Score: 39
+Moves: [B@627a890f
+Game ID: 9440537870623
+Actual Score: 33
+Theoretical Score: 29
+Moves: [B@7ef7faa9
+Game ID: 13091215507743
+Actual Score: 28
+Theoretical Score: 28
+Moves: [B@1b901f7b
+Game ID: 13091225469215
+Actual Score: 36
+Theoretical Score: 37
+Moves: [B@2c9aeec6
+Game ID: 13091263545631
+Actual Score: 30
+Theoretical Score: 27
+Moves: [B@1a1e38ab
+Game ID: 13091232678175
+Actual Score: 25
+Theoretical Score: 24
+Moves: [B@5bfdabf3
+Game ID: 10505679798559
+Actual Score: 15
+Theoretical Score: 32
+Moves: [B@400d1c30
+Game ID: 13263019311391
+Actual Score: 29
+Theoretical Score: 29
+Moves: [B@3b9a2629
+Game ID: 12893652123935
+Actual Score: 22
+Theoretical Score: 36
+Moves: [B@50aa9a91
+Game ID: 13318853886239
+Actual Score: 31
+Theoretical Score: 34
+Moves: [B@663e1144
+Game ID: 10505662365983
+Actual Score: 4
+Theoretical Score: 9
+Moves: [B@4efa7d2f
+Game ID: 12906537025823
+Actual Score: 42
+Theoretical Score: 36
+Moves: [B@24bba1b7
+Game ID: 10505619374367
+Actual Score: 17
+Theoretical Score: 22
+Moves: [B@2041c9a3
+Game ID: 7421893280031
+Actual Score: 29
+Theoretical Score: 31
+Moves: [B@36e358de
+Game ID: 12438390440223
+Actual Score: 30
+Theoretical Score: 40
+Moves: [B@2bed5828
+Game ID: 11295953781023
+Actual Score: 40
+Theoretical Score: 36
+Moves: [B@52a2e2fb
+Game ID: 12438413443359
+Actual Score: 15
+Theoretical Score: 9
+Moves: [B@7c0035dd
+Game ID: 4501153775903
+Actual Score: 23
+Theoretical Score: 31
+Moves: [B@5089a72b
+Game ID: 1838359249183
+Actual Score: 18
+Theoretical Score: 25
+Moves: [B@1164990a
+Game ID: 1838339784991
+Actual Score: 30
+Theoretical Score: 33
+Moves: [B@549404e7
+Game ID: 12399639265567
+Actual Score: 47
+Theoretical Score: 52
+Moves: [B@29c76d75
+Game ID: 4501322465567
+Actual Score: 31
+Theoretical Score: 28
+Moves: [B@346a2799
+Game ID: 10149076402463
+Actual Score: 43
+Theoretical Score: 37
+Moves: [B@17344d7
+Game ID: 12906445406495
+Actual Score: 44
+Theoretical Score: 42
+Moves: [B@75b4db22
+Game ID: 13263003058463
+Actual Score: 25
+Theoretical Score: 31
+Moves: [B@670aac24
+Game ID: 13262972256543
+Actual Score: 22
+Theoretical Score: 26
+Moves: [B@23909b3
+Game ID: 6146300576031
+Actual Score: 41
+Theoretical Score: 25
+Moves: [B@1977b0df
+Game ID: 13263014199583
+Actual Score: 39
+Theoretical Score: 32
+Moves: [B@4a490518
+Game ID: 9440431898911
+Actual Score: 16
+Theoretical Score: 19
+Moves: [B@7890fbf9
+Game ID: 9440492978463
+Actual Score: 16
+Theoretical Score: 21
+Moves: [B@32ae11c9
+Game ID: 12399725445407
+Actual Score: 14
+Theoretical Score: 25
+Moves: [B@167bae0b
+Game ID: 12399735734559
+Actual Score: 37
+Theoretical Score: 34
+Moves: [B@14980819
+Game ID: 12399773810975
+Actual Score: 31
+Theoretical Score: 33
+Moves: [B@6b286640
+Game ID: 12331040309535
+Actual Score: 38
+Theoretical Score: 35
+Moves: [B@294a12b5
+Game ID: 12906565927199
+Actual Score: 52
+Theoretical Score: 53
+Moves: [B@628aea61
+Game ID: 7421892296991
+Actual Score: 16
+Theoretical Score: 21
+Moves: [B@3606eee9
+Game ID: 10149120966943
+Actual Score: 30
+Theoretical Score: 37
+Moves: [B@1e34840f
+Game ID: 10823430832415
+Actual Score: 50
+Theoretical Score: 33
+Moves: [B@6792f2c6
+Game ID: 7421906714911
+Actual Score: 16
+Theoretical Score: 26
+Moves: [B@52fed5b7
+Game ID: 7421832855839
+Actual Score: 25
+Theoretical Score: 29
+Moves: [B@530e08a7
+Game ID: 6146294939935
+Actual Score: 25
+Theoretical Score: 34
+Moves: [B@6920fa35
+Game ID: 12373894562079
+Actual Score: 48
+Theoretical Score: 46
+Moves: [B@19542115
+Game ID: 6146253062431
+Actual Score: 35
+Theoretical Score: 36
+Moves: [B@3da30ce5
+Game ID: 6146295136543
+Actual Score: 31
+Theoretical Score: 24
+Moves: [B@1e4b70c6
+Game ID: 8478359224607
+Actual Score: 55
+Theoretical Score: 39
+Moves: [B@7054c068
+Game ID: 10170671366431
+Actual Score: 33
+Theoretical Score: 37
+Moves: [B@48301bfe
+Game ID: 10170637418783
+Actual Score: 18
+Theoretical Score: 15
+Moves: [B@6dd1f239
+Game ID: 13318890324255
+Actual Score: 30
+Theoretical Score: 28
+Moves: [B@28d97205
+Game ID: 12893664182559
+Actual Score: 26
+Theoretical Score: 37
+Moves: [B@7e58b0f6
+Game ID: 12893679976735
+Actual Score: 37
+Theoretical Score: 37
+Moves: [B@367fbb28
+Game ID: 10149204656415
+Actual Score: 24
+Theoretical Score: 22
+Moves: [B@54ddd7e4
+Game ID: 10149137088799
+Actual Score: 29
+Theoretical Score: 32
+Moves: [B@37f7ce20
+Game ID: 10823520813343
+Actual Score: 32
+Theoretical Score: 34
+Moves: [B@c931728
+Game ID: 13318881739039
+Actual Score: 30
+Theoretical Score: 39
+Moves: [B@477e5b69
+Game ID: 11295960924447
+Actual Score: 20
+Theoretical Score: 37
+Moves: [B@7da6d695
+Game ID: 11295893356831
+Actual Score: 25
+Theoretical Score: 31
+Moves: [B@74a991cf
+Game ID: 12906506092831
+Actual Score: 31
+Theoretical Score: 24
+Moves: [B@6097f225
+Game ID: 6519889526948
+Actual Score: 33
+Theoretical Score: 43
+Moves: [B@5507584d
+Game ID: 7499142070436
+Actual Score: 34
+Theoretical Score: 44
+Moves: [B@1e5e2e06
+Game ID: 8465392271524
+Actual Score: 28
+Theoretical Score: 32
+Moves: [B@26c1f3eb
+Game ID: 8465506762916
+Actual Score: 31
+Theoretical Score: 35
+Moves: [B@79982bcc
+Game ID: 8465523015844
+Actual Score: 3
+Theoretical Score: 0
+Moves: [B@16b2d182
+Game ID: 6219241816228
+Actual Score: 39
+Theoretical Score: 34
+Moves: [B@79f3f34c
+Game ID: 8581473829028
+Actual Score: 48
+Theoretical Score: 52
+Moves: [B@50841932

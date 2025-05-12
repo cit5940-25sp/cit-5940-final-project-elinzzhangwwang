@@ -28,6 +28,7 @@ public class HeuristicGameProcessor {
             int gameRead;
 
             while ((gameRead = gameFileReader.read(gameBuffer)) != -1) {
+                System.out.println("Processing Game: " + count);
                 if (gameRead != 61) {
                     System.err.println("Failed to read");
                     return;
@@ -63,10 +64,6 @@ public class HeuristicGameProcessor {
     }
 
     public static int[][] normalizeHeatMap(int[][] array) {
-        // Enforce 8x8 size
-        if (array.length != 8 || array[0].length != 8) {
-            throw new IllegalArgumentException("Only 8x8 arrays are supported.");
-        }
 
         int[][] scaled = new int[8][8];
         int min = Integer.MAX_VALUE;
